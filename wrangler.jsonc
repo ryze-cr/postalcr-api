@@ -9,6 +9,8 @@
   },
   "routes": [{ "pattern": "api.postalcr.dev", "custom_domain": true }],
   "workers_dev": false,
+  // Registros y trazas en el panel de Cloudflare (Workers → postalcr-api → Observability).
+  "observability": { "enabled": true, "head_sampling_rate": 1 },
   // URL de prueba en cada PR (Workers Builds).
   "previews": {}
 }
