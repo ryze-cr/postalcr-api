@@ -127,7 +127,7 @@ Código bajo licencia [MIT](LICENSE). Los datos provienen de instituciones públ
 
 ---
 
-**PostalCR** es un proyecto de [Flashout Labs](https://flashout.net). Hecho para operar.
+**PostalCR** es un proyecto de [Flashout Labs](https://flashout.net), una línea de Flashout. Hecho para operar.
 
 ## English
 
