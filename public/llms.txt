@@ -1,0 +1,33 @@
+# PostalCR API
+
+> API JSON gratuita de Flashout Labs con las 7 provincias, 84 cantones y 494 distritos de Costa Rica, su código postal oficial y si están en la Gran Área Metropolitana (GAM). Datos de la DTA 2026 del Instituto Geográfico Nacional (IGN). Sin API key, CORS abierto, solo GET.
+
+Base URL: `https://api.postalcr.dev`
+
+El código postal de Costa Rica tiene 5 dígitos y es el código oficial del distrito: provincia (1 dígito) + cantón (2) + distrito (2). Ejemplo: 10305 = San Antonio, Desamparados, San José. Los códigos son strings: conservan los ceros.
+
+## Rutas
+
+- [/provincias.json](https://api.postalcr.dev/provincias.json): Provincias. Las 7 provincias con su código, área y cantidad de cantones y distritos.
+- [/provincias/{provincia}.json](https://api.postalcr.dev/provincias/1.json): Una provincia y sus cantones. Código de provincia de 1 dígito (1–7).
+- [/cantones.json](https://api.postalcr.dev/cantones.json): Cantones. Los 84 cantones con su provincia.
+- [/cantones/{canton}.json](https://api.postalcr.dev/cantones/103.json): Un cantón y sus distritos. Código oficial de cantón de 3 dígitos (PCC), por ejemplo 103 = Desamparados.
+- [/distritos.json](https://api.postalcr.dev/distritos.json): Distritos. Los 494 distritos, cada uno con la misma forma que /distritos/{codigoPostal}.json.
+- [/distritos/{codigoPostal}.json](https://api.postalcr.dev/distritos/10305.json): Un distrito por su código postal. Código postal de 5 dígitos (PCCDD): provincia, cantón y distrito.
+- [/pueblos.json](https://api.postalcr.dev/pueblos.json): Pueblos y playas. 6 891 lugares oficiales que no son distritos (pueblos, caseríos, cabeceras, territorios indígenas y playas; fuentes INEC e IGN), con el distrito y el código postal al que pertenecen.
+- [/distritos.geojson](https://api.postalcr.dev/distritos.geojson): Contornos de los distritos. GeoJSON con el contorno simplificado (120 m) de los 494 distritos, para dibujar mapas. Fuente: límites distritales del IGN (DTA 2026).
+- [/gam.json](https://api.postalcr.dev/gam.json): Gran Área Metropolitana. Códigos postales dentro (gam) y fuera (no_gam) de la GAM, con la definición y el criterio.
+- [/todo.json](https://api.postalcr.dev/todo.json): Árbol completo. Provincias → cantones → distritos en un solo archivo.
+- [/meta.json](https://api.postalcr.dev/meta.json): Versión y fuentes. Versión de la API, edición de la DTA, totales y fuentes oficiales.
+
+## Notas
+
+- Para buscar un distrito por nombre, descargá /distritos.json una vez y filtrá en el cliente (pesa menos de 200 KB).
+- Cada distrito trae `url`: la página de ese código postal en postalcr.dev.
+- Un pueblo o playa (por ejemplo Tamarindo o Santa Teresa) no es un distrito: /pueblos.json dice a qué distrito y código postal pertenece. Muchos nombres se repiten (hay 54 San Rafael y 7 Santa Teresa): si hay varios, preguntá el cantón o la provincia antes de responder.
+
+## Más
+
+- [Documentación](https://postalcr.dev/api/)
+- [OpenAPI 3.1](https://api.postalcr.dev/openapi.json)
+- [Código y datos](https://github.com/ryze-cr/postalcr-api)

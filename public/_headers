@@ -1,0 +1,12 @@
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+  X-Content-Type-Options: nosniff
+  X-Robots-Tag: noindex
+  Cache-Control: public, max-age=3600, s-maxage=86400
+
+/llms.txt
+  Content-Type: text/markdown; charset=utf-8
+
+/distritos.geojson
+  Content-Type: application/geo+json; charset=utf-8

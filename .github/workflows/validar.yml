@@ -1,0 +1,21 @@
+name: Validar
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Regenerar la API desde data/
+        run: python scripts/generar_api.py
+      - name: public/ debe estar al día
+        run: git diff --exit-code -- public/ || (echo "Corré scripts/generar_api.py y subí el resultado" && exit 1)
+      - name: Validar datos, documentación y contenido
+        run: python scripts/validar.py

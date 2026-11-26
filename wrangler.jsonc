@@ -1,0 +1,14 @@
+{
+  // PostalCR API: archivos estáticos servidos por Cloudflare, sin código propio.
+  "name": "postalcr-api",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public",
+    // Rutas inexistentes responden 404 sin cuerpo.
+    "not_found_handling": "none"
+  },
+  "routes": [{ "pattern": "api.postalcr.dev", "custom_domain": true }],
+  "workers_dev": false,
+  // URL de prueba en cada PR (Workers Builds).
+  "previews": {}
+}
