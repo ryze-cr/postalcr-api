@@ -2,6 +2,14 @@
 
 La API sigue [semver](https://semver.org/lang/es/). La versión vigente está en [`/meta.json`](https://api.postalcr.dev/meta.json).
 
+## 2.1.0 — 2026-11
+
+### Nuevo
+
+- Campo `popularidad` (0 a 100) en cada distrito (`/distritos.json`, `/distritos/{codigoPostal}.json`, `/todo.json`) y en cada pueblo o playa (`/pueblos.json`). Mide las visitas al artículo de Wikipedia del lugar, en español e inglés, en los últimos 12 meses completos, en escala logarítmica. Un lugar sin artículo queda en 0.
+- `/populares.json`: los 200 pueblos, playas y distritos más visitados, de mayor a menor, con su código postal, sus visitas y su artículo.
+- `/meta.json` suma la fuente de la popularidad, con el período medido.
+
 ## 2.0.0 — 2026-11
 
 Primera versión de **PostalCR API** en `https://api.postalcr.dev`, con un diseño de rutas nuevo.

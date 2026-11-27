@@ -15,6 +15,7 @@ El código postal de Costa Rica tiene 5 dígitos y es el código oficial del dis
 - [/distritos.json](https://api.postalcr.dev/distritos.json): Distritos. Los 494 distritos, cada uno con la misma forma que /distritos/{codigoPostal}.json.
 - [/distritos/{codigoPostal}.json](https://api.postalcr.dev/distritos/10305.json): Un distrito por su código postal. Código postal de 5 dígitos (PCCDD): provincia, cantón y distrito.
 - [/pueblos.json](https://api.postalcr.dev/pueblos.json): Pueblos y playas. 6 891 lugares oficiales que no son distritos (pueblos, caseríos, cabeceras, territorios indígenas y playas; fuentes INEC e IGN), con el distrito y el código postal al que pertenecen.
+- [/populares.json](https://api.postalcr.dev/populares.json): Lugares más buscados. Los 200 pueblos, playas y distritos más visitados en Wikipedia (español e inglés, últimos 12 meses), de mayor a menor, con su código postal. Sirve para ordenar resultados de búsqueda: Tamarindo antes que un caserío con el mismo nombre.
 - [/distritos.geojson](https://api.postalcr.dev/distritos.geojson): Contornos de los distritos. GeoJSON con el contorno simplificado (120 m) de los 494 distritos, para dibujar mapas. Fuente: límites distritales del IGN (DTA 2026).
 - [/gam.json](https://api.postalcr.dev/gam.json): Gran Área Metropolitana. Códigos postales dentro (gam) y fuera (no_gam) de la GAM, con la definición y el criterio.
 - [/todo.json](https://api.postalcr.dev/todo.json): Árbol completo. Provincias → cantones → distritos en un solo archivo.
@@ -25,6 +26,7 @@ El código postal de Costa Rica tiene 5 dígitos y es el código oficial del dis
 - Para buscar un distrito por nombre, descargá /distritos.json una vez y filtrá en el cliente (pesa menos de 200 KB).
 - Cada distrito trae `url`: la página de ese código postal en postalcr.dev.
 - Un pueblo o playa (por ejemplo Tamarindo o Santa Teresa) no es un distrito: /pueblos.json dice a qué distrito y código postal pertenece. Muchos nombres se repiten (hay 54 San Rafael y 7 Santa Teresa): si hay varios, preguntá el cantón o la provincia antes de responder.
+- Cada distrito y cada pueblo o playa trae `popularidad` (0 a 100): qué tan visitado es su artículo de Wikipedia en español e inglés en los últimos 12 meses, en escala logarítmica. Usalo para ordenar resultados: entre homónimos, el más popular suele ser el que la persona busca. 0 significa que no tiene artículo, no que no exista. /populares.json trae los 200 más visitados.
 
 ## Más
 

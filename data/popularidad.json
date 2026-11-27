@@ -1,0 +1,7189 @@
+{
+ "fuente": {
+  "nombre": "Visitas a Wikipedia (español e inglés)",
+  "institucion": "Wikimedia Foundation (API de páginas vistas) y Wikidata",
+  "url": "https://wikimedia.org/api/rest_v1/#/Pageviews%20data",
+  "periodo": {
+   "desde": "2025-11-01",
+   "hasta": "2026-10-31"
+  },
+  "descargado": "2026-11-27"
+ },
+ "metodo": "Visitas de personas (sin bots) al artículo de Wikipedia del lugar en español e inglés, sumadas en 12 meses. El artículo se identifica en Wikidata: mismo nombre, a 6 km o menos del pueblo o playa y en su mismo cantón (puede ser el artículo del pueblo, de su distrito o de su cantón si se llaman igual), o, para un distrito, con el mismo nombre dentro de su cantón. Un lugar sin artículo queda en 0.",
+ "lugares": {
+  "Abrojo Montezuma|61001|pueblo": {
+   "visitas": 576,
+   "wikidata": "Q61596123",
+   "articulos": {
+    "es": "Territorio_Indígena_Ngobe-Bugle_de_Abrojos_Montezuma",
+    "en": "Abrojo_Montezuma"
+   }
+  },
+  "Acapulco|60107|pueblo": {
+   "visitas": 678,
+   "wikidata": "Q3603908",
+   "articulos": {
+    "es": "Acapulco_(Costa_Rica)",
+    "en": "Acapulco_District"
+   }
+  },
+  "Aguabuena|60803|pueblo": {
+   "visitas": 850,
+   "wikidata": "Q3606903",
+   "articulos": {
+    "es": "Aguabuena",
+    "en": "Aguabuena"
+   }
+  },
+  "Aguas Zarcas|21004|pueblo": {
+   "visitas": 3262,
+   "wikidata": "Q3606910",
+   "articulos": {
+    "es": "Aguas_Zarcas",
+    "en": "Aguas_Zarcas"
+   }
+  },
+  "Alajuela|20101|pueblo": {
+   "visitas": 30057,
+   "wikidata": "Q37104",
+   "articulos": {
+    "es": "Alajuela_(distrito)",
+    "en": "Alajuela"
+   }
+  },
+  "Alajuelita|11001|pueblo": {
+   "visitas": 5215,
+   "wikidata": "Q200703",
+   "articulos": {
+    "es": "Cantón_de_Alajuelita",
+    "en": "Alajuelita_(canton)"
+   }
+  },
+  "Alegría|70306|pueblo": {
+   "visitas": 722,
+   "wikidata": "Q3609420",
+   "articulos": {
+    "es": "Alegría_(Costa_Rica)",
+    "en": "Alegría_District"
+   }
+  },
+  "Alfaro|20209|pueblo": {
+   "visitas": 565,
+   "wikidata": "Q3611053",
+   "articulos": {
+    "es": "Alfaro_de_San_Ramón",
+    "en": "Alfaro_District"
+   }
+  },
+  "Altos de San Antonio|61003|pueblo": {
+   "visitas": 422,
+   "wikidata": "Q61596565",
+   "articulos": {
+    "es": "Territorio_Indígena_Ngobe-Bugle_de_Altos_de_San_Antonio",
+    "en": "Altos_de_San_Antonio"
+   }
+  },
+  "Anselmo Llorente|11303|pueblo": {
+   "visitas": 904,
+   "wikidata": "Q3618338",
+   "articulos": {
+    "es": "Anselmo_Llorente_(Costa_Rica)",
+    "en": "Anselmo_Llorente"
+   }
+  },
+  "Arenal|50807|pueblo": {
+   "visitas": 628,
+   "wikidata": "Q3622158",
+   "articulos": {
+    "es": "Arenal_de_Tilarán",
+    "en": "Arenal_District,_Tilarán"
+   }
+  },
+  "Aserrí|10601|pueblo": {
+   "visitas": 2336,
+   "wikidata": "Q3624939",
+   "articulos": {
+    "es": "Aserrí",
+    "en": "Aserrí_District"
+   }
+  },
+  "Atenas|20501|pueblo": {
+   "visitas": 9991,
+   "wikidata": "Q973817",
+   "articulos": {
+    "es": "Atenas_(Costa_Rica)",
+    "en": "Atenas"
+   }
+  },
+  "Atirro|30502|pueblo": {
+   "visitas": 248,
+   "wikidata": "Q6090979",
+   "articulos": {
+    "es": "Pueblo_de_Atirro"
+   }
+  },
+  "Bagaces|50401|pueblo": {
+   "visitas": 2745,
+   "wikidata": "Q647978",
+   "articulos": {
+    "es": "Cantón_de_Bagaces",
+    "en": "Bagaces_(canton)"
+   }
+  },
+  "Barbacoas|10403|pueblo": {
+   "visitas": 659,
+   "wikidata": "Q3634555",
+   "articulos": {
+    "es": "Barbacoas_(Costa_Rica)",
+    "en": "Barbacoas_District"
+   }
+  },
+  "Barranca|60108|pueblo": {
+   "visitas": 1818,
+   "wikidata": "Q3635158",
+   "articulos": {
+    "es": "Barranca_de_Puntarenas",
+    "en": "Barranca_District"
+   }
+  },
+  "Barva|40201|pueblo": {
+   "visitas": 837,
+   "wikidata": "Q2414905",
+   "articulos": {
+    "es": "Barva_(distrito)",
+    "en": "Barva_(district)"
+   }
+  },
+  "Barú|11909|pueblo": {
+   "visitas": 1180,
+   "wikidata": "Q3635503",
+   "articulos": {
+    "es": "Barú_de_Pérez_Zeledón",
+    "en": "Barú_District,_Pérez_Zeledón"
+   }
+  },
+  "Batán|70502|pueblo": {
+   "visitas": 1750,
+   "wikidata": "Q3636898",
+   "articulos": {
+    "es": "Batán_(Costa_Rica)",
+    "en": "Batán,_Costa_Rica"
+   }
+  },
+  "Bebedero|50604|pueblo": {
+   "visitas": 495,
+   "wikidata": "Q3637340",
+   "articulos": {
+    "es": "Bebedero_(Costa_Rica)",
+    "en": "Bebedero_District"
+   }
+  },
+  "Bejuco|50906|pueblo": {
+   "visitas": 915,
+   "wikidata": "Q3637537",
+   "articulos": {
+    "es": "Bejuco_(Costa_Rica)",
+    "en": "Bejuco_District"
+   }
+  },
+  "Belén de Nosarita|50207|pueblo": {
+   "visitas": 626,
+   "wikidata": "Q61694790",
+   "articulos": {
+    "es": "Belén_de_Nosarita",
+    "en": "Belén_de_Nosarita"
+   }
+  },
+  "Belén|50504|pueblo": {
+   "visitas": 1142,
+   "wikidata": "Q3637906",
+   "articulos": {
+    "es": "Belén_de_Carrillo",
+    "en": "Belén_District,_Carrillo"
+   }
+  },
+  "Bijagua|21304|pueblo": {
+   "visitas": 2578,
+   "wikidata": "Q3639885",
+   "articulos": {
+    "es": "Bijagua",
+    "en": "Bijagua_de_Upala"
+   }
+  },
+  "Biolley|60308|pueblo": {
+   "visitas": 956,
+   "wikidata": "Q3640156",
+   "articulos": {
+    "es": "Biolley",
+    "en": "Biolley"
+   }
+  },
+  "Birrisito|30206|pueblo": {
+   "visitas": 1125,
+   "wikidata": "Q110315049",
+   "articulos": {
+    "es": "Birrisito",
+    "en": "Birrisito"
+   }
+  },
+  "Bolivar|20308|pueblo": {
+   "visitas": 794,
+   "wikidata": "Q3641933",
+   "articulos": {
+    "es": "Bolívar_(Costa_Rica)",
+    "en": "Bolívar_District,_Grecia"
+   }
+  },
+  "Bolsón|50302|pueblo": {
+   "visitas": 787,
+   "wikidata": "Q19873703",
+   "articulos": {
+    "es": "Bolsón_(Costa_Rica)",
+    "en": "Bolsón_District"
+   }
+  },
+  "Boruca|60304|pueblo": {
+   "visitas": 7677,
+   "wikidata": "Q59000417",
+   "articulos": {
+    "es": "Borucas",
+    "en": "Boruca"
+   }
+  },
+  "Brasil|10906|pueblo": {
+   "visitas": 1207,
+   "wikidata": "Q3643794",
+   "articulos": {
+    "es": "Brasil_(Costa_Rica)",
+    "en": "Brasil_District"
+   }
+  },
+  "Bribri|70401|pueblo": {
+   "visitas": 2955,
+   "wikidata": "Q3643900",
+   "articulos": {
+    "es": "Bribri_(ciudad)",
+    "en": "Bribri,_Costa_Rica"
+   }
+  },
+  "Buenavista|21003|pueblo": {
+   "visitas": 669,
+   "wikidata": "Q3646510",
+   "articulos": {
+    "es": "Buenavista_(San_Carlos)",
+    "en": "Buenavista,_San_Carlos"
+   }
+  },
+  "Buenos Aires|20703|pueblo": {
+   "visitas": 557,
+   "wikidata": "Q3646515",
+   "articulos": {
+    "es": "Buenos_Aires_de_Palmares",
+    "en": "Buenos_Aires_District,_Palmares"
+   }
+  },
+  "Buenos Aires|60301|pueblo": {
+   "visitas": 4863,
+   "wikidata": "Q2669006",
+   "articulos": {
+    "es": "Cantón_de_Buenos_Aires",
+    "en": "Buenos_Aires_(canton)"
+   }
+  },
+  "Cabeceras|50808|pueblo": {
+   "visitas": 590,
+   "wikidata": "Q98593056",
+   "articulos": {
+    "es": "Cabeceras",
+    "en": "Cabeceras_District,_Tilarán"
+   }
+  },
+  "Cachí|30204|pueblo": {
+   "visitas": 976,
+   "wikidata": "Q3649374",
+   "articulos": {
+    "es": "Cachí",
+    "en": "Cachí,_Costa_Rica"
+   }
+  },
+  "Cajón|11908|pueblo": {
+   "visitas": 1228,
+   "wikidata": "Q3649981",
+   "articulos": {
+    "es": "Cajón_(Costa_Rica)",
+    "en": "Cajón_District"
+   }
+  },
+  "Caldera|60206|pueblo": {
+   "visitas": 5132,
+   "wikidata": "Q1026433",
+   "articulos": {
+    "es": "Puerto_Caldera",
+    "en": "Caldera_Port"
+   }
+  },
+  "Calle Blancos|10803|pueblo": {
+   "visitas": 2166,
+   "wikidata": "Q3650836",
+   "articulos": {
+    "es": "Calle_Blancos",
+    "en": "Calle_Blancos"
+   }
+  },
+  "Canalete|21308|pueblo": {
+   "visitas": 666,
+   "wikidata": "Q61677760",
+   "articulos": {
+    "es": "Canalete_de_Upala",
+    "en": "Canalete_District"
+   }
+  },
+  "Candelaria|20705|pueblo": {
+   "visitas": 378,
+   "wikidata": "Q3655173",
+   "articulos": {
+    "es": "Candelaria_de_Palmares",
+    "en": "Candelaria_District"
+   }
+  },
+  "Candelarita|10406|pueblo": {
+   "visitas": 510,
+   "wikidata": "Q3655177",
+   "articulos": {
+    "es": "Candelarita_(Costa_Rica)",
+    "en": "Candelarita"
+   }
+  },
+  "Cangrejal|11204|pueblo": {
+   "visitas": 612,
+   "wikidata": "Q3655336",
+   "articulos": {
+    "es": "Cangrejal",
+    "en": "Cangrejal"
+   }
+  },
+  "Canoas|61003|pueblo": {
+   "visitas": 786,
+   "wikidata": "Q3655489",
+   "articulos": {
+    "es": "Canoas_(Costa_Rica)",
+    "en": "Canoas_District"
+   }
+  },
+  "Capellades|30603|pueblo": {
+   "visitas": 996,
+   "wikidata": "Q3656787",
+   "articulos": {
+    "es": "Capellades_(Costa_Rica)",
+    "en": "Capellades_District"
+   }
+  },
+  "Carmen|10101|pueblo": {
+   "visitas": 5362,
+   "wikidata": "Q2407745",
+   "articulos": {
+    "es": "Carmen_(Costa_Rica)",
+    "en": "Carmen_(district)"
+   }
+  },
+  "Carmen|30103|pueblo": {
+   "visitas": 1102,
+   "wikidata": "Q3660278",
+   "articulos": {
+    "es": "Carmen_de_Cartago",
+    "en": "Carmen_District,_Cartago"
+   }
+  },
+  "Carmona|50901|pueblo": {
+   "visitas": 671,
+   "wikidata": "Q3660392",
+   "articulos": {
+    "es": "Carmona_(Costa_Rica)",
+    "en": "Carmona_District,_Nandayure"
+   }
+  },
+  "Carrizal|20103|pueblo": {
+   "visitas": 1846,
+   "wikidata": "Q3660746",
+   "articulos": {
+    "es": "Carrizal_de_Alajuela",
+    "en": "Carrizal_District"
+   }
+  },
+  "Cartagena|50305|pueblo": {
+   "visitas": 1681,
+   "wikidata": "Q3660873",
+   "articulos": {
+    "es": "Cartagena_(Costa_Rica)",
+    "en": "Cartagena_District"
+   }
+  },
+  "Cartago|30101|pueblo": {
+   "visitas": 31327,
+   "wikidata": "Q30617",
+   "articulos": {
+    "es": "Cartago_(Costa_Rica)",
+    "en": "Cartago,_Costa_Rica"
+   }
+  },
+  "Cartago|30102|pueblo": {
+   "visitas": 31327,
+   "wikidata": "Q30617",
+   "articulos": {
+    "es": "Cartago_(Costa_Rica)",
+    "en": "Cartago,_Costa_Rica"
+   }
+  },
+  "Catedral|10104|pueblo": {
+   "visitas": 3956,
+   "wikidata": "Q1751701",
+   "articulos": {
+    "es": "Catedral_(Costa_Rica)",
+    "en": "Catedral_(district)"
+   }
+  },
+  "Cañas Dulces|50102|pueblo": {
+   "visitas": 1096,
+   "wikidata": "Q3664047",
+   "articulos": {
+    "es": "Cañas_Dulces",
+    "en": "Cañas_Dulces_District"
+   }
+  },
+  "Cañas|50601|pueblo": {
+   "visitas": 3301,
+   "wikidata": "Q2225426",
+   "articulos": {
+    "es": "Cantón_de_Cañas",
+    "en": "Cañas_(canton)"
+   }
+  },
+  "Caño Negro|21402|pueblo": {
+   "visitas": 1362,
+   "wikidata": "Q3664048",
+   "articulos": {
+    "es": "Caño_Negro_(distrito)",
+    "en": "Caño_Negro_District"
+   }
+  },
+  "Cedral|60402|pueblo": {
+   "visitas": 299,
+   "wikidata": "Q5759946",
+   "articulos": {
+    "es": "Cedral_(Costa_Rica)"
+   }
+  },
+  "Cervantes|30602|pueblo": {
+   "visitas": 1237,
+   "wikidata": "Q3665222",
+   "articulos": {
+    "es": "Cervantes_(Costa_Rica)",
+    "en": "Cervantes_District"
+   }
+  },
+  "Chacarita|60112|pueblo": {
+   "visitas": 1576,
+   "wikidata": "Q3665705",
+   "articulos": {
+    "es": "Chacarita_(Costa_Rica)",
+    "en": "Chacarita_District"
+   }
+  },
+  "China Kicha|11912|pueblo": {
+   "visitas": 1146,
+   "wikidata": "Q61596527",
+   "articulos": {
+    "es": "Territorio_Indígena_China_Kichá",
+    "en": "China_Kichá"
+   }
+  },
+  "Chánguena|60307|pueblo": {
+   "visitas": 596,
+   "wikidata": "Q60854053",
+   "articulos": {
+    "es": "Chánguena",
+    "en": "Chánguena"
+   }
+  },
+  "Cinco Esquinas|11302|pueblo": {
+   "visitas": 1059,
+   "wikidata": "Q1109757",
+   "articulos": {
+    "es": "Cinco_Esquinas_(Costa_Rica)",
+    "en": "Cinco_Esquinas"
+   }
+  },
+  "Cipreses|30704|pueblo": {
+   "visitas": 637,
+   "wikidata": "Q3677436",
+   "articulos": {
+    "es": "Cipreses_(Costa_Rica)",
+    "en": "Cipreses"
+   }
+  },
+  "Cirrí Sur|20604|pueblo": {
+   "visitas": 509,
+   "wikidata": "Q3678190",
+   "articulos": {
+    "es": "Cirrí_Sur",
+    "en": "Cirrí_Sur"
+   }
+  },
+  "Colima|11305|pueblo": {
+   "visitas": 1218,
+   "wikidata": "Q3682623",
+   "articulos": {
+    "es": "Colima_(Costa_Rica)",
+    "en": "Colima_District"
+   }
+  },
+  "Colinas (Maiz de los Uva)|60306|pueblo": {
+   "visitas": 436,
+   "wikidata": "Q3682652",
+   "articulos": {
+    "es": "Colinas_(Costa_Rica)",
+    "en": "Colinas_District"
+   }
+  },
+  "Colinas|60306|pueblo": {
+   "visitas": 436,
+   "wikidata": "Q3682652",
+   "articulos": {
+    "es": "Colinas_(Costa_Rica)",
+    "en": "Colinas_District"
+   }
+  },
+  "Colorado|50704|pueblo": {
+   "visitas": 1055,
+   "wikidata": "Q3683602",
+   "articulos": {
+    "es": "Colorado_de_Abangares",
+    "en": "Colorado_District"
+   }
+  },
+  "Colón|10701|pueblo": {
+   "visitas": 5557,
+   "wikidata": "Q3683885",
+   "articulos": {
+    "es": "Colón_(Costa_Rica)",
+    "en": "Colón,_Costa_Rica"
+   }
+  },
+  "Concepción|11004|pueblo": {
+   "visitas": 760,
+   "wikidata": "Q1111097",
+   "articulos": {
+    "es": "Concepción_de_Alajuelita",
+    "en": "Concepción_District,_Alajuelita"
+   }
+  },
+  "Concepción|20211|pueblo": {
+   "visitas": 555,
+   "wikidata": "Q1114406",
+   "articulos": {
+    "es": "Concepción_de_San_Ramón",
+    "en": "Concepción_District,_San_Ramón"
+   }
+  },
+  "Concepción|20505|pueblo": {
+   "visitas": 580,
+   "wikidata": "Q3686040",
+   "articulos": {
+    "es": "Concepción_de_Atenas",
+    "en": "Concepción_District,_Atenas"
+   }
+  },
+  "Concepción|30305|pueblo": {
+   "visitas": 1377,
+   "wikidata": "Q3686041",
+   "articulos": {
+    "es": "Concepción_de_La_Unión",
+    "en": "Concepción_District,_La_Unión"
+   }
+  },
+  "Concepción|40505|pueblo": {
+   "visitas": 548,
+   "wikidata": "Q3686043",
+   "articulos": {
+    "es": "Concepción_de_San_Rafael",
+    "en": "Concepción_District,_San_Rafael"
+   }
+  },
+  "Concepción|40603|pueblo": {
+   "visitas": 468,
+   "wikidata": "Q3686042",
+   "articulos": {
+    "es": "Concepción_de_San_Isidro",
+    "en": "Concepción_District,_San_Isidro"
+   }
+  },
+  "Corralillo|30107|pueblo": {
+   "visitas": 1714,
+   "wikidata": "Q3694374",
+   "articulos": {
+    "es": "Corralillo_de_Cartago",
+    "en": "Corralillo_District"
+   }
+  },
+  "Cot|30702|pueblo": {
+   "visitas": 1348,
+   "wikidata": "Q3695881",
+   "articulos": {
+    "es": "Cot_(Oreamuno)",
+    "en": "Cot_District"
+   }
+  },
+  "Coyolar|20904|pueblo": {
+   "visitas": 711,
+   "wikidata": "Q3696384",
+   "articulos": {
+    "es": "Coyolar",
+    "en": "Coyolar"
+   }
+  },
+  "Cuajiniquil|50306|pueblo": {
+   "visitas": 1459,
+   "wikidata": "Q3699018",
+   "articulos": {
+    "es": "Cuajiniquil_de_Santa_Cruz",
+    "en": "Cuajiniquil_District"
+   }
+  },
+  "Curridabat|11801|pueblo": {
+   "visitas": 6204,
+   "wikidata": "Q2569193",
+   "articulos": {
+    "es": "Curridabat",
+    "en": "Curridabat"
+   }
+  },
+  "Curubandé|50105|pueblo": {
+   "visitas": 1128,
+   "wikidata": "Q659833",
+   "articulos": {
+    "es": "Curubandé",
+    "en": "Curubandé_de_Liberia"
+   }
+  },
+  "Cóbano|60111|pueblo": {
+   "visitas": 4305,
+   "wikidata": "Q3700063",
+   "articulos": {
+    "es": "Cóbano",
+    "en": "Cóbano"
+   }
+  },
+  "Daniel Flores|11903|pueblo": {
+   "visitas": 1771,
+   "wikidata": "Q3701600",
+   "articulos": {
+    "es": "Daniel_Flores_(Costa_Rica)",
+    "en": "Daniel_Flores_District"
+   }
+  },
+  "Delicias|21305|pueblo": {
+   "visitas": 521,
+   "wikidata": "Q3705017",
+   "articulos": {
+    "es": "Delicias_de_Upala",
+    "en": "Delicias_District"
+   }
+  },
+  "Desamparaditos|10407|pueblo": {
+   "visitas": 400,
+   "wikidata": "Q3705909",
+   "articulos": {
+    "es": "Desamparaditos_(Costa_Rica)",
+    "en": "Desamparaditos"
+   }
+  },
+  "Desamparados|10301|pueblo": {
+   "visitas": 6043,
+   "wikidata": "Q14108797",
+   "articulos": {
+    "es": "Desamparados_(Costa_Rica)",
+    "en": "Desamparados"
+   }
+  },
+  "Desamparados|20110|pueblo": {
+   "visitas": 1696,
+   "wikidata": "Q3705910",
+   "articulos": {
+    "es": "Desamparados_de_Alajuela",
+    "en": "Desamparados_District,_Alajuela"
+   }
+  },
+  "Desmonte|20402|pueblo": {
+   "visitas": 464,
+   "wikidata": "Q3705991",
+   "articulos": {
+    "es": "Desmonte_de_San_Mateo",
+    "en": "Desmonte"
+   }
+  },
+  "Diriá|50307|pueblo": {
+   "visitas": 631,
+   "wikidata": "Q3709159",
+   "articulos": {
+    "es": "Diriá_(Costa_Rica)",
+    "en": "Diriá,_Costa_Rica"
+   }
+  },
+  "Dominical|60504|pueblo": {
+   "visitas": 4467,
+   "wikidata": "Q5290721",
+   "articulos": {
+    "es": "Dominical_(Costa_Rica)",
+    "en": "Dominical,_Puntarenas"
+   }
+  },
+  "Dos Ríos|21306|pueblo": {
+   "visitas": 791,
+   "wikidata": "Q3714426",
+   "articulos": {
+    "es": "Dos_Ríos_de_Upala",
+    "en": "Dos_Ríos_District"
+   }
+  },
+  "Dulce Nombre|30306|pueblo": {
+   "visitas": 830,
+   "wikidata": "Q3716179",
+   "articulos": {
+    "es": "Dulce_Nombre_de_La_Unión",
+    "en": "Dulce_Nombre_District,_La_Unión"
+   }
+  },
+  "El Amparo (San Jose)|21403|pueblo": {
+   "visitas": 571,
+   "wikidata": "Q3720846",
+   "articulos": {
+    "es": "El_Amparo_(Costa_Rica)",
+    "en": "El_Amparo_District"
+   }
+  },
+  "El Amparo|21403|pueblo": {
+   "visitas": 571,
+   "wikidata": "Q3720846",
+   "articulos": {
+    "es": "El_Amparo_(Costa_Rica)",
+    "en": "El_Amparo_District"
+   }
+  },
+  "El Mastate|20902|pueblo": {
+   "visitas": 458,
+   "wikidata": "Q3851551",
+   "articulos": {
+    "es": "El_Mastate",
+    "en": "El_Mastate"
+   }
+  },
+  "El Roble|60115|pueblo": {
+   "visitas": 2805,
+   "wikidata": "Q2412778",
+   "articulos": {
+    "es": "El_Roble_de_Puntarenas",
+    "en": "El_Roble_District"
+   }
+  },
+  "El Rosario|20607|pueblo": {
+   "visitas": 718,
+   "wikidata": "Q3941341",
+   "articulos": {
+    "es": "El_Rosario_de_Naranjo",
+    "en": "El_Rosario_District"
+   }
+  },
+  "El Tejar|30801|pueblo": {
+   "visitas": 2079,
+   "wikidata": "Q1757718",
+   "articulos": {
+    "es": "El_Tejar_(Costa_Rica)",
+    "en": "El_Tejar_de_El_Guarco"
+   }
+  },
+  "Escazú|10201|pueblo": {
+   "visitas": 10834,
+   "wikidata": "Q2221760",
+   "articulos": {
+    "es": "Cantón_de_Escazú",
+    "en": "Escazú_(canton)"
+   }
+  },
+  "Escobal|20508|pueblo": {
+   "visitas": 605,
+   "wikidata": "Q61677913",
+   "articulos": {
+    "es": "Escobal_(Costa_Rica)",
+    "en": "Escobal_District"
+   }
+  },
+  "Esparza|60201|pueblo": {
+   "visitas": 6061,
+   "wikidata": "Q2610122",
+   "articulos": {
+    "es": "Cantón_de_Esparza",
+    "en": "Esparza_(canton)"
+   }
+  },
+  "Esquipulas|20706|pueblo": {
+   "visitas": 650,
+   "wikidata": "Q3733257",
+   "articulos": {
+    "es": "Esquipulas_de_Palmares",
+    "en": "Esquipulas_District"
+   }
+  },
+  "Florencia|21002|pueblo": {
+   "visitas": 1472,
+   "wikidata": "Q3746694",
+   "articulos": {
+    "es": "Florencia_(San_Carlos)",
+    "en": "Florencia,_San_Carlos"
+   }
+  },
+  "Frailes|10306|pueblo": {
+   "visitas": 1435,
+   "wikidata": "Q3749237",
+   "articulos": {
+    "es": "Frailes_(Costa_Rica)",
+    "en": "Frailes,_Desamparados,_Costa_Rica"
+   }
+  },
+  "General Viejo|11902|pueblo": {
+   "visitas": 22,
+   "wikidata": "Q2881110",
+   "articulos": {
+    "en": "General_Viejo"
+   }
+  },
+  "Germania|70304|pueblo": {
+   "visitas": 670,
+   "wikidata": "Q3761086",
+   "articulos": {
+    "es": "Germania_(Costa_Rica)",
+    "en": "Germania_District"
+   }
+  },
+  "Golfito|60701|pueblo": {
+   "visitas": 7639,
+   "wikidata": "Q949409",
+   "articulos": {
+    "es": "Golfito",
+    "en": "Golfito"
+   }
+  },
+  "Granadilla|11802|pueblo": {
+   "visitas": 1959,
+   "wikidata": "Q3774987",
+   "articulos": {
+    "es": "Granadilla_(Costa_Rica)",
+    "en": "Granadilla_District"
+   }
+  },
+  "Gravilias|10312|pueblo": {
+   "visitas": 885,
+   "wikidata": "Q3775925",
+   "articulos": {
+    "es": "Gravilias_(Costa_Rica)",
+    "en": "Gravilias"
+   }
+  },
+  "Grecia|20301|pueblo": {
+   "visitas": 8438,
+   "wikidata": "Q2079294",
+   "articulos": {
+    "es": "Grecia_(Costa_Rica)",
+    "en": "Grecia,_Costa_Rica"
+   }
+  },
+  "Grifo Alto|10404|pueblo": {
+   "visitas": 573,
+   "wikidata": "Q3776726",
+   "articulos": {
+    "es": "Grifo_Alto_(Costa_Rica)",
+    "en": "Grifo_Alto"
+   }
+  },
+  "Guacimal|60107|pueblo": {
+   "visitas": 802,
+   "wikidata": "Q3778030",
+   "articulos": {
+    "es": "Guacimal",
+    "en": "Guacimal"
+   }
+  },
+  "Guacima|20108|pueblo": {
+   "visitas": 3077,
+   "wikidata": "Q3780108",
+   "articulos": {
+    "es": "Guácima_de_Alajuela",
+    "en": "Guácima"
+   }
+  },
+  "Guadalupe|10801|pueblo": {
+   "visitas": 4305,
+   "wikidata": "Q3778059",
+   "articulos": {
+    "es": "Guadalupe_(Costa_Rica)",
+    "en": "Guadalupe,_Costa_Rica"
+   }
+  },
+  "Guadalupe|21104|pueblo": {
+   "visitas": 465,
+   "wikidata": "Q3778057",
+   "articulos": {
+    "es": "Guadalupe_de_Zarcero",
+    "en": "Guadalupe_District,_Zarcero"
+   }
+  },
+  "Guaitil|11202|pueblo": {
+   "visitas": 924,
+   "wikidata": "Q3778096",
+   "articulos": {
+    "es": "Guaitil_(Costa_Rica)",
+    "en": "Guaitil_District"
+   }
+  },
+  "Guaitil|50307|pueblo": {
+   "visitas": 622,
+   "wikidata": "Q5613327",
+   "articulos": {
+    "en": "Guaitil"
+   }
+  },
+  "Guayabo|10702|pueblo": {
+   "visitas": 849,
+   "wikidata": "Q3778454",
+   "articulos": {
+    "es": "Guayabo_(Costa_Rica)",
+    "en": "Guayabo_District"
+   }
+  },
+  "Guácima|20105|pueblo": {
+   "visitas": 3077,
+   "wikidata": "Q3780108",
+   "articulos": {
+    "es": "Guácima_de_Alajuela",
+    "en": "Guácima"
+   }
+  },
+  "Guácimo|70601|pueblo": {
+   "visitas": 3241,
+   "wikidata": "Q609975",
+   "articulos": {
+    "es": "Cantón_de_Guácimo",
+    "en": "Guácimo_(canton)"
+   }
+  },
+  "Hacienda Vieja|20903|pueblo": {
+   "visitas": 460,
+   "wikidata": "Q3782360",
+   "articulos": {
+    "es": "Hacienda_Vieja_de_Orotina",
+    "en": "Hacienda_Vieja"
+   }
+  },
+  "Hatillo|10110|pueblo": {
+   "visitas": 4111,
+   "wikidata": "Q1751672",
+   "articulos": {
+    "es": "Hatillo_(San_José)",
+    "en": "Hatillo_(district)"
+   }
+  },
+  "Heredia|40101|pueblo": {
+   "visitas": 7276,
+   "wikidata": "Q2610288",
+   "articulos": {
+    "es": "Cantón_de_Heredia",
+    "en": "Heredia_(canton)"
+   }
+  },
+  "Hojancha|51101|pueblo": {
+   "visitas": 3471,
+   "wikidata": "Q2518200",
+   "articulos": {
+    "es": "Cantón_de_Hojancha",
+    "en": "Hojancha_(canton)"
+   }
+  },
+  "Hospital|10103|pueblo": {
+   "visitas": 3085,
+   "wikidata": "Q1751692",
+   "articulos": {
+    "es": "Hospital_(Costa_Rica)",
+    "en": "Hospital_(district)"
+   }
+  },
+  "Huacas|51104|pueblo": {
+   "visitas": 1168,
+   "wikidata": "Q3787363",
+   "articulos": {
+    "es": "Huacas_de_Hojancha",
+    "en": "Huacas_District"
+   }
+  },
+  "Ipís|10805|pueblo": {
+   "visitas": 881,
+   "wikidata": "Q1751694",
+   "articulos": {
+    "es": "Ipís",
+    "en": "Ipís"
+   }
+  },
+  "Isla Caballo|60101|pueblo": {
+   "visitas": 737,
+   "wikidata": "Q23745258",
+   "articulos": {
+    "es": "Isla_Caballo_(Costa_Rica)"
+   }
+  },
+  "Isla Cedros|60105|pueblo": {
+   "visitas": 1008,
+   "wikidata": "Q23745401",
+   "articulos": {
+    "es": "Isla_de_Cedros_(Costa_Rica)"
+   }
+  },
+  "Isla Damas|60901|pueblo": {
+   "visitas": 1589,
+   "wikidata": "Q3845188",
+   "articulos": {
+    "es": "Isla_Damas_(Costa_Rica)",
+    "en": "Isla_Damas"
+   }
+  },
+  "Isla Tortuga|60105|pueblo": {
+   "visitas": 5615,
+   "wikidata": "Q5922015",
+   "articulos": {
+    "es": "Isla_Tortuga_(Costa_Rica)"
+   }
+  },
+  "Isla Uvita|70101|pueblo": {
+   "visitas": 3611,
+   "wikidata": "Q2328844",
+   "articulos": {
+    "es": "Isla_Uvita",
+    "en": "Uvita_Island"
+   }
+  },
+  "Isla Violin|60503|pueblo": {
+   "visitas": 368,
+   "wikidata": "Q23733077",
+   "articulos": {
+    "es": "Isla_Violín"
+   }
+  },
+  "Jacó|61101|pueblo": {
+   "visitas": 17760,
+   "wikidata": "Q1463601",
+   "articulos": {
+    "es": "Jacó",
+    "en": "Jacó,_Costa_Rica"
+   }
+  },
+  "Jardín|11702|pueblo": {
+   "visitas": 704,
+   "wikidata": "Q3807316",
+   "articulos": {
+    "es": "Jardín_de_Dota",
+    "en": "Jardín_District"
+   }
+  },
+  "Jaris|10706|pueblo": {
+   "visitas": 622,
+   "wikidata": "Q24238741",
+   "articulos": {
+    "es": "Jaris",
+    "en": "Jaris"
+   }
+  },
+  "Jesús María|20403|pueblo": {
+   "visitas": 652,
+   "wikidata": "Q3808198",
+   "articulos": {
+    "es": "Jesús_María_de_San_Mateo",
+    "en": "Jesús_María_District,_San_Mateo"
+   }
+  },
+  "Jesús|20502|pueblo": {
+   "visitas": 683,
+   "wikidata": "Q3808182",
+   "articulos": {
+    "es": "Jesús_de_Atenas",
+    "en": "Jesús_District,_Atenas"
+   }
+  },
+  "Jesús|40404|pueblo": {
+   "visitas": 681,
+   "wikidata": "Q3808184",
+   "articulos": {
+    "es": "Jesús_de_Santa_Bárbara",
+    "en": "Jesús_de_Santa_Bárbara"
+   }
+  },
+  "Jiménez|70202|pueblo": {
+   "visitas": 963,
+   "wikidata": "Q3808449",
+   "articulos": {
+    "es": "Jiménez_(Pococí)",
+    "en": "Jiménez,_Pococí"
+   }
+  },
+  "Juan Viñas|30401|pueblo": {
+   "visitas": 1557,
+   "wikidata": "Q1579189",
+   "articulos": {
+    "es": "Juan_Viñas_(Costa_Rica)",
+    "en": "Juan_Viñas"
+   }
+  },
+  "Katira|21504|pueblo": {
+   "visitas": 815,
+   "wikidata": "Q61677720",
+   "articulos": {
+    "es": "Katira",
+    "en": "Katira"
+   }
+  },
+  "Kekoldi|70403|pueblo": {
+   "visitas": 1523,
+   "wikidata": "Q21006678",
+   "articulos": {
+    "es": "Kéköldi",
+    "en": "Kéköldi"
+   }
+  },
+  "La Asunción|40703|pueblo": {
+   "visitas": 910,
+   "wikidata": "Q3627686",
+   "articulos": {
+    "es": "La_Asunción_(Costa_Rica)",
+    "en": "La_Asunción_District"
+   }
+  },
+  "La Ceiba|20905|pueblo": {
+   "visitas": 742,
+   "wikidata": "Q3664181",
+   "articulos": {
+    "es": "La_Ceiba_de_Orotina",
+    "en": "La_Ceiba_District"
+   }
+  },
+  "La Cruz|51001|pueblo": {
+   "visitas": 2699,
+   "wikidata": "Q2518042",
+   "articulos": {
+    "es": "Cantón_de_La_Cruz",
+    "en": "La_Cruz_(canton)"
+   }
+  },
+  "La Cuesta|61002|pueblo": {
+   "visitas": 941,
+   "wikidata": "Q3820794",
+   "articulos": {
+    "es": "La_Cuesta_(Costa_Rica)",
+    "en": "La_Cuesta"
+   }
+  },
+  "La Fortuna|21007|pueblo": {
+   "visitas": 16581,
+   "wikidata": "Q3209157",
+   "articulos": {
+    "es": "La_Fortuna_(Costa_Rica)",
+    "en": "La_Fortuna,_San_Carlos"
+   }
+  },
+  "La Fortuna|50402|pueblo": {
+   "visitas": 1392,
+   "wikidata": "Q19720576",
+   "articulos": {
+    "es": "La_Fortuna_de_Bagaces",
+    "en": "La_Fortuna,_Bagaces_Cantón"
+   }
+  },
+  "La Gamba|60703|pueblo": {
+   "visitas": 614,
+   "wikidata": "Q737507",
+   "articulos": {
+    "es": "La_Gamba",
+    "en": "La_Gamba"
+   }
+  },
+  "La Garita|51003|pueblo": {
+   "visitas": 655,
+   "wikidata": "Q3758376",
+   "articulos": {
+    "es": "La_Garita_(La_Cruz)",
+    "en": "La_Garita_District"
+   }
+  },
+  "La Granja|20707|pueblo": {
+   "visitas": 426,
+   "wikidata": "Q3775740",
+   "articulos": {
+    "es": "La_Granja_de_Palmares",
+    "en": "La_Granja_District"
+   }
+  },
+  "La Palmera|21001|pueblo": {
+   "visitas": 1259,
+   "wikidata": "Q3892775",
+   "articulos": {
+    "es": "La_Palmera_(San_Carlos)",
+    "en": "La_Palmera,_San_Carlos"
+   }
+  },
+  "La Ribera|40702|pueblo": {
+   "visitas": 1308,
+   "wikidata": "Q3937916",
+   "articulos": {
+    "es": "La_Ribera_de_Belén",
+    "en": "La_Ribera_District"
+   }
+  },
+  "La Tigra|21008|pueblo": {
+   "visitas": 1800,
+   "wikidata": "Q3991280",
+   "articulos": {
+    "es": "La_Tigra_(San_Carlos)",
+    "en": "La_Tigra,_San_Carlos"
+   }
+  },
+  "La Union|30302|pueblo": {
+   "visitas": 4936,
+   "wikidata": "Q2610394",
+   "articulos": {
+    "es": "Cantón_de_La_Unión",
+    "en": "La_Unión_(canton)"
+   }
+  },
+  "La Victoria|30404|pueblo": {
+   "visitas": 333,
+   "wikidata": "Q111784083",
+   "articulos": {
+    "es": "La_Victoria_(Costa_Rica)"
+   }
+  },
+  "La Virgen|41002|pueblo": {
+   "visitas": 1600,
+   "wikidata": "Q3821320",
+   "articulos": {
+    "es": "La_Virgen_(Sarapiquí)",
+    "en": "La_Virgen"
+   }
+  },
+  "Labrador|20404|pueblo": {
+   "visitas": 813,
+   "wikidata": "Q61677923",
+   "articulos": {
+    "es": "Labrador_de_San_Mateo",
+    "en": "Labrador_District,_San_Mateo"
+   }
+  },
+  "Laguna|21102|pueblo": {
+   "visitas": 550,
+   "wikidata": "Q3826119",
+   "articulos": {
+    "es": "Laguna_de_Zarcero",
+    "en": "Laguna_District"
+   }
+  },
+  "Lagunillas|61103|pueblo": {
+   "visitas": 690,
+   "wikidata": "Q112004550",
+   "articulos": {
+    "es": "Lagunillas_(Garabito)"
+   }
+  },
+  "Lagunilla|50301|pueblo": {
+   "visitas": 388,
+   "wikidata": "Q5969367",
+   "articulos": {
+    "es": "Lagunilla_(Guanacaste)"
+   }
+  },
+  "Las Horquetas|41003|pueblo": {
+   "visitas": 1667,
+   "wikidata": "Q3786800",
+   "articulos": {
+    "es": "Las_Horquetas",
+    "en": "Las_Horquetas"
+   }
+  },
+  "Las Juntas|50701|pueblo": {
+   "visitas": 1752,
+   "wikidata": "Q1578889",
+   "articulos": {
+    "es": "Las_Juntas_(Costa_Rica)",
+    "en": "Las_Juntas_District"
+   }
+  },
+  "León XIII|11304|pueblo": {
+   "visitas": 1645,
+   "wikidata": "Q3831479",
+   "articulos": {
+    "es": "León_XIII_(Costa_Rica)",
+    "en": "León_XIII"
+   }
+  },
+  "Liberia|50101|pueblo": {
+   "visitas": 42189,
+   "wikidata": "Q1387526",
+   "articulos": {
+    "es": "Liberia_(Costa_Rica)",
+    "en": "Liberia,_Costa_Rica"
+   }
+  },
+  "Limoncito|60804|pueblo": {
+   "visitas": 646,
+   "wikidata": "Q3832517",
+   "articulos": {
+    "es": "Limoncito",
+    "en": "Limoncito_District"
+   }
+  },
+  "Limón|70101|pueblo": {
+   "visitas": 44699,
+   "wikidata": "Q30620",
+   "articulos": {
+    "es": "Limón_(Costa_Rica)",
+    "en": "Limón"
+   }
+  },
+  "Llano Bonito|12003|pueblo": {
+   "visitas": 689,
+   "wikidata": "Q3835727",
+   "articulos": {
+    "es": "Llano_Bonito_de_León_Cortés_Castro",
+    "en": "Llano_Bonito_District"
+   }
+  },
+  "Llano Grande|30110|pueblo": {
+   "visitas": 1317,
+   "wikidata": "Q3835729",
+   "articulos": {
+    "es": "Llano_Grande_(Costa_Rica)",
+    "en": "Llano_Grande_District"
+   }
+  },
+  "Llorente|40803|pueblo": {
+   "visitas": 951,
+   "wikidata": "Q3835738",
+   "articulos": {
+    "es": "Llorente_de_Flores",
+    "en": "Llorente_District"
+   }
+  },
+  "Los Chiles|21401|pueblo": {
+   "visitas": 2705,
+   "wikidata": "Q1189266",
+   "articulos": {
+    "es": "Cantón_de_Los_Chiles",
+    "en": "Los_Chiles_(canton)"
+   }
+  },
+  "Los Guido|10313|pueblo": {
+   "visitas": 1226,
+   "wikidata": "Q9024013",
+   "articulos": {
+    "es": "Los_Guido",
+    "en": "Los_Guido"
+   }
+  },
+  "Líbano|50805|pueblo": {
+   "visitas": 484,
+   "wikidata": "Q3841108",
+   "articulos": {
+    "es": "Líbano_de_Tilarán",
+    "en": "Líbano_District"
+   }
+  },
+  "Macacona|60203|pueblo": {
+   "visitas": 542,
+   "wikidata": "Q3841930",
+   "articulos": {
+    "es": "Macacona",
+    "en": "Macacona"
+   }
+  },
+  "Malpais|60111|pueblo": {
+   "visitas": 2886,
+   "wikidata": "Q6744573",
+   "articulos": {
+    "en": "Malpais,_Costa_Rica"
+   }
+  },
+  "Manzanillo|60106|pueblo": {
+   "visitas": 1010,
+   "wikidata": "Q3845158",
+   "articulos": {
+    "es": "Manzanillo_de_Puntarenas",
+    "en": "Manzanillo_District"
+   }
+  },
+  "Manzanillo|70403|pueblo": {
+   "visitas": 64,
+   "wikidata": "Q18352443",
+   "articulos": {
+    "en": "Manzanillo,_Limon"
+   }
+  },
+  "Mata Redonda|10108|pueblo": {
+   "visitas": 3421,
+   "wikidata": "Q923739",
+   "articulos": {
+    "es": "Mata_Redonda_(San_José)",
+    "en": "Mata_Redonda"
+   }
+  },
+  "Mata de Plátano|10804|pueblo": {
+   "visitas": 2330,
+   "wikidata": "Q3851685",
+   "articulos": {
+    "es": "Mata_de_Plátano_(Costa_Rica)",
+    "en": "Mata_de_Plátano_District"
+   }
+  },
+  "Matambu|51101|pueblo": {
+   "visitas": 1180,
+   "wikidata": "Q21006708",
+   "articulos": {
+    "es": "Matambú",
+    "en": "Matambú"
+   }
+  },
+  "Matambú|51105|pueblo": {
+   "visitas": 1180,
+   "wikidata": "Q21006708",
+   "articulos": {
+    "es": "Matambú",
+    "en": "Matambú"
+   }
+  },
+  "Matina|70501|pueblo": {
+   "visitas": 2895,
+   "wikidata": "Q2669000",
+   "articulos": {
+    "es": "Cantón_de_Matina",
+    "en": "Matina_(canton)"
+   }
+  },
+  "Mercedes|20503|pueblo": {
+   "visitas": 474,
+   "wikidata": "Q3854924",
+   "articulos": {
+    "es": "Mercedes_de_Atenas",
+    "en": "Mercedes_District,_Atenas"
+   }
+  },
+  "Merced|10102|pueblo": {
+   "visitas": 2234,
+   "wikidata": "Q1751687",
+   "articulos": {
+    "es": "Merced_(Costa_Rica)",
+    "en": "Merced_(district)"
+   }
+  },
+  "Miramar|60401|pueblo": {
+   "visitas": 2822,
+   "wikidata": "Q3858775",
+   "articulos": {
+    "es": "Miramar_(Costa_Rica)",
+    "en": "Miramar_District"
+   }
+  },
+  "Monte Romo|51102|pueblo": {
+   "visitas": 510,
+   "wikidata": "Q3861912",
+   "articulos": {
+    "es": "Monte_Romo",
+    "en": "Monte_Romo"
+   }
+  },
+  "Monte Verde|61201|pueblo": {
+   "visitas": 33352,
+   "wikidata": "Q111444555",
+   "articulos": {
+    "es": "Cantón_de_Monteverde",
+    "en": "Monteverde"
+   }
+  },
+  "Monterrey|10606|pueblo": {
+   "visitas": 604,
+   "wikidata": "Q3862349",
+   "articulos": {
+    "es": "Monterrey_de_Aserrí",
+    "en": "Monterrey_District,_Aserrí"
+   }
+  },
+  "Montezuma|60111|pueblo": {
+   "visitas": 4233,
+   "wikidata": "Q633703",
+   "articulos": {
+    "es": "Montezuma_(Costa_Rica)",
+    "en": "Montezuma,_Costa_Rica"
+   }
+  },
+  "Naranjito|60603|pueblo": {
+   "visitas": 797,
+   "wikidata": "Q3870385",
+   "articulos": {
+    "es": "Naranjito_(Costa_Rica)",
+    "en": "Naranjito_District"
+   }
+  },
+  "Naranjo|20601|pueblo": {
+   "visitas": 2850,
+   "wikidata": "Q1757000",
+   "articulos": {
+    "es": "Naranjo_(Costa_Rica)",
+    "en": "Naranjo_de_Alajuela"
+   }
+  },
+  "Nicoya|50201|pueblo": {
+   "visitas": 13636,
+   "wikidata": "Q2486629",
+   "articulos": {
+    "es": "Nicoya_(Costa_Rica)",
+    "en": "Nicoya"
+   }
+  },
+  "Nosara|50206|pueblo": {
+   "visitas": 10225,
+   "wikidata": "Q3374706",
+   "articulos": {
+    "es": "Nosara",
+    "en": "Nosara"
+   }
+  },
+  "Nuevo Arenal|50807|pueblo": {
+   "visitas": 2646,
+   "wikidata": "Q104841335",
+   "articulos": {
+    "en": "Nuevo_Arenal"
+   }
+  },
+  "Orotina|20901|pueblo": {
+   "visitas": 3722,
+   "wikidata": "Q1179301",
+   "articulos": {
+    "es": "Orotina_(Costa_Rica)",
+    "en": "Orotina"
+   }
+  },
+  "Pacayas|30601|pueblo": {
+   "visitas": 1388,
+   "wikidata": "Q3358097",
+   "articulos": {
+    "es": "Pacayas",
+    "en": "Pacayas"
+   }
+  },
+  "Palmar Sur|60502|pueblo": {
+   "visitas": 1311,
+   "wikidata": "Q2888517",
+   "articulos": {
+    "es": "Sitio_arqueológico_Finca_6",
+    "en": "Palmar_Sur_Archeological_Excavations"
+   }
+  },
+  "Palmares|20701|pueblo": {
+   "visitas": 3225,
+   "wikidata": "Q2610139",
+   "articulos": {
+    "es": "Cantón_de_Palmares",
+    "en": "Palmares_(canton)"
+   }
+  },
+  "Palmichal|11203|pueblo": {
+   "visitas": 1228,
+   "wikidata": "Q3892789",
+   "articulos": {
+    "es": "Palmichal",
+    "en": "Palmichal"
+   }
+  },
+  "Palmira|21105|pueblo": {
+   "visitas": 615,
+   "wikidata": "Q3892797",
+   "articulos": {
+    "es": "Palmira_de_Zarcero",
+    "en": "Palmira_District,_Zarcero"
+   }
+  },
+  "Palmira|50502|pueblo": {
+   "visitas": 782,
+   "wikidata": "Q3892798",
+   "articulos": {
+    "es": "Palmira_de_Carrillo",
+    "en": "Palmira_District,_Carrillo"
+   }
+  },
+  "Palmira|50602|pueblo": {
+   "visitas": 538,
+   "wikidata": "Q3892801",
+   "articulos": {
+    "es": "Palmira_de_Cañas",
+    "en": "Palmira_District,_Cañas"
+   }
+  },
+  "Palmitos|20608|pueblo": {
+   "visitas": 649,
+   "wikidata": "Q61677859",
+   "articulos": {
+    "es": "Palmitos_de_Naranjo",
+    "en": "Palmitos_District"
+   }
+  },
+  "Paquera|60105|pueblo": {
+   "visitas": 2511,
+   "wikidata": "Q3894943",
+   "articulos": {
+    "es": "Paquera",
+    "en": "Paquera"
+   }
+  },
+  "Paracito|40304|pueblo": {
+   "visitas": 664,
+   "wikidata": "Q3894980",
+   "articulos": {
+    "es": "Paracito",
+    "en": "Paracito"
+   }
+  },
+  "Paraíso|30201|pueblo": {
+   "visitas": 3728,
+   "wikidata": "Q2618877",
+   "articulos": {
+    "es": "Cantón_de_Paraíso",
+    "en": "Paraíso_(canton)"
+   }
+  },
+  "Parrita|60901|pueblo": {
+   "visitas": 3741,
+   "wikidata": "Q2610144",
+   "articulos": {
+    "es": "Cantón_de_Parrita",
+    "en": "Parrita"
+   }
+  },
+  "Patarrá|10307|pueblo": {
+   "visitas": 1362,
+   "wikidata": "Q3897580",
+   "articulos": {
+    "es": "Patarrá",
+    "en": "Patarrá"
+   }
+  },
+  "Patio de Agua|30804|pueblo": {
+   "visitas": 576,
+   "wikidata": "Q3897649",
+   "articulos": {
+    "es": "Patio_de_Agua",
+    "en": "Patio_de_Agua"
+   }
+  },
+  "Pavas|10109|pueblo": {
+   "visitas": 7024,
+   "wikidata": "Q1751684",
+   "articulos": {
+    "es": "Pavas_(San_José)",
+    "en": "Pavas"
+   }
+  },
+  "Pavones|30506|pueblo": {
+   "visitas": 676,
+   "wikidata": "Q3898367",
+   "articulos": {
+    "es": "Pavones_de_Turrialba",
+    "en": "Pavones_District"
+   }
+  },
+  "Pejibaye|11907|pueblo": {
+   "visitas": 995,
+   "wikidata": "Q3898817",
+   "articulos": {
+    "es": "Pejibaye_de_Pérez_Zeledón",
+    "en": "Pejibaye_District,_Pérez_Zeledón"
+   }
+  },
+  "Peralta|30503|pueblo": {
+   "visitas": 624,
+   "wikidata": "Q3899637",
+   "articulos": {
+    "es": "Peralta_de_Turrialba",
+    "en": "Peralta_District"
+   }
+  },
+  "Picagres|10705|pueblo": {
+   "visitas": 635,
+   "wikidata": "Q3902515",
+   "articulos": {
+    "es": "Picagres",
+    "en": "Picagres"
+   }
+  },
+  "Piedades Norte|20204|pueblo": {
+   "visitas": 437,
+   "wikidata": "Q3902727",
+   "articulos": {
+    "es": "Piedades_Norte",
+    "en": "Piedades_Norte"
+   }
+  },
+  "Piedades Sur|20205|pueblo": {
+   "visitas": 912,
+   "wikidata": "Q3902729",
+   "articulos": {
+    "es": "Piedades_Sur",
+    "en": "Piedades_Sur"
+   }
+  },
+  "Piedades|10905|pueblo": {
+   "visitas": 932,
+   "wikidata": "Q3902728",
+   "articulos": {
+    "es": "Piedades_(Costa_Rica)",
+    "en": "Piedades"
+   }
+  },
+  "Piedras Blancas|60505|pueblo": {
+   "visitas": 878,
+   "wikidata": "Q3902760",
+   "articulos": {
+    "es": "Piedras_Blancas_(Costa_Rica)",
+    "en": "Piedras_Blancas_District"
+   }
+  },
+  "Piedras Negras|10704|pueblo": {
+   "visitas": 546,
+   "wikidata": "Q3902762",
+   "articulos": {
+    "es": "Piedras_Negras_(Costa_Rica)",
+    "en": "Piedras_Negras_District"
+   }
+  },
+  "Pilas|60305|pueblo": {
+   "visitas": 437,
+   "wikidata": "Q3904962",
+   "articulos": {
+    "es": "Pilas_(Costa_Rica)",
+    "en": "Pilas_District"
+   }
+  },
+  "Pitahaya|60102|pueblo": {
+   "visitas": 670,
+   "wikidata": "Q3905820",
+   "articulos": {
+    "es": "Pitahaya_(Costa_Rica)",
+    "en": "Pitahaya_District"
+   }
+  },
+  "Pital|21006|pueblo": {
+   "visitas": 2481,
+   "wikidata": "Q3905819",
+   "articulos": {
+    "es": "Pital_(San_Carlos)",
+    "en": "Pital,_San_Carlos"
+   }
+  },
+  "Playa Bejuco|50906|playa": {
+   "visitas": 915,
+   "wikidata": "Q3637537",
+   "articulos": {
+    "es": "Bejuco_(Costa_Rica)",
+    "en": "Bejuco_District"
+   }
+  },
+  "Playa Caldera|60206|playa": {
+   "visitas": 5132,
+   "wikidata": "Q1026433",
+   "articulos": {
+    "es": "Puerto_Caldera",
+    "en": "Caldera_Port"
+   }
+  },
+  "Playa Cativo|60701|playa": {
+   "visitas": 618,
+   "wikidata": "Q18388962",
+   "articulos": {
+    "en": "Playa_Cativo"
+   }
+  },
+  "Playa Conchal|50308|playa": {
+   "visitas": 4396,
+   "wikidata": "Q16619679",
+   "articulos": {
+    "es": "Playa_Conchal"
+   }
+  },
+  "Playa Dominical|60504|playa": {
+   "visitas": 4467,
+   "wikidata": "Q5290721",
+   "articulos": {
+    "es": "Dominical_(Costa_Rica)",
+    "en": "Dominical,_Puntarenas"
+   }
+  },
+  "Playa Grande|50308|playa": {
+   "visitas": 5612,
+   "wikidata": "Q7203146",
+   "articulos": {
+    "es": "Playa_Grande_(Costa_Rica)",
+    "en": "Playa_Grande,_Costa_Rica"
+   }
+  },
+  "Playa Grande|50308|pueblo": {
+   "visitas": 5612,
+   "wikidata": "Q7203146",
+   "articulos": {
+    "es": "Playa_Grande_(Costa_Rica)",
+    "en": "Playa_Grande,_Costa_Rica"
+   }
+  },
+  "Playa Herradura|61101|playa": {
+   "visitas": 3389,
+   "wikidata": "Q7203147",
+   "articulos": {
+    "en": "Playa_Herradura,_Costa_Rica"
+   }
+  },
+  "Playa Herradura|61101|pueblo": {
+   "visitas": 3389,
+   "wikidata": "Q7203147",
+   "articulos": {
+    "en": "Playa_Herradura,_Costa_Rica"
+   }
+  },
+  "Playa Jaco|61101|playa": {
+   "visitas": 17760,
+   "wikidata": "Q1463601",
+   "articulos": {
+    "es": "Jacó",
+    "en": "Jacó,_Costa_Rica"
+   }
+  },
+  "Playa Malpaís|60111|playa": {
+   "visitas": 2886,
+   "wikidata": "Q6744573",
+   "articulos": {
+    "en": "Malpais,_Costa_Rica"
+   }
+  },
+  "Playa Montezuma|60111|playa": {
+   "visitas": 4233,
+   "wikidata": "Q633703",
+   "articulos": {
+    "es": "Montezuma_(Costa_Rica)",
+    "en": "Montezuma,_Costa_Rica"
+   }
+  },
+  "Playa Negra|50303|playa": {
+   "visitas": 3007,
+   "wikidata": "Q17085640",
+   "articulos": {
+    "en": "Playa_Negra,_Costa_Rica"
+   }
+  },
+  "Playa Negra|50303|pueblo": {
+   "visitas": 3007,
+   "wikidata": "Q17085640",
+   "articulos": {
+    "en": "Playa_Negra,_Costa_Rica"
+   }
+  },
+  "Playa Samara|50205|playa": {
+   "visitas": 4869,
+   "wikidata": "Q3438102",
+   "articulos": {
+    "es": "Sámara_(Costa_Rica)",
+    "en": "Sámara"
+   }
+  },
+  "Playa Santa Teresa|60111|playa": {
+   "visitas": 10603,
+   "wikidata": "Q2223261",
+   "articulos": {
+    "en": "Santa_Teresa,_Costa_Rica"
+   }
+  },
+  "Playa Tamarindo|50309|playa": {
+   "visitas": 36846,
+   "wikidata": "Q2302554",
+   "articulos": {
+    "es": "Tamarindo_(Costa_Rica)",
+    "en": "Tamarindo,_Costa_Rica"
+   }
+  },
+  "Playa Tambor|60111|playa": {
+   "visitas": 2499,
+   "wikidata": "Q10378012",
+   "articulos": {
+    "es": "Tambor_(Costa_Rica)",
+    "en": "Tambor,_Costa_Rica"
+   }
+  },
+  "Playa Tivives|60206|playa": {
+   "visitas": 481,
+   "wikidata": "Q111358216",
+   "articulos": {
+    "es": "Tivives"
+   }
+  },
+  "Playa Tárcoles|61102|playa": {
+   "visitas": 1639,
+   "wikidata": "Q4001273",
+   "articulos": {
+    "es": "Tárcoles_(distrito)",
+    "en": "Tárcoles"
+   }
+  },
+  "Playa Zancudo|60704|pueblo": {
+   "visitas": 716,
+   "wikidata": "Q7203158",
+   "articulos": {
+    "en": "Playa_Zancudo"
+   }
+  },
+  "Playas del Coco|50503|playa": {
+   "visitas": 11992,
+   "wikidata": "Q6079334",
+   "articulos": {
+    "es": "Playas_del_Coco",
+    "en": "Playas_del_Coco"
+   }
+  },
+  "Playas del Coco|50503|pueblo": {
+   "visitas": 11992,
+   "wikidata": "Q6079334",
+   "articulos": {
+    "es": "Playas_del_Coco",
+    "en": "Playas_del_Coco"
+   }
+  },
+  "Pocora|70603|pueblo": {
+   "visitas": 921,
+   "wikidata": "Q3906874",
+   "articulos": {
+    "es": "Pocora",
+    "en": "Pocora"
+   }
+  },
+  "Porozal|50605|pueblo": {
+   "visitas": 348,
+   "wikidata": "Q3908537",
+   "articulos": {
+    "es": "Porozal",
+    "en": "Porozal"
+   }
+  },
+  "Potrero Cerrado|30703|pueblo": {
+   "visitas": 859,
+   "wikidata": "Q3909576",
+   "articulos": {
+    "es": "Potrero_Cerrado",
+    "en": "Potrero_Cerrado"
+   }
+  },
+  "Pozos|10903|pueblo": {
+   "visitas": 2158,
+   "wikidata": "Q3909742",
+   "articulos": {
+    "es": "Pozos_(Costa_Rica)",
+    "en": "Pozos"
+   }
+  },
+  "Puente de Piedra|20307|pueblo": {
+   "visitas": 1975,
+   "wikidata": "Q3925385",
+   "articulos": {
+    "es": "Puente_de_Piedra_(Costa_Rica)",
+    "en": "Puente_de_Piedra_District"
+   }
+  },
+  "Puerto Viejo|70403|pueblo": {
+   "visitas": 19573,
+   "wikidata": "Q3109610",
+   "articulos": {
+    "es": "Puerto_Viejo_(Talamanca)",
+    "en": "Puerto_Viejo_de_Talamanca"
+   }
+  },
+  "Punta Banco|60704|pueblo": {
+   "visitas": 601,
+   "wikidata": "Q55630784",
+   "articulos": {
+    "en": "Punta_Banco"
+   }
+  },
+  "Punta Islita|50906|pueblo": {
+   "visitas": 1192,
+   "wikidata": "Q55630790",
+   "articulos": {
+    "en": "Punta_Islita"
+   }
+  },
+  "Puntarenas|60101|pueblo": {
+   "visitas": 30337,
+   "wikidata": "Q30687",
+   "articulos": {
+    "es": "Puntarenas_(ciudad)",
+    "en": "Puntarenas"
+   }
+  },
+  "Purral|10807|pueblo": {
+   "visitas": 1336,
+   "wikidata": "Q531605",
+   "articulos": {
+    "es": "Purral",
+    "en": "Purral"
+   }
+  },
+  "Quebrada Grande|50802|pueblo": {
+   "visitas": 707,
+   "wikidata": "Q3927423",
+   "articulos": {
+    "es": "Quebrada_Grande",
+    "en": "Quebrada_Grande_District"
+   }
+  },
+  "Quebrada Honda|50204|pueblo": {
+   "visitas": 765,
+   "wikidata": "Q3927424",
+   "articulos": {
+    "es": "Quebrada_Honda_(Costa_Rica)",
+    "en": "Quebrada_Honda_District"
+   }
+  },
+  "Quebradilla|30111|pueblo": {
+   "visitas": 868,
+   "wikidata": "Q3927425",
+   "articulos": {
+    "es": "Quebradilla",
+    "en": "Quebradilla"
+   }
+  },
+  "Quepos|60601|pueblo": {
+   "visitas": 11745,
+   "wikidata": "Q2776723",
+   "articulos": {
+    "es": "Quepos",
+    "en": "Quepos"
+   }
+  },
+  "Quesada|21001|pueblo": {
+   "visitas": 8460,
+   "wikidata": "Q787675",
+   "articulos": {
+    "es": "Quesada_(Costa_Rica)",
+    "en": "Quesada,_San_Carlos"
+   }
+  },
+  "Quircot|30104|pueblo": {
+   "visitas": 842,
+   "wikidata": "Q6095368",
+   "articulos": {
+    "es": "Quircot"
+   }
+  },
+  "Quitirrisí|10707|pueblo": {
+   "visitas": 2209,
+   "wikidata": "Q21515164",
+   "articulos": {
+    "es": "Quitirrisí",
+    "en": "Quitirrisí"
+   }
+  },
+  "Rancho Redondo|10806|pueblo": {
+   "visitas": 1379,
+   "wikidata": "Q3930003",
+   "articulos": {
+    "es": "Rancho_Redondo",
+    "en": "Rancho_Redondo"
+   }
+  },
+  "Rosario|10309|pueblo": {
+   "visitas": 897,
+   "wikidata": "Q3941342",
+   "articulos": {
+    "es": "Rosario_de_Desamparados",
+    "en": "Rosario_District,_Desamparados"
+   }
+  },
+  "Roxana|70204|pueblo": {
+   "visitas": 1269,
+   "wikidata": "Q3941982",
+   "articulos": {
+    "es": "Roxana_(Pococí)",
+    "en": "Roxana,_Pococí"
+   }
+  },
+  "Río Azul|30308|pueblo": {
+   "visitas": 1248,
+   "wikidata": "Q3943207",
+   "articulos": {
+    "es": "Río_Azul_(Costa_Rica)",
+    "en": "Río_Azul_District"
+   }
+  },
+  "Río Blanco|70103|pueblo": {
+   "visitas": 715,
+   "wikidata": "Q3943209",
+   "articulos": {
+    "es": "Río_Blanco_(distrito_en_Costa_Rica)",
+    "en": "Río_Blanco,_Costa_Rica"
+   }
+  },
+  "Río Cuarto|21601|pueblo": {
+   "visitas": 4171,
+   "wikidata": "Q16627164",
+   "articulos": {
+    "es": "Cantón_de_Río_Cuarto",
+    "en": "Río_Cuarto_(canton)"
+   }
+  },
+  "Río Naranjo|50404|pueblo": {
+   "visitas": 692,
+   "wikidata": "Q3943214",
+   "articulos": {
+    "es": "Río_Naranjo_de_Bagaces",
+    "en": "Río_Naranjo_District"
+   }
+  },
+  "Río Segundo|20109|pueblo": {
+   "visitas": 1769,
+   "wikidata": "Q3943216",
+   "articulos": {
+    "es": "Río_Segundo_de_Alajuela",
+    "en": "Río_Segundo_District"
+   }
+  },
+  "Sabana Redonda|20805|pueblo": {
+   "visitas": 681,
+   "wikidata": "Q3944202",
+   "articulos": {
+    "es": "Sabana_Redonda",
+    "en": "Sabana_Redonda"
+   }
+  },
+  "Sabanillas de Acosta|11205|pueblo": {
+   "visitas": 575,
+   "wikidata": "Q3944215",
+   "articulos": {
+    "es": "Sabanillas_de_Acosta",
+    "en": "Sabanillas"
+   }
+  },
+  "Sabanillas|11205|pueblo": {
+   "visitas": 575,
+   "wikidata": "Q3944215",
+   "articulos": {
+    "es": "Sabanillas_de_Acosta",
+    "en": "Sabanillas"
+   }
+  },
+  "Sabanilla|11502|pueblo": {
+   "visitas": 2160,
+   "wikidata": "Q3944213",
+   "articulos": {
+    "es": "Sabanilla_(Montes_de_Oca)",
+    "en": "Sabanilla_District,_Montes_de_Oca"
+   }
+  },
+  "Sabanilla|20107|pueblo": {
+   "visitas": 1587,
+   "wikidata": "Q3944212",
+   "articulos": {
+    "es": "Sabanilla_(Alajuela)",
+    "en": "Sabanilla_District,_Alajuela"
+   }
+  },
+  "Salitral|10902|pueblo": {
+   "visitas": 897,
+   "wikidata": "Q3945548",
+   "articulos": {
+    "es": "Salitral_(Costa_Rica)",
+    "en": "Salitral"
+   }
+  },
+  "Salitrillos|10607|pueblo": {
+   "visitas": 884,
+   "wikidata": "Q3945549",
+   "articulos": {
+    "es": "Salitrillos",
+    "en": "Salitrillos"
+   }
+  },
+  "San Andrés|12002|pueblo": {
+   "visitas": 635,
+   "wikidata": "Q3946707",
+   "articulos": {
+    "es": "San_Andrés_de_León_Cortés_Castro",
+    "en": "San_Andrés_District,_León_Cortés_Castro"
+   }
+  },
+  "San Antonio|10202|pueblo": {
+   "visitas": 1565,
+   "wikidata": "Q2895393",
+   "articulos": {
+    "es": "San_Antonio_(Escazú)",
+    "en": "San_Antonio_District,_Escazú"
+   }
+  },
+  "San Antonio|10305|pueblo": {
+   "visitas": 982,
+   "wikidata": "Q3946715",
+   "articulos": {
+    "es": "San_Antonio_de_Desamparados",
+    "en": "San_Antonio_District,_Desamparados"
+   }
+  },
+  "San Antonio|10408|pueblo": {
+   "visitas": 559,
+   "wikidata": "Q3946721",
+   "articulos": {
+    "es": "San_Antonio_de_Puriscal",
+    "en": "San_Antonio_District,_Puriscal"
+   }
+  },
+  "San Antonio|11003|pueblo": {
+   "visitas": 643,
+   "wikidata": "Q3946711",
+   "articulos": {
+    "es": "San_Antonio_de_Alajuelita",
+    "en": "San_Antonio_District,_Alajuelita"
+   }
+  },
+  "San Antonio|12006|pueblo": {
+   "visitas": 415,
+   "wikidata": "Q3946719",
+   "articulos": {
+    "es": "San_Antonio_de_León_Cortés_Castro",
+    "en": "San_Antonio_District,_León_Cortés_Castro"
+   }
+  },
+  "San Antonio|20105|pueblo": {
+   "visitas": 1999,
+   "wikidata": "Q61678022",
+   "articulos": {
+    "es": "San_Antonio_de_Alajuela",
+    "en": "San_Antonio_District,_Alajuela"
+   }
+  },
+  "San Antonio|40701|pueblo": {
+   "visitas": 2145,
+   "wikidata": "Q3946712",
+   "articulos": {
+    "es": "San_Antonio_(Belén)",
+    "en": "San_Antonio_District,_Belén"
+   }
+  },
+  "San Carlos|10503|pueblo": {
+   "visitas": 582,
+   "wikidata": "Q3946875",
+   "articulos": {
+    "es": "San_Carlos_de_Tarrazú",
+    "en": "San_Carlos_District,_Tarrazú"
+   }
+  },
+  "San Diego|30302|pueblo": {
+   "visitas": 1291,
+   "wikidata": "Q26760326",
+   "articulos": {
+    "es": "San_Diego_(La_Unión)",
+    "en": "San_Diego_District"
+   }
+  },
+  "San Felipe|11005|pueblo": {
+   "visitas": 748,
+   "wikidata": "Q3947040",
+   "articulos": {
+    "es": "San_Felipe_de_Alajuelita",
+    "en": "San_Felipe_District,_Alajuelita"
+   }
+  },
+  "San Francisco de Dos Ríos|10106|pueblo": {
+   "visitas": 4526,
+   "wikidata": "Q1413811",
+   "articulos": {
+    "es": "San_Francisco_de_Dos_Ríos",
+    "en": "San_Francisco_de_Dos_Ríos"
+   }
+  },
+  "San Francisco|10802|pueblo": {
+   "visitas": 1011,
+   "wikidata": "Q3947118",
+   "articulos": {
+    "es": "San_Francisco_(Goicoechea)",
+    "en": "San_Francisco_District,_Goicoechea"
+   }
+  },
+  "San Francisco|40103|pueblo": {
+   "visitas": 2486,
+   "wikidata": "Q586184",
+   "articulos": {
+    "es": "San_Francisco_(Heredia)",
+    "en": "San_Francisco_District,_Heredia"
+   }
+  },
+  "San Francisco|40604|pueblo": {
+   "visitas": 537,
+   "wikidata": "Q3947120",
+   "articulos": {
+    "es": "San_Francisco_de_San_Isidro",
+    "en": "San_Francisco_District,_San_Isidro"
+   }
+  },
+  "San Gabriel|10604|pueblo": {
+   "visitas": 1163,
+   "wikidata": "Q3947150",
+   "articulos": {
+    "es": "San_Gabriel_de_Aserrí",
+    "en": "San_Gabriel_District"
+   }
+  },
+  "San Ignacio|11201|pueblo": {
+   "visitas": 1077,
+   "wikidata": "Q3947359",
+   "articulos": {
+    "es": "San_Ignacio_de_Acosta",
+    "en": "San_Ignacio_District,_Acosta"
+   }
+  },
+  "San Isidro de El General|11901|pueblo": {
+   "visitas": 14646,
+   "wikidata": "Q2518620",
+   "articulos": {
+    "es": "San_Isidro_de_El_General",
+    "en": "San_Isidro_de_El_General"
+   }
+  },
+  "San Isidro|11101|pueblo": {
+   "visitas": 1383,
+   "wikidata": "Q3947373",
+   "articulos": {
+    "es": "San_Isidro_(Vázquez_de_Coronado)",
+    "en": "San_Isidro,_Vázquez_de_Coronado"
+   }
+  },
+  "San Isidro|12004|pueblo": {
+   "visitas": 431,
+   "wikidata": "Q3947364",
+   "articulos": {
+    "es": "San_Isidro_de_León_Cortés_Castro",
+    "en": "San_Isidro_District,_León_Cortés_Castro"
+   }
+  },
+  "San Isidro|20106|pueblo": {
+   "visitas": 1739,
+   "wikidata": "Q3947361",
+   "articulos": {
+    "es": "San_Isidro_de_Alajuela",
+    "en": "San_Isidro_District,_Alajuela"
+   }
+  },
+  "San Isidro|20207|pueblo": {
+   "visitas": 707,
+   "wikidata": "Q3947369",
+   "articulos": {
+    "es": "San_Isidro_de_San_Ramón",
+    "en": "San_Isidro_District,_San_Ramón"
+   }
+  },
+  "San Isidro|20302|pueblo": {
+   "visitas": 920,
+   "wikidata": "Q3947363",
+   "articulos": {
+    "es": "San_Isidro_de_Grecia",
+    "en": "San_Isidro_District,_Grecia"
+   }
+  },
+  "San Isidro|20504|pueblo": {
+   "visitas": 452,
+   "wikidata": "Q3947360",
+   "articulos": {
+    "es": "San_Isidro_de_Atenas",
+    "en": "San_Isidro_District,_Atenas"
+   }
+  },
+  "San Isidro|40601|pueblo": {
+   "visitas": 4030,
+   "wikidata": "Q2610270",
+   "articulos": {
+    "es": "Cantón_de_San_Isidro",
+    "en": "San_Isidro_(canton)"
+   }
+  },
+  "San Isidro|60403|pueblo": {
+   "visitas": 530,
+   "wikidata": "Q3947366",
+   "articulos": {
+    "es": "San_Isidro_(Montes_de_Oro)",
+    "en": "San_Isidro_District,_Montes_de_Oro"
+   }
+  },
+  "San Jerónimo|11402|pueblo": {
+   "visitas": 1262,
+   "wikidata": "Q3947379",
+   "articulos": {
+    "es": "San_Jerónimo_de_Moravia",
+    "en": "San_Jerónimo_District,_Moravia"
+   }
+  },
+  "San Jerónimo|20605|pueblo": {
+   "visitas": 661,
+   "wikidata": "Q3947378",
+   "articulos": {
+    "es": "San_Jerónimo_de_Naranjo",
+    "en": "San_Jerónimo_District,_Naranjo"
+   }
+  },
+  "San Jerónimo|60205|pueblo": {
+   "visitas": 443,
+   "wikidata": "Q3947377",
+   "articulos": {
+    "es": "San_Jerónimo_de_Esparza",
+    "en": "San_Jerónimo_District,_Esparza"
+   }
+  },
+  "San Joaquín|40801|pueblo": {
+   "visitas": 4731,
+   "wikidata": "Q3947380",
+   "articulos": {
+    "es": "San_Joaquín_(Flores)",
+    "en": "San_Joaquín_de_Flores"
+   }
+  },
+  "San Jorge|21404|pueblo": {
+   "visitas": 606,
+   "wikidata": "Q3947381",
+   "articulos": {
+    "es": "San_Jorge_de_Los_Chiles",
+    "en": "San_Jorge_District"
+   }
+  },
+  "San Josecito|11002|pueblo": {
+   "visitas": 682,
+   "wikidata": "Q3947399",
+   "articulos": {
+    "es": "San_Josecito_de_Alajuelita",
+    "en": "San_Josécito"
+   }
+  },
+  "San Josecito|40502|pueblo": {
+   "visitas": 1052,
+   "wikidata": "Q3947398",
+   "articulos": {
+    "es": "San_Josecito_de_San_Rafael",
+    "en": "San_Josecito"
+   }
+  },
+  "San José de la Montaña|40206|pueblo": {
+   "visitas": 1124,
+   "wikidata": "Q3947422",
+   "articulos": {
+    "es": "San_José_de_la_Montaña_(Costa_Rica)",
+    "en": "San_José_de_la_Montaña_District"
+   }
+  },
+  "San José|20102|pueblo": {
+   "visitas": 2513,
+   "wikidata": "Q3211839",
+   "articulos": {
+    "es": "San_José_de_Alajuela",
+    "en": "San_José_de_Alajuela"
+   }
+  },
+  "San Juan Grande|60202|pueblo": {
+   "visitas": 425,
+   "wikidata": "Q3947435",
+   "articulos": {
+    "es": "San_Juan_Grande_(Costa_Rica)",
+    "en": "San_Juan_Grande"
+   }
+  },
+  "San Juan de Dios|10303|pueblo": {
+   "visitas": 926,
+   "wikidata": "Q3947445",
+   "articulos": {
+    "es": "San_Juan_de_Dios_(Costa_Rica)",
+    "en": "San_Juan_de_Dios_District"
+   }
+  },
+  "San Juan de Mata|11603|pueblo": {
+   "visitas": 591,
+   "wikidata": "Q3947446",
+   "articulos": {
+    "es": "San_Juan_de_Mata_(Costa_Rica)",
+    "en": "San_Juan_de_Mata_District"
+   }
+  },
+  "San Juan|11301|pueblo": {
+   "visitas": 3060,
+   "wikidata": "Q3947434",
+   "articulos": {
+    "es": "San_Juan_(Tibás)",
+    "en": "San_Juan_District,_Tibás"
+   }
+  },
+  "San Juan|20203|pueblo": {
+   "visitas": 774,
+   "wikidata": "Q3947432",
+   "articulos": {
+    "es": "San_Juan_de_San_Ramón",
+    "en": "San_Juan_District,_San_Ramón"
+   }
+  },
+  "San Juan|20606|pueblo": {
+   "visitas": 523,
+   "wikidata": "Q3947428",
+   "articulos": {
+    "es": "San_Juan_de_Naranjo",
+    "en": "San_Juan_District,_Naranjo"
+   }
+  },
+  "San Juan|30303|pueblo": {
+   "visitas": 1075,
+   "wikidata": "Q3947429",
+   "articulos": {
+    "es": "San_Juan_de_La_Unión_(Costa_Rica)",
+    "en": "San_Juan_District,_La_Unión"
+   }
+  },
+  "San Juan|50703|pueblo": {
+   "visitas": 454,
+   "wikidata": "Q3947427",
+   "articulos": {
+    "es": "San_Juan_de_Abangares",
+    "en": "San_Juan_District,_Abangares"
+   }
+  },
+  "San Luis|11604|pueblo": {
+   "visitas": 437,
+   "wikidata": "Q3947521",
+   "articulos": {
+    "es": "San_Luis_(Costa_Rica)",
+    "en": "San_Luis_District,_Turrubares"
+   }
+  },
+  "San Marcos|10501|pueblo": {
+   "visitas": 3255,
+   "wikidata": "Q2410422",
+   "articulos": {
+    "es": "San_Marcos_de_Tarrazú",
+    "en": "San_Marcos,_Costa_Rica"
+   }
+  },
+  "San Mateo|20401|pueblo": {
+   "visitas": 3159,
+   "wikidata": "Q1936056",
+   "articulos": {
+    "es": "Cantón_de_San_Mateo",
+    "en": "San_Mateo_(canton)"
+   }
+  },
+  "San Miguel|10302|pueblo": {
+   "visitas": 1445,
+   "wikidata": "Q3947697",
+   "articulos": {
+    "es": "San_Miguel_de_Desamparados",
+    "en": "San_Miguel_District,_Desamparados"
+   }
+  },
+  "San Miguel|20602|pueblo": {
+   "visitas": 709,
+   "wikidata": "Q3947698",
+   "articulos": {
+    "es": "San_Miguel_de_Naranjo",
+    "en": "San_Miguel_District,_Naranjo"
+   }
+  },
+  "San Miguel|50603|pueblo": {
+   "visitas": 612,
+   "wikidata": "Q3947696",
+   "articulos": {
+    "es": "San_Miguel_de_Cañas",
+    "en": "San_Miguel_District,_Cañas"
+   }
+  },
+  "San Pablo|11601|pueblo": {
+   "visitas": 1169,
+   "wikidata": "Q3947745",
+   "articulos": {
+    "es": "San_Pablo_de_Turrubares",
+    "en": "San_Pablo_District,_Turrubares"
+   }
+  },
+  "San Pablo|12001|pueblo": {
+   "visitas": 830,
+   "wikidata": "Q3947744",
+   "articulos": {
+    "es": "San_Pablo_de_León_Cortés_Castro",
+    "en": "San_Pablo_District,_León_Cortés_Castro"
+   }
+  },
+  "San Pablo|40203|pueblo": {
+   "visitas": 481,
+   "wikidata": "Q3947740",
+   "articulos": {
+    "es": "San_Pablo_de_Barva",
+    "en": "San_Pablo_District,_Barva"
+   }
+  },
+  "San Pablo|40901|pueblo": {
+   "visitas": 2616,
+   "wikidata": "Q2610299",
+   "articulos": {
+    "es": "Cantón_de_San_Pablo_(Costa_Rica)",
+    "en": "San_Pablo_(canton)"
+   }
+  },
+  "San Pablo|50904|pueblo": {
+   "visitas": 573,
+   "wikidata": "Q3947742",
+   "articulos": {
+    "es": "San_Pablo_de_Nandayure",
+    "en": "San_Pablo_District,_Nandayure"
+   }
+  },
+  "San Pedro|11501|pueblo": {
+   "visitas": 5507,
+   "wikidata": "Q1815110",
+   "articulos": {
+    "es": "San_Pedro_(Montes_de_Oca)",
+    "en": "San_Pedro,_Costa_Rica"
+   }
+  },
+  "San Pedro|11602|pueblo": {
+   "visitas": 601,
+   "wikidata": "Q3947782",
+   "articulos": {
+    "es": "San_Pedro_de_Turrubares",
+    "en": "San_Pedro_District,_Turrubares"
+   }
+  },
+  "San Pedro|20801|pueblo": {
+   "visitas": 1220,
+   "wikidata": "Q2063040",
+   "articulos": {
+    "es": "San_Pedro_de_Poás",
+    "en": "San_Pedro_de_Poás"
+   }
+  },
+  "San Pedro|40202|pueblo": {
+   "visitas": 756,
+   "wikidata": "Q3947777",
+   "articulos": {
+    "es": "San_Pedro_de_Barva",
+    "en": "San_Pedro_District,_Barva"
+   }
+  },
+  "San Pedro|40402|pueblo": {
+   "visitas": 809,
+   "wikidata": "Q3947781",
+   "articulos": {
+    "es": "San_Pedro_de_Santa_Bárbara",
+    "en": "San_Pedro_de_Santa_Bárbara"
+   }
+  },
+  "San Rafael Abajo|10311|pueblo": {
+   "visitas": 1088,
+   "wikidata": "Q3947880",
+   "articulos": {
+    "es": "San_Rafael_Abajo",
+    "en": "San_Rafael_Abajo"
+   }
+  },
+  "San Rafael Arriba|10304|pueblo": {
+   "visitas": 844,
+   "wikidata": "Q3947881",
+   "articulos": {
+    "es": "San_Rafael_Arriba",
+    "en": "San_Rafael_Arriba"
+   }
+  },
+  "San Rafael|10203|pueblo": {
+   "visitas": 2715,
+   "wikidata": "Q3947868",
+   "articulos": {
+    "es": "San_Rafael_(Escazú)",
+    "en": "San_Rafael_District,_Escazú"
+   }
+  },
+  "San Rafael|11102|pueblo": {
+   "visitas": 612,
+   "wikidata": "Q3947879",
+   "articulos": {
+    "es": "San_Rafael_(Vázquez_de_Coronado)",
+    "en": "San_Rafael,_Vázquez_de_Coronado"
+   }
+  },
+  "San Rafael|11504|pueblo": {
+   "visitas": 1165,
+   "wikidata": "Q3947871",
+   "articulos": {
+    "es": "San_Rafael_(Montes_de_Oca)",
+    "en": "San_Rafael_District,_Montes_de_Oca"
+   }
+  },
+  "San Rafael|20108|pueblo": {
+   "visitas": 2317,
+   "wikidata": "Q3947867",
+   "articulos": {
+    "es": "San_Rafael_(Alajuela)",
+    "en": "San_Rafael_District,_Alajuela"
+   }
+  },
+  "San Rafael|20206|pueblo": {
+   "visitas": 516,
+   "wikidata": "Q3947877",
+   "articulos": {
+    "es": "San_Rafael_(San_Ramón)",
+    "en": "San_Rafael_District,_San_Ramón"
+   }
+  },
+  "San Rafael|20803|pueblo": {
+   "visitas": 330,
+   "wikidata": "Q3947872",
+   "articulos": {
+    "es": "San_Rafael_(Poás)",
+    "en": "San_Rafael_District,_Poás"
+   }
+  },
+  "San Rafael|21501|pueblo": {
+   "visitas": 1060,
+   "wikidata": "Q920624",
+   "articulos": {
+    "es": "San_Rafael_(Guatuso)",
+    "en": "San_Rafael_de_Guatuso"
+   }
+  },
+  "San Rafael|30304|pueblo": {
+   "visitas": 294,
+   "wikidata": "Q3947870",
+   "articulos": {
+    "es": "San_Rafael_(La_Unión)",
+    "en": "San_Rafael_District,_La_Unión"
+   }
+  },
+  "San Rafael|30701|pueblo": {
+   "visitas": 1616,
+   "wikidata": "Q1579174",
+   "articulos": {
+    "es": "San_Rafael_(Oreamuno)",
+    "en": "San_Rafael_District,_Oreamuno"
+   }
+  },
+  "San Rafael|40501|pueblo": {
+   "visitas": 808,
+   "wikidata": "Q3947875",
+   "articulos": {
+    "es": "San_Rafael_(Heredia)",
+    "en": "San_Rafael_District,_San_Rafael"
+   }
+  },
+  "San Rafael|60204|pueblo": {
+   "visitas": 441,
+   "wikidata": "Q3947869",
+   "articulos": {
+    "es": "San_Rafael_(Esparza)",
+    "en": "San_Rafael_District,_Esparza"
+   }
+  },
+  "San Ramón|20201|pueblo": {
+   "visitas": 8682,
+   "wikidata": "Q535835",
+   "articulos": {
+    "es": "San_Ramón_(Costa_Rica)",
+    "en": "San_Ramón,_Costa_Rica"
+   }
+  },
+  "San Ramón|30307|pueblo": {
+   "visitas": 620,
+   "wikidata": "Q3947893",
+   "articulos": {
+    "es": "San_Ramón_de_La_Unión",
+    "en": "San_Ramón_District,_La_Unión"
+   }
+  },
+  "San Roque|20304|pueblo": {
+   "visitas": 781,
+   "wikidata": "Q3947915",
+   "articulos": {
+    "es": "San_Roque_de_Grecia",
+    "en": "San_Roque_District,_Grecia"
+   }
+  },
+  "San Roque|40204|pueblo": {
+   "visitas": 563,
+   "wikidata": "Q3947914",
+   "articulos": {
+    "es": "San_Roque_de_Barva",
+    "en": "San_Roque_District,_Barva"
+   }
+  },
+  "San Sebastián|10111|pueblo": {
+   "visitas": 3568,
+   "wikidata": "Q1751696",
+   "articulos": {
+    "es": "San_Sebastián_(San_José)",
+    "en": "San_Sebastián_(district)"
+   }
+  },
+  "San Vicente|11401|pueblo": {
+   "visitas": 2193,
+   "wikidata": "Q3211297",
+   "articulos": {
+    "es": "San_Vicente_de_Moravia",
+    "en": "San_Vicente,_Moravia"
+   }
+  },
+  "San Vicente|40302|pueblo": {
+   "visitas": 553,
+   "wikidata": "Q3948024",
+   "articulos": {
+    "es": "San_Vicente_de_Santo_Domingo",
+    "en": "San_Vicente_District,_Santo_Domingo"
+   }
+  },
+  "San Vito|60801|pueblo": {
+   "visitas": 7708,
+   "wikidata": "Q3948042",
+   "articulos": {
+    "es": "San_Vito_(Coto_Brus)",
+    "en": "San_Vito,_Costa_Rica"
+   }
+  },
+  "Santa Ana|10901|pueblo": {
+   "visitas": 7199,
+   "wikidata": "Q1935190",
+   "articulos": {
+    "es": "Cantón_de_Santa_Ana_(Costa_Rica)",
+    "en": "Santa_Ana_(canton)"
+   }
+  },
+  "Santa Bárbara|40401|pueblo": {
+   "visitas": 2823,
+   "wikidata": "Q2610157",
+   "articulos": {
+    "es": "Cantón_de_Santa_Bárbara",
+    "en": "Santa_Bárbara_(canton)"
+   }
+  },
+  "Santa Cruz|12005|pueblo": {
+   "visitas": 555,
+   "wikidata": "Q3948981",
+   "articulos": {
+    "es": "Santa_Cruz_de_León_Cortés_Castro",
+    "en": "Santa_Cruz_District,_León_Cortés_Castro"
+   }
+  },
+  "Santa Cruz|30504|pueblo": {
+   "visitas": 923,
+   "wikidata": "Q25406629",
+   "articulos": {
+    "es": "Santa_Cruz_(Turrialba)",
+    "en": "Santa_Cruz_District,_Turrialba"
+   }
+  },
+  "Santa Cruz|50301|pueblo": {
+   "visitas": 3567,
+   "wikidata": "Q3948982",
+   "articulos": {
+    "es": "Santa_Cruz_(Costa_Rica)",
+    "en": "Santa_Cruz_District,_Santa_Cruz,_Guanacaste"
+   }
+  },
+  "Santa Eulalia|20507|pueblo": {
+   "visitas": 833,
+   "wikidata": "Q3949009",
+   "articulos": {
+    "es": "Santa_Eulalia_de_Atenas",
+    "en": "Santa_Eulalia_District,_Atenas"
+   }
+  },
+  "Santa Isabel|21603|pueblo": {
+   "visitas": 644,
+   "wikidata": "Q96404964",
+   "articulos": {
+    "es": "Santa_Isabel_de_Río_Cuarto",
+    "en": "Santa_Isabel_District,_Río_Cuarto"
+   }
+  },
+  "Santa Lucía|40205|pueblo": {
+   "visitas": 989,
+   "wikidata": "Q3949071",
+   "articulos": {
+    "es": "Santa_Lucía_de_Barva",
+    "en": "Santa_Lucía_District"
+   }
+  },
+  "Santa Rita|21602|pueblo": {
+   "visitas": 1032,
+   "wikidata": "Q96404973",
+   "articulos": {
+    "es": "Santa_Rita_de_Río_Cuarto",
+    "en": "Santa_Rita_District,_Río_Cuarto"
+   }
+  },
+  "Santa Rita|50902|pueblo": {
+   "visitas": 510,
+   "wikidata": "Q3949231",
+   "articulos": {
+    "es": "Santa_Rita_de_Nandayure",
+    "en": "Santa_Rita_District,_Nandayure"
+   }
+  },
+  "Santa Rosa|30509|pueblo": {
+   "visitas": 481,
+   "wikidata": "Q3949238",
+   "articulos": {
+    "es": "Santa_Rosa_de_Turrialba",
+    "en": "Santa_Rosa_District,_Turrialba"
+   }
+  },
+  "Santa Rosa|40306|pueblo": {
+   "visitas": 491,
+   "wikidata": "Q3949237",
+   "articulos": {
+    "es": "Santa_Rosa_de_Santo_Domingo",
+    "en": "Santa_Rosa_District,_Santo_Domingo"
+   }
+  },
+  "Santa Teresa|60111|pueblo": {
+   "visitas": 10603,
+   "wikidata": "Q2223261",
+   "articulos": {
+    "en": "Santa_Teresa,_Costa_Rica"
+   }
+  },
+  "Santiago|10401|pueblo": {
+   "visitas": 1654,
+   "wikidata": "Q3556823",
+   "articulos": {
+    "es": "Santiago_de_Puriscal",
+    "en": "Santiago_District,_Puriscal"
+   }
+  },
+  "Santiago|20704|pueblo": {
+   "visitas": 398,
+   "wikidata": "Q3949384",
+   "articulos": {
+    "es": "Santiago_de_Palmares",
+    "en": "Santiago_District,_Palmares"
+   }
+  },
+  "Santiago|30202|pueblo": {
+   "visitas": 618,
+   "wikidata": "Q3949381",
+   "articulos": {
+    "es": "Santiago_de_Paraíso",
+    "en": "Santiago_District,_Paraíso"
+   }
+  },
+  "Santiago|40503|pueblo": {
+   "visitas": 792,
+   "wikidata": "Q3949385",
+   "articulos": {
+    "es": "Santiago_de_San_Rafael",
+    "en": "Santiago_District,_San_Rafael"
+   }
+  },
+  "Santo Domingo|40301|pueblo": {
+   "visitas": 4852,
+   "wikidata": "Q2405941",
+   "articulos": {
+    "es": "Cantón_de_Santo_Domingo_(Costa_Rica)",
+    "en": "Santo_Domingo,_Costa_Rica"
+   }
+  },
+  "Santo Tomás|40305|pueblo": {
+   "visitas": 787,
+   "wikidata": "Q3949524",
+   "articulos": {
+    "es": "Santo_Tomás_de_Santo_Domingo",
+    "en": "Santo_Tomás_District,_Santo_Domingo"
+   }
+  },
+  "Sarchí Norte|21201|pueblo": {
+   "visitas": 2522,
+   "wikidata": "Q290882",
+   "articulos": {
+    "es": "Sarchí_Norte",
+    "en": "Sarchí_Norte"
+   }
+  },
+  "Sarchí Sur|21202|pueblo": {
+   "visitas": 457,
+   "wikidata": "Q3950450",
+   "articulos": {
+    "es": "Sarchí_Sur",
+    "en": "Sarchí_Sur"
+   }
+  },
+  "Sardinal|50503|pueblo": {
+   "visitas": 2902,
+   "wikidata": "Q3950517",
+   "articulos": {
+    "es": "Sardinal_de_Carrillo",
+    "en": "Sardinal"
+   }
+  },
+  "Shiroles|70401|pueblo": {
+   "visitas": 313,
+   "wikidata": "Q7498929",
+   "articulos": {
+    "en": "Shiroles,_Costa_Rica"
+   }
+  },
+  "Sierpe|60503|pueblo": {
+   "visitas": 1688,
+   "wikidata": "Q3960252",
+   "articulos": {
+    "es": "Sierpe_(Costa_Rica)",
+    "en": "Sierpe"
+   }
+  },
+  "Siquirres|70301|pueblo": {
+   "visitas": 5072,
+   "wikidata": "Q930152",
+   "articulos": {
+    "es": "Cantón_de_Siquirres",
+    "en": "Siquirres_(canton)"
+   }
+  },
+  "Sámara|50205|pueblo": {
+   "visitas": 4869,
+   "wikidata": "Q3438102",
+   "articulos": {
+    "es": "Sámara_(Costa_Rica)",
+    "en": "Sámara"
+   }
+  },
+  "Sánchez|11803|pueblo": {
+   "visitas": 1217,
+   "wikidata": "Q3979236",
+   "articulos": {
+    "es": "Sánchez_(Costa_Rica)",
+    "en": "Sánchez_District"
+   }
+  },
+  "Tabarcia|10703|pueblo": {
+   "visitas": 1427,
+   "wikidata": "Q3979914",
+   "articulos": {
+    "es": "Tabarcia",
+    "en": "Tabarcia"
+   }
+  },
+  "Tacares|20305|pueblo": {
+   "visitas": 1062,
+   "wikidata": "Q3513575",
+   "articulos": {
+    "es": "Tacares",
+    "en": "Tacares"
+   }
+  },
+  "Tamarindo|50309|pueblo": {
+   "visitas": 36846,
+   "wikidata": "Q2302554",
+   "articulos": {
+    "es": "Tamarindo_(Costa_Rica)",
+    "en": "Tamarindo,_Costa_Rica"
+   }
+  },
+  "Tambor|60111|pueblo": {
+   "visitas": 2499,
+   "wikidata": "Q10378012",
+   "articulos": {
+    "es": "Tambor_(Costa_Rica)",
+    "en": "Tambor,_Costa_Rica"
+   }
+  },
+  "Tapesco|21103|pueblo": {
+   "visitas": 482,
+   "wikidata": "Q3980981",
+   "articulos": {
+    "es": "Tapesco",
+    "en": "Tapesco"
+   }
+  },
+  "Tarbaca|10602|pueblo": {
+   "visitas": 1377,
+   "wikidata": "Q3981090",
+   "articulos": {
+    "es": "Tarbaca",
+    "en": "Tarbaca"
+   }
+  },
+  "Tejona|50804|pueblo": {
+   "visitas": 306,
+   "wikidata": "Q7695261",
+   "articulos": {
+    "en": "Tejona"
+   }
+  },
+  "Tempate|50304|pueblo": {
+   "visitas": 1100,
+   "wikidata": "Q3983103",
+   "articulos": {
+    "es": "Tempate",
+    "en": "Tempate"
+   }
+  },
+  "Terraba|60303|pueblo": {
+   "visitas": 1485,
+   "wikidata": "Q24690613",
+   "articulos": {
+    "es": "Térraba_(territorio_indígena)",
+    "en": "Térraba"
+   }
+  },
+  "Tierra Blanca|30108|pueblo": {
+   "visitas": 1189,
+   "wikidata": "Q3991217",
+   "articulos": {
+    "es": "Tierra_Blanca_(Costa_Rica)",
+    "en": "Tierra_Blanca,_Cartago"
+   }
+  },
+  "Tierras Morenas|50806|pueblo": {
+   "visitas": 740,
+   "wikidata": "Q3991218",
+   "articulos": {
+    "es": "Tierras_Morenas",
+    "en": "Tierras_Morenas"
+   }
+  },
+  "Tilarán|50801|pueblo": {
+   "visitas": 4661,
+   "wikidata": "Q2517654",
+   "articulos": {
+    "es": "Cantón_de_Tilarán",
+    "en": "Tilarán_(canton)"
+   }
+  },
+  "Tirrases|11804|pueblo": {
+   "visitas": 1451,
+   "wikidata": "Q1755425",
+   "articulos": {
+    "es": "Tirrases",
+    "en": "Tirrases"
+   }
+  },
+  "Tivives|60206|pueblo": {
+   "visitas": 481,
+   "wikidata": "Q111358216",
+   "articulos": {
+    "es": "Tivives"
+   }
+  },
+  "Tobosi|30803|pueblo": {
+   "visitas": 1008,
+   "wikidata": "Q3992114",
+   "articulos": {
+    "es": "Tobosi",
+    "en": "Tobosi"
+   }
+  },
+  "Tortuguero|70206|pueblo": {
+   "visitas": 9250,
+   "wikidata": "Q2482545",
+   "articulos": {
+    "en": "Tortuguero,_Costa_Rica"
+   }
+  },
+  "Tres Equis|30510|pueblo": {
+   "visitas": 674,
+   "wikidata": "Q3998417",
+   "articulos": {
+    "es": "Tres_Equis_de_Turrialba",
+    "en": "Tres_Equis"
+   }
+  },
+  "Tres Ríos|30301|pueblo": {
+   "visitas": 4603,
+   "wikidata": "Q1112873",
+   "articulos": {
+    "es": "Tres_Ríos_(La_Unión)",
+    "en": "Tres_Ríos,_Cartago"
+   }
+  },
+  "Tucurrique|30402|pueblo": {
+   "visitas": 1782,
+   "wikidata": "Q4000174",
+   "articulos": {
+    "es": "Tucurrique",
+    "en": "Tucurrique"
+   }
+  },
+  "Tuis|30507|pueblo": {
+   "visitas": 648,
+   "wikidata": "Q4000276",
+   "articulos": {
+    "es": "Tuis",
+    "en": "Tuis_District"
+   }
+  },
+  "Turrialba|30501|pueblo": {
+   "visitas": 7147,
+   "wikidata": "Q2625953",
+   "articulos": {
+    "es": "Turrialba_(distrito)",
+    "en": "Turrialba_(district)"
+   }
+  },
+  "Turrúcares|20111|pueblo": {
+   "visitas": 2000,
+   "wikidata": "Q4000714",
+   "articulos": {
+    "es": "Turrúcares",
+    "en": "Turrúcares"
+   }
+  },
+  "Tárcoles|61102|pueblo": {
+   "visitas": 1639,
+   "wikidata": "Q4001273",
+   "articulos": {
+    "es": "Tárcoles_(distrito)",
+    "en": "Tárcoles"
+   }
+  },
+  "Ujarras|30201|pueblo": {
+   "visitas": 4776,
+   "wikidata": "Q10751754",
+   "articulos": {
+    "es": "Ujarrás",
+    "en": "Ujarrás"
+   }
+  },
+  "Upala|21301|pueblo": {
+   "visitas": 4774,
+   "wikidata": "Q2223674",
+   "articulos": {
+    "es": "Cantón_de_Upala",
+    "en": "Upala_(canton)"
+   }
+  },
+  "Uruca|10107|pueblo": {
+   "visitas": 4753,
+   "wikidata": "Q1751679",
+   "articulos": {
+    "es": "La_Uruca",
+    "en": "Uruca"
+   }
+  },
+  "Uvita|60504|pueblo": {
+   "visitas": 18428,
+   "wikidata": "Q7903715",
+   "articulos": {
+    "en": "Uvita_(Costa_Rica)"
+   }
+  },
+  "Veintisiete de Abril|50303|pueblo": {
+   "visitas": 1864,
+   "wikidata": "Q3598571",
+   "articulos": {
+    "es": "Veintisiete_de_Abril",
+    "en": "Veintisiete_de_Abril_District"
+   }
+  },
+  "Venado|21010|pueblo": {
+   "visitas": 948,
+   "wikidata": "Q4009458",
+   "articulos": {
+    "es": "Venado_(San_Carlos)",
+    "en": "Venado,_San_Carlos"
+   }
+  },
+  "Venecia|21005|pueblo": {
+   "visitas": 1428,
+   "wikidata": "Q4009513",
+   "articulos": {
+    "es": "Venecia_(San_Carlos)",
+    "en": "Venecia,_San_Carlos"
+   }
+  },
+  "Volcán|60302|pueblo": {
+   "visitas": 679,
+   "wikidata": "Q4016096",
+   "articulos": {
+    "es": "Volcán_(distrito_de_Costa_Rica)",
+    "en": "Volcán_District"
+   }
+  },
+  "Volio|20210|pueblo": {
+   "visitas": 679,
+   "wikidata": "Q4016130",
+   "articulos": {
+    "es": "Volio_de_San_Ramón",
+    "en": "Volio_District"
+   }
+  },
+  "Vuelta de Jorco|10603|pueblo": {
+   "visitas": 946,
+   "wikidata": "Q338836",
+   "articulos": {
+    "es": "Vuelta_de_Jorco",
+    "en": "Vuelta_de_Jorco"
+   }
+  },
+  "Yolillal (San Antonio)|21307|pueblo": {
+   "visitas": 427,
+   "wikidata": "Q4022846",
+   "articulos": {
+    "es": "Yolillal",
+    "en": "Yolillal"
+   }
+  },
+  "Zapaton|10409|pueblo": {
+   "visitas": 1051,
+   "wikidata": "Q24694970",
+   "articulos": {
+    "es": "Zapatón_(territorio_indígena)",
+    "en": "Zapatón"
+   }
+  },
+  "Zapote|10105|pueblo": {
+   "visitas": 4193,
+   "wikidata": "Q1118027",
+   "articulos": {
+    "es": "Zapote_(Costa_Rica)",
+    "en": "Zapote"
+   }
+  },
+  "Zapote|21106|pueblo": {
+   "visitas": 383,
+   "wikidata": "Q4023836",
+   "articulos": {
+    "es": "Zapote_de_Zarcero",
+    "en": "Zapote_District,_Zarcero"
+   }
+  },
+  "Zaragoza|20702|pueblo": {
+   "visitas": 692,
+   "wikidata": "Q931674",
+   "articulos": {
+    "es": "Zaragoza_(Costa_Rica)",
+    "en": "Zaragoza_District"
+   }
+  },
+  "Zarcero|21101|pueblo": {
+   "visitas": 3608,
+   "wikidata": "Q975960",
+   "articulos": {
+    "es": "Zarcero_(Costa_Rica)",
+    "en": "Zarcero"
+   }
+  },
+  "Ángeles|40504|pueblo": {
+   "visitas": 1021,
+   "wikidata": "Q3616799",
+   "articulos": {
+    "es": "Ángeles_de_San_Rafael_(Costa_Rica)",
+    "en": "Ángeles_District,_San_Rafael"
+   }
+  }
+ },
+ "distritos": {
+  "10101": {
+   "visitas": 5362,
+   "wikidata": "Q2407745",
+   "articulos": {
+    "es": "Carmen_(Costa_Rica)",
+    "en": "Carmen_(district)"
+   }
+  },
+  "10102": {
+   "visitas": 2234,
+   "wikidata": "Q1751687",
+   "articulos": {
+    "es": "Merced_(Costa_Rica)",
+    "en": "Merced_(district)"
+   }
+  },
+  "10103": {
+   "visitas": 3085,
+   "wikidata": "Q1751692",
+   "articulos": {
+    "es": "Hospital_(Costa_Rica)",
+    "en": "Hospital_(district)"
+   }
+  },
+  "10104": {
+   "visitas": 3956,
+   "wikidata": "Q1751701",
+   "articulos": {
+    "es": "Catedral_(Costa_Rica)",
+    "en": "Catedral_(district)"
+   }
+  },
+  "10105": {
+   "visitas": 4193,
+   "wikidata": "Q1118027",
+   "articulos": {
+    "es": "Zapote_(Costa_Rica)",
+    "en": "Zapote"
+   }
+  },
+  "10106": {
+   "visitas": 4526,
+   "wikidata": "Q1413811",
+   "articulos": {
+    "es": "San_Francisco_de_Dos_Ríos",
+    "en": "San_Francisco_de_Dos_Ríos"
+   }
+  },
+  "10107": {
+   "visitas": 4753,
+   "wikidata": "Q1751679",
+   "articulos": {
+    "es": "La_Uruca",
+    "en": "Uruca"
+   }
+  },
+  "10108": {
+   "visitas": 3421,
+   "wikidata": "Q923739",
+   "articulos": {
+    "es": "Mata_Redonda_(San_José)",
+    "en": "Mata_Redonda"
+   }
+  },
+  "10109": {
+   "visitas": 7024,
+   "wikidata": "Q1751684",
+   "articulos": {
+    "es": "Pavas_(San_José)",
+    "en": "Pavas"
+   }
+  },
+  "10110": {
+   "visitas": 4111,
+   "wikidata": "Q1751672",
+   "articulos": {
+    "es": "Hatillo_(San_José)",
+    "en": "Hatillo_(district)"
+   }
+  },
+  "10111": {
+   "visitas": 3568,
+   "wikidata": "Q1751696",
+   "articulos": {
+    "es": "San_Sebastián_(San_José)",
+    "en": "San_Sebastián_(district)"
+   }
+  },
+  "10201": {
+   "visitas": 10834,
+   "wikidata": "Q2221760",
+   "articulos": {
+    "es": "Cantón_de_Escazú",
+    "en": "Escazú_(canton)"
+   }
+  },
+  "10202": {
+   "visitas": 1565,
+   "wikidata": "Q2895393",
+   "articulos": {
+    "es": "San_Antonio_(Escazú)",
+    "en": "San_Antonio_District,_Escazú"
+   }
+  },
+  "10203": {
+   "visitas": 2715,
+   "wikidata": "Q3947868",
+   "articulos": {
+    "es": "San_Rafael_(Escazú)",
+    "en": "San_Rafael_District,_Escazú"
+   }
+  },
+  "10301": {
+   "visitas": 6630,
+   "wikidata": "Q1444404",
+   "articulos": {
+    "es": "Cantón_de_Desamparados",
+    "en": "Desamparados_(canton)"
+   }
+  },
+  "10302": {
+   "visitas": 1445,
+   "wikidata": "Q3947697",
+   "articulos": {
+    "es": "San_Miguel_de_Desamparados",
+    "en": "San_Miguel_District,_Desamparados"
+   }
+  },
+  "10303": {
+   "visitas": 926,
+   "wikidata": "Q3947445",
+   "articulos": {
+    "es": "San_Juan_de_Dios_(Costa_Rica)",
+    "en": "San_Juan_de_Dios_District"
+   }
+  },
+  "10304": {
+   "visitas": 844,
+   "wikidata": "Q3947881",
+   "articulos": {
+    "es": "San_Rafael_Arriba",
+    "en": "San_Rafael_Arriba"
+   }
+  },
+  "10305": {
+   "visitas": 982,
+   "wikidata": "Q3946715",
+   "articulos": {
+    "es": "San_Antonio_de_Desamparados",
+    "en": "San_Antonio_District,_Desamparados"
+   }
+  },
+  "10306": {
+   "visitas": 1435,
+   "wikidata": "Q3749237",
+   "articulos": {
+    "es": "Frailes_(Costa_Rica)",
+    "en": "Frailes,_Desamparados,_Costa_Rica"
+   }
+  },
+  "10307": {
+   "visitas": 1362,
+   "wikidata": "Q3897580",
+   "articulos": {
+    "es": "Patarrá",
+    "en": "Patarrá"
+   }
+  },
+  "10308": {
+   "visitas": 1131,
+   "wikidata": "Q3946914",
+   "articulos": {
+    "es": "San_Cristóbal_(Costa_Rica)",
+    "en": "San_Cristobal_District,_Costa_Rica"
+   }
+  },
+  "10309": {
+   "visitas": 897,
+   "wikidata": "Q3941342",
+   "articulos": {
+    "es": "Rosario_de_Desamparados",
+    "en": "Rosario_District,_Desamparados"
+   }
+  },
+  "10310": {
+   "visitas": 873,
+   "wikidata": "Q3701215",
+   "articulos": {
+    "es": "Damas_(Costa_Rica)",
+    "en": "Damas_District"
+   }
+  },
+  "10311": {
+   "visitas": 1088,
+   "wikidata": "Q3947880",
+   "articulos": {
+    "es": "San_Rafael_Abajo",
+    "en": "San_Rafael_Abajo"
+   }
+  },
+  "10312": {
+   "visitas": 885,
+   "wikidata": "Q3775925",
+   "articulos": {
+    "es": "Gravilias_(Costa_Rica)",
+    "en": "Gravilias"
+   }
+  },
+  "10313": {
+   "visitas": 1226,
+   "wikidata": "Q9024013",
+   "articulos": {
+    "es": "Los_Guido",
+    "en": "Los_Guido"
+   }
+  },
+  "10401": {
+   "visitas": 1654,
+   "wikidata": "Q3556823",
+   "articulos": {
+    "es": "Santiago_de_Puriscal",
+    "en": "Santiago_District,_Puriscal"
+   }
+  },
+  "10402": {
+   "visitas": 709,
+   "wikidata": "Q3855059",
+   "articulos": {
+    "es": "Mercedes_Sur",
+    "en": "Mercedes_Sur"
+   }
+  },
+  "10403": {
+   "visitas": 659,
+   "wikidata": "Q3634555",
+   "articulos": {
+    "es": "Barbacoas_(Costa_Rica)",
+    "en": "Barbacoas_District"
+   }
+  },
+  "10404": {
+   "visitas": 573,
+   "wikidata": "Q3776726",
+   "articulos": {
+    "es": "Grifo_Alto_(Costa_Rica)",
+    "en": "Grifo_Alto"
+   }
+  },
+  "10405": {
+   "visitas": 337,
+   "wikidata": "Q3947873",
+   "articulos": {
+    "es": "San_Rafael_(Puriscal)",
+    "en": "San_Rafael_District,_Puriscal"
+   }
+  },
+  "10406": {
+   "visitas": 510,
+   "wikidata": "Q3655177",
+   "articulos": {
+    "es": "Candelarita_(Costa_Rica)",
+    "en": "Candelarita"
+   }
+  },
+  "10407": {
+   "visitas": 400,
+   "wikidata": "Q3705909",
+   "articulos": {
+    "es": "Desamparaditos_(Costa_Rica)",
+    "en": "Desamparaditos"
+   }
+  },
+  "10408": {
+   "visitas": 559,
+   "wikidata": "Q3946721",
+   "articulos": {
+    "es": "San_Antonio_de_Puriscal",
+    "en": "San_Antonio_District,_Puriscal"
+   }
+  },
+  "10409": {
+   "visitas": 735,
+   "wikidata": "Q3675142",
+   "articulos": {
+    "es": "Chires",
+    "en": "Chires"
+   }
+  },
+  "10501": {
+   "visitas": 3255,
+   "wikidata": "Q2410422",
+   "articulos": {
+    "es": "San_Marcos_de_Tarrazú",
+    "en": "San_Marcos,_Costa_Rica"
+   }
+  },
+  "10502": {
+   "visitas": 857,
+   "wikidata": "Q3947483",
+   "articulos": {
+    "es": "San_Lorenzo_(Costa_Rica)",
+    "en": "San_Lorenzo_District,_Tarrazú"
+   }
+  },
+  "10503": {
+   "visitas": 582,
+   "wikidata": "Q3946875",
+   "articulos": {
+    "es": "San_Carlos_de_Tarrazú",
+    "en": "San_Carlos_District,_Tarrazú"
+   }
+  },
+  "10601": {
+   "visitas": 4985,
+   "wikidata": "Q1935231",
+   "articulos": {
+    "es": "Cantón_de_Aserrí",
+    "en": "Aserrí_(canton)"
+   }
+  },
+  "10602": {
+   "visitas": 1377,
+   "wikidata": "Q3981090",
+   "articulos": {
+    "es": "Tarbaca",
+    "en": "Tarbaca"
+   }
+  },
+  "10603": {
+   "visitas": 946,
+   "wikidata": "Q338836",
+   "articulos": {
+    "es": "Vuelta_de_Jorco",
+    "en": "Vuelta_de_Jorco"
+   }
+  },
+  "10604": {
+   "visitas": 1163,
+   "wikidata": "Q3947150",
+   "articulos": {
+    "es": "San_Gabriel_de_Aserrí",
+    "en": "San_Gabriel_District"
+   }
+  },
+  "10605": {
+   "visitas": 562,
+   "wikidata": "Q3829971",
+   "articulos": {
+    "es": "Legua_(Costa_Rica)",
+    "en": "Legua_District"
+   }
+  },
+  "10606": {
+   "visitas": 604,
+   "wikidata": "Q3862349",
+   "articulos": {
+    "es": "Monterrey_de_Aserrí",
+    "en": "Monterrey_District,_Aserrí"
+   }
+  },
+  "10607": {
+   "visitas": 884,
+   "wikidata": "Q3945549",
+   "articulos": {
+    "es": "Salitrillos",
+    "en": "Salitrillos"
+   }
+  },
+  "10701": {
+   "visitas": 5557,
+   "wikidata": "Q3683885",
+   "articulos": {
+    "es": "Colón_(Costa_Rica)",
+    "en": "Colón,_Costa_Rica"
+   }
+  },
+  "10702": {
+   "visitas": 849,
+   "wikidata": "Q3778454",
+   "articulos": {
+    "es": "Guayabo_(Costa_Rica)",
+    "en": "Guayabo_District"
+   }
+  },
+  "10703": {
+   "visitas": 1427,
+   "wikidata": "Q3979914",
+   "articulos": {
+    "es": "Tabarcia",
+    "en": "Tabarcia"
+   }
+  },
+  "10704": {
+   "visitas": 546,
+   "wikidata": "Q3902762",
+   "articulos": {
+    "es": "Piedras_Negras_(Costa_Rica)",
+    "en": "Piedras_Negras_District"
+   }
+  },
+  "10705": {
+   "visitas": 635,
+   "wikidata": "Q3902515",
+   "articulos": {
+    "es": "Picagres",
+    "en": "Picagres"
+   }
+  },
+  "10706": {
+   "visitas": 622,
+   "wikidata": "Q24238741",
+   "articulos": {
+    "es": "Jaris",
+    "en": "Jaris"
+   }
+  },
+  "10707": {
+   "visitas": 2209,
+   "wikidata": "Q21515164",
+   "articulos": {
+    "es": "Quitirrisí",
+    "en": "Quitirrisí"
+   }
+  },
+  "10801": {
+   "visitas": 4305,
+   "wikidata": "Q3778059",
+   "articulos": {
+    "es": "Guadalupe_(Costa_Rica)",
+    "en": "Guadalupe,_Costa_Rica"
+   }
+  },
+  "10802": {
+   "visitas": 1011,
+   "wikidata": "Q3947118",
+   "articulos": {
+    "es": "San_Francisco_(Goicoechea)",
+    "en": "San_Francisco_District,_Goicoechea"
+   }
+  },
+  "10803": {
+   "visitas": 2166,
+   "wikidata": "Q3650836",
+   "articulos": {
+    "es": "Calle_Blancos",
+    "en": "Calle_Blancos"
+   }
+  },
+  "10804": {
+   "visitas": 2330,
+   "wikidata": "Q3851685",
+   "articulos": {
+    "es": "Mata_de_Plátano_(Costa_Rica)",
+    "en": "Mata_de_Plátano_District"
+   }
+  },
+  "10805": {
+   "visitas": 881,
+   "wikidata": "Q1751694",
+   "articulos": {
+    "es": "Ipís",
+    "en": "Ipís"
+   }
+  },
+  "10806": {
+   "visitas": 1379,
+   "wikidata": "Q3930003",
+   "articulos": {
+    "es": "Rancho_Redondo",
+    "en": "Rancho_Redondo"
+   }
+  },
+  "10807": {
+   "visitas": 1336,
+   "wikidata": "Q531605",
+   "articulos": {
+    "es": "Purral",
+    "en": "Purral"
+   }
+  },
+  "10901": {
+   "visitas": 7199,
+   "wikidata": "Q1935190",
+   "articulos": {
+    "es": "Cantón_de_Santa_Ana_(Costa_Rica)",
+    "en": "Santa_Ana_(canton)"
+   }
+  },
+  "10902": {
+   "visitas": 897,
+   "wikidata": "Q3945548",
+   "articulos": {
+    "es": "Salitral_(Costa_Rica)",
+    "en": "Salitral"
+   }
+  },
+  "10903": {
+   "visitas": 2158,
+   "wikidata": "Q3909742",
+   "articulos": {
+    "es": "Pozos_(Costa_Rica)",
+    "en": "Pozos"
+   }
+  },
+  "10904": {
+   "visitas": 1149,
+   "wikidata": "Q6158097",
+   "articulos": {
+    "es": "Uruca_de_Santa_Ana",
+    "en": "Uruca_District,_Santa_Ana"
+   }
+  },
+  "10905": {
+   "visitas": 932,
+   "wikidata": "Q3902728",
+   "articulos": {
+    "es": "Piedades_(Costa_Rica)",
+    "en": "Piedades"
+   }
+  },
+  "10906": {
+   "visitas": 1207,
+   "wikidata": "Q3643794",
+   "articulos": {
+    "es": "Brasil_(Costa_Rica)",
+    "en": "Brasil_District"
+   }
+  },
+  "11001": {
+   "visitas": 5215,
+   "wikidata": "Q200703",
+   "articulos": {
+    "es": "Cantón_de_Alajuelita",
+    "en": "Alajuelita_(canton)"
+   }
+  },
+  "11002": {
+   "visitas": 682,
+   "wikidata": "Q3947399",
+   "articulos": {
+    "es": "San_Josecito_de_Alajuelita",
+    "en": "San_Josécito"
+   }
+  },
+  "11003": {
+   "visitas": 643,
+   "wikidata": "Q3946711",
+   "articulos": {
+    "es": "San_Antonio_de_Alajuelita",
+    "en": "San_Antonio_District,_Alajuelita"
+   }
+  },
+  "11004": {
+   "visitas": 760,
+   "wikidata": "Q1111097",
+   "articulos": {
+    "es": "Concepción_de_Alajuelita",
+    "en": "Concepción_District,_Alajuelita"
+   }
+  },
+  "11005": {
+   "visitas": 748,
+   "wikidata": "Q3947040",
+   "articulos": {
+    "es": "San_Felipe_de_Alajuelita",
+    "en": "San_Felipe_District,_Alajuelita"
+   }
+  },
+  "11101": {
+   "visitas": 1383,
+   "wikidata": "Q3947373",
+   "articulos": {
+    "es": "San_Isidro_(Vázquez_de_Coronado)",
+    "en": "San_Isidro,_Vázquez_de_Coronado"
+   }
+  },
+  "11102": {
+   "visitas": 612,
+   "wikidata": "Q3947879",
+   "articulos": {
+    "es": "San_Rafael_(Vázquez_de_Coronado)",
+    "en": "San_Rafael,_Vázquez_de_Coronado"
+   }
+  },
+  "11103": {
+   "visitas": 835,
+   "wikidata": "Q3716180",
+   "articulos": {
+    "es": "Dulce_Nombre_de_Jesús_(Costa_Rica)",
+    "en": "Dulce_Nombre_de_Jesús"
+   }
+  },
+  "11104": {
+   "visitas": 1314,
+   "wikidata": "Q3897570",
+   "articulos": {
+    "es": "Patalillo",
+    "en": "Patalillo"
+   }
+  },
+  "11105": {
+   "visitas": 702,
+   "wikidata": "Q3661523",
+   "articulos": {
+    "es": "Cascajal_(Costa_Rica)",
+    "en": "Cascajal_District"
+   }
+  },
+  "11201": {
+   "visitas": 1077,
+   "wikidata": "Q3947359",
+   "articulos": {
+    "es": "San_Ignacio_de_Acosta",
+    "en": "San_Ignacio_District,_Acosta"
+   }
+  },
+  "11202": {
+   "visitas": 924,
+   "wikidata": "Q3778096",
+   "articulos": {
+    "es": "Guaitil_(Costa_Rica)",
+    "en": "Guaitil_District"
+   }
+  },
+  "11203": {
+   "visitas": 1228,
+   "wikidata": "Q3892789",
+   "articulos": {
+    "es": "Palmichal",
+    "en": "Palmichal"
+   }
+  },
+  "11204": {
+   "visitas": 612,
+   "wikidata": "Q3655336",
+   "articulos": {
+    "es": "Cangrejal",
+    "en": "Cangrejal"
+   }
+  },
+  "11205": {
+   "visitas": 575,
+   "wikidata": "Q3944215",
+   "articulos": {
+    "es": "Sabanillas_de_Acosta",
+    "en": "Sabanillas"
+   }
+  },
+  "11301": {
+   "visitas": 3060,
+   "wikidata": "Q3947434",
+   "articulos": {
+    "es": "San_Juan_(Tibás)",
+    "en": "San_Juan_District,_Tibás"
+   }
+  },
+  "11302": {
+   "visitas": 1059,
+   "wikidata": "Q1109757",
+   "articulos": {
+    "es": "Cinco_Esquinas_(Costa_Rica)",
+    "en": "Cinco_Esquinas"
+   }
+  },
+  "11303": {
+   "visitas": 904,
+   "wikidata": "Q3618338",
+   "articulos": {
+    "es": "Anselmo_Llorente_(Costa_Rica)",
+    "en": "Anselmo_Llorente"
+   }
+  },
+  "11304": {
+   "visitas": 1645,
+   "wikidata": "Q3831479",
+   "articulos": {
+    "es": "León_XIII_(Costa_Rica)",
+    "en": "León_XIII"
+   }
+  },
+  "11305": {
+   "visitas": 1218,
+   "wikidata": "Q3682623",
+   "articulos": {
+    "es": "Colima_(Costa_Rica)",
+    "en": "Colima_District"
+   }
+  },
+  "11401": {
+   "visitas": 2193,
+   "wikidata": "Q3211297",
+   "articulos": {
+    "es": "San_Vicente_de_Moravia",
+    "en": "San_Vicente,_Moravia"
+   }
+  },
+  "11402": {
+   "visitas": 1262,
+   "wikidata": "Q3947379",
+   "articulos": {
+    "es": "San_Jerónimo_de_Moravia",
+    "en": "San_Jerónimo_District,_Moravia"
+   }
+  },
+  "11403": {
+   "visitas": 1337,
+   "wikidata": "Q3998880",
+   "articulos": {
+    "es": "La_Trinidad_de_Moravia",
+    "en": "La_Trinidad_District"
+   }
+  },
+  "11501": {
+   "visitas": 5507,
+   "wikidata": "Q1815110",
+   "articulos": {
+    "es": "San_Pedro_(Montes_de_Oca)",
+    "en": "San_Pedro,_Costa_Rica"
+   }
+  },
+  "11502": {
+   "visitas": 2160,
+   "wikidata": "Q3944213",
+   "articulos": {
+    "es": "Sabanilla_(Montes_de_Oca)",
+    "en": "Sabanilla_District,_Montes_de_Oca"
+   }
+  },
+  "11504": {
+   "visitas": 1165,
+   "wikidata": "Q3947871",
+   "articulos": {
+    "es": "San_Rafael_(Montes_de_Oca)",
+    "en": "San_Rafael_District,_Montes_de_Oca"
+   }
+  },
+  "11601": {
+   "visitas": 1169,
+   "wikidata": "Q3947745",
+   "articulos": {
+    "es": "San_Pablo_de_Turrubares",
+    "en": "San_Pablo_District,_Turrubares"
+   }
+  },
+  "11602": {
+   "visitas": 601,
+   "wikidata": "Q3947782",
+   "articulos": {
+    "es": "San_Pedro_de_Turrubares",
+    "en": "San_Pedro_District,_Turrubares"
+   }
+  },
+  "11603": {
+   "visitas": 591,
+   "wikidata": "Q3947446",
+   "articulos": {
+    "es": "San_Juan_de_Mata_(Costa_Rica)",
+    "en": "San_Juan_de_Mata_District"
+   }
+  },
+  "11604": {
+   "visitas": 437,
+   "wikidata": "Q3947521",
+   "articulos": {
+    "es": "San_Luis_(Costa_Rica)",
+    "en": "San_Luis_District,_Turrubares"
+   }
+  },
+  "11605": {
+   "visitas": 708,
+   "wikidata": "Q60669044",
+   "articulos": {
+    "es": "Carara",
+    "en": "Carara_District"
+   }
+  },
+  "11701": {
+   "visitas": 2578,
+   "wikidata": "Q3949201",
+   "articulos": {
+    "es": "Santa_María_de_Dota",
+    "en": "Santa_María_District,_Dota"
+   }
+  },
+  "11702": {
+   "visitas": 704,
+   "wikidata": "Q3807316",
+   "articulos": {
+    "es": "Jardín_de_Dota",
+    "en": "Jardín_District"
+   }
+  },
+  "11703": {
+   "visitas": 1799,
+   "wikidata": "Q3691006",
+   "articulos": {
+    "es": "Copey_de_Dota",
+    "en": "Copey_District"
+   }
+  },
+  "11801": {
+   "visitas": 6204,
+   "wikidata": "Q2569193",
+   "articulos": {
+    "es": "Curridabat",
+    "en": "Curridabat"
+   }
+  },
+  "11802": {
+   "visitas": 1959,
+   "wikidata": "Q3774987",
+   "articulos": {
+    "es": "Granadilla_(Costa_Rica)",
+    "en": "Granadilla_District"
+   }
+  },
+  "11803": {
+   "visitas": 1217,
+   "wikidata": "Q3979236",
+   "articulos": {
+    "es": "Sánchez_(Costa_Rica)",
+    "en": "Sánchez_District"
+   }
+  },
+  "11804": {
+   "visitas": 1451,
+   "wikidata": "Q1755425",
+   "articulos": {
+    "es": "Tirrases",
+    "en": "Tirrases"
+   }
+  },
+  "11901": {
+   "visitas": 14646,
+   "wikidata": "Q2518620",
+   "articulos": {
+    "es": "San_Isidro_de_El_General",
+    "en": "San_Isidro_de_El_General"
+   }
+  },
+  "11902": {
+   "visitas": 957,
+   "wikidata": "Q61616149",
+   "articulos": {
+    "es": "El_General_(Costa_Rica)",
+    "en": "El_General,_Pérez_Zeledón"
+   }
+  },
+  "11903": {
+   "visitas": 1771,
+   "wikidata": "Q3701600",
+   "articulos": {
+    "es": "Daniel_Flores_(Costa_Rica)",
+    "en": "Daniel_Flores_District"
+   }
+  },
+  "11904": {
+   "visitas": 1874,
+   "wikidata": "Q3937883",
+   "articulos": {
+    "es": "Rivas_(Costa_Rica)",
+    "en": "Rivas_District"
+   }
+  },
+  "11905": {
+   "visitas": 1057,
+   "wikidata": "Q3947780",
+   "articulos": {
+    "es": "San_Pedro_(Pérez_Zeledón)",
+    "en": "San_Pedro_District,_Pérez_Zeledón"
+   }
+  },
+  "11906": {
+   "visitas": 775,
+   "wikidata": "Q3906383",
+   "articulos": {
+    "es": "Platanares_(Costa_Rica)",
+    "en": "Platanares"
+   }
+  },
+  "11908": {
+   "visitas": 1228,
+   "wikidata": "Q3649981",
+   "articulos": {
+    "es": "Cajón_(Costa_Rica)",
+    "en": "Cajón_District"
+   }
+  },
+  "11909": {
+   "visitas": 1180,
+   "wikidata": "Q3635503",
+   "articulos": {
+    "es": "Barú_de_Pérez_Zeledón",
+    "en": "Barú_District,_Pérez_Zeledón"
+   }
+  },
+  "11910": {
+   "visitas": 724,
+   "wikidata": "Q3943215",
+   "articulos": {
+    "es": "Río_Nuevo_(Costa_Rica)",
+    "en": "Río_Nuevo_District"
+   }
+  },
+  "11911": {
+   "visitas": 822,
+   "wikidata": "Q3926098",
+   "articulos": {
+    "es": "Páramo_(Costa_Rica)",
+    "en": "Páramo_District"
+   }
+  },
+  "11912": {
+   "visitas": 912,
+   "wikidata": "Q61617091",
+   "articulos": {
+    "es": "La_Amistad_de_Pérez_Zeledón",
+    "en": "La_Amistad_District"
+   }
+  },
+  "12001": {
+   "visitas": 830,
+   "wikidata": "Q3947744",
+   "articulos": {
+    "es": "San_Pablo_de_León_Cortés_Castro",
+    "en": "San_Pablo_District,_León_Cortés_Castro"
+   }
+  },
+  "12002": {
+   "visitas": 635,
+   "wikidata": "Q3946707",
+   "articulos": {
+    "es": "San_Andrés_de_León_Cortés_Castro",
+    "en": "San_Andrés_District,_León_Cortés_Castro"
+   }
+  },
+  "12003": {
+   "visitas": 689,
+   "wikidata": "Q3835727",
+   "articulos": {
+    "es": "Llano_Bonito_de_León_Cortés_Castro",
+    "en": "Llano_Bonito_District"
+   }
+  },
+  "12004": {
+   "visitas": 431,
+   "wikidata": "Q3947364",
+   "articulos": {
+    "es": "San_Isidro_de_León_Cortés_Castro",
+    "en": "San_Isidro_District,_León_Cortés_Castro"
+   }
+  },
+  "12005": {
+   "visitas": 555,
+   "wikidata": "Q3948981",
+   "articulos": {
+    "es": "Santa_Cruz_de_León_Cortés_Castro",
+    "en": "Santa_Cruz_District,_León_Cortés_Castro"
+   }
+  },
+  "12006": {
+   "visitas": 415,
+   "wikidata": "Q3946719",
+   "articulos": {
+    "es": "San_Antonio_de_León_Cortés_Castro",
+    "en": "San_Antonio_District,_León_Cortés_Castro"
+   }
+  },
+  "20101": {
+   "visitas": 30057,
+   "wikidata": "Q37104",
+   "articulos": {
+    "es": "Alajuela_(distrito)",
+    "en": "Alajuela"
+   }
+  },
+  "20102": {
+   "visitas": 2513,
+   "wikidata": "Q3211839",
+   "articulos": {
+    "es": "San_José_de_Alajuela",
+    "en": "San_José_de_Alajuela"
+   }
+  },
+  "20103": {
+   "visitas": 1846,
+   "wikidata": "Q3660746",
+   "articulos": {
+    "es": "Carrizal_de_Alajuela",
+    "en": "Carrizal_District"
+   }
+  },
+  "20104": {
+   "visitas": 1999,
+   "wikidata": "Q61678022",
+   "articulos": {
+    "es": "San_Antonio_de_Alajuela",
+    "en": "San_Antonio_District,_Alajuela"
+   }
+  },
+  "20105": {
+   "visitas": 3077,
+   "wikidata": "Q3780108",
+   "articulos": {
+    "es": "Guácima_de_Alajuela",
+    "en": "Guácima"
+   }
+  },
+  "20106": {
+   "visitas": 1739,
+   "wikidata": "Q3947361",
+   "articulos": {
+    "es": "San_Isidro_de_Alajuela",
+    "en": "San_Isidro_District,_Alajuela"
+   }
+  },
+  "20107": {
+   "visitas": 1587,
+   "wikidata": "Q3944212",
+   "articulos": {
+    "es": "Sabanilla_(Alajuela)",
+    "en": "Sabanilla_District,_Alajuela"
+   }
+  },
+  "20108": {
+   "visitas": 2317,
+   "wikidata": "Q3947867",
+   "articulos": {
+    "es": "San_Rafael_(Alajuela)",
+    "en": "San_Rafael_District,_Alajuela"
+   }
+  },
+  "20109": {
+   "visitas": 1769,
+   "wikidata": "Q3943216",
+   "articulos": {
+    "es": "Río_Segundo_de_Alajuela",
+    "en": "Río_Segundo_District"
+   }
+  },
+  "20110": {
+   "visitas": 1696,
+   "wikidata": "Q3705910",
+   "articulos": {
+    "es": "Desamparados_de_Alajuela",
+    "en": "Desamparados_District,_Alajuela"
+   }
+  },
+  "20111": {
+   "visitas": 2000,
+   "wikidata": "Q4000714",
+   "articulos": {
+    "es": "Turrúcares",
+    "en": "Turrúcares"
+   }
+  },
+  "20113": {
+   "visitas": 1858,
+   "wikidata": "Q3820871",
+   "articulos": {
+    "es": "Garita_(Alajuela)",
+    "en": "Garita_District,_Alajuela"
+   }
+  },
+  "20201": {
+   "visitas": 8682,
+   "wikidata": "Q535835",
+   "articulos": {
+    "es": "San_Ramón_(Costa_Rica)",
+    "en": "San_Ramón,_Costa_Rica"
+   }
+  },
+  "20202": {
+   "visitas": 792,
+   "wikidata": "Q7420254",
+   "articulos": {
+    "es": "Santiago_de_San_Ramón",
+    "en": "Santiago_District,_San_Ramón"
+   }
+  },
+  "20203": {
+   "visitas": 774,
+   "wikidata": "Q3947432",
+   "articulos": {
+    "es": "San_Juan_de_San_Ramón",
+    "en": "San_Juan_District,_San_Ramón"
+   }
+  },
+  "20204": {
+   "visitas": 437,
+   "wikidata": "Q3902727",
+   "articulos": {
+    "es": "Piedades_Norte",
+    "en": "Piedades_Norte"
+   }
+  },
+  "20205": {
+   "visitas": 912,
+   "wikidata": "Q3902729",
+   "articulos": {
+    "es": "Piedades_Sur",
+    "en": "Piedades_Sur"
+   }
+  },
+  "20206": {
+   "visitas": 516,
+   "wikidata": "Q3947877",
+   "articulos": {
+    "es": "San_Rafael_(San_Ramón)",
+    "en": "San_Rafael_District,_San_Ramón"
+   }
+  },
+  "20207": {
+   "visitas": 707,
+   "wikidata": "Q3947369",
+   "articulos": {
+    "es": "San_Isidro_de_San_Ramón",
+    "en": "San_Isidro_District,_San_Ramón"
+   }
+  },
+  "20208": {
+   "visitas": 761,
+   "wikidata": "Q3616800",
+   "articulos": {
+    "es": "Ángeles_de_San_Ramón",
+    "en": "Ángeles,_San_Ramón"
+   }
+  },
+  "20209": {
+   "visitas": 565,
+   "wikidata": "Q3611053",
+   "articulos": {
+    "es": "Alfaro_de_San_Ramón",
+    "en": "Alfaro_District"
+   }
+  },
+  "20210": {
+   "visitas": 679,
+   "wikidata": "Q4016130",
+   "articulos": {
+    "es": "Volio_de_San_Ramón",
+    "en": "Volio_District"
+   }
+  },
+  "20211": {
+   "visitas": 555,
+   "wikidata": "Q1114406",
+   "articulos": {
+    "es": "Concepción_de_San_Ramón",
+    "en": "Concepción_District,_San_Ramón"
+   }
+  },
+  "20212": {
+   "visitas": 692,
+   "wikidata": "Q4023835",
+   "articulos": {
+    "es": "Zapotal_de_San_Ramón",
+    "en": "Zapotal"
+   }
+  },
+  "20213": {
+   "visitas": 3127,
+   "wikidata": "Q3901235",
+   "articulos": {
+    "es": "Peñas_Blancas_(Costa_Rica)",
+    "en": "Peñas_Blancas_District"
+   }
+  },
+  "20214": {
+   "visitas": 984,
+   "wikidata": "Q98669429",
+   "articulos": {
+    "es": "San_Lorenzo_de_San_Ramón",
+    "en": "San_Lorenzo_District,_San_Ramón"
+   }
+  },
+  "20301": {
+   "visitas": 8438,
+   "wikidata": "Q2079294",
+   "articulos": {
+    "es": "Grecia_(Costa_Rica)",
+    "en": "Grecia,_Costa_Rica"
+   }
+  },
+  "20302": {
+   "visitas": 920,
+   "wikidata": "Q3947363",
+   "articulos": {
+    "es": "San_Isidro_de_Grecia",
+    "en": "San_Isidro_District,_Grecia"
+   }
+  },
+  "20304": {
+   "visitas": 781,
+   "wikidata": "Q3947915",
+   "articulos": {
+    "es": "San_Roque_de_Grecia",
+    "en": "San_Roque_District,_Grecia"
+   }
+  },
+  "20305": {
+   "visitas": 1062,
+   "wikidata": "Q3513575",
+   "articulos": {
+    "es": "Tacares",
+    "en": "Tacares"
+   }
+  },
+  "20307": {
+   "visitas": 1975,
+   "wikidata": "Q3925385",
+   "articulos": {
+    "es": "Puente_de_Piedra_(Costa_Rica)",
+    "en": "Puente_de_Piedra_District"
+   }
+  },
+  "20308": {
+   "visitas": 794,
+   "wikidata": "Q3641933",
+   "articulos": {
+    "es": "Bolívar_(Costa_Rica)",
+    "en": "Bolívar_District,_Grecia"
+   }
+  },
+  "20401": {
+   "visitas": 3159,
+   "wikidata": "Q1936056",
+   "articulos": {
+    "es": "Cantón_de_San_Mateo",
+    "en": "San_Mateo_(canton)"
+   }
+  },
+  "20402": {
+   "visitas": 464,
+   "wikidata": "Q3705991",
+   "articulos": {
+    "es": "Desmonte_de_San_Mateo",
+    "en": "Desmonte"
+   }
+  },
+  "20403": {
+   "visitas": 652,
+   "wikidata": "Q3808198",
+   "articulos": {
+    "es": "Jesús_María_de_San_Mateo",
+    "en": "Jesús_María_District,_San_Mateo"
+   }
+  },
+  "20404": {
+   "visitas": 813,
+   "wikidata": "Q61677923",
+   "articulos": {
+    "es": "Labrador_de_San_Mateo",
+    "en": "Labrador_District,_San_Mateo"
+   }
+  },
+  "20501": {
+   "visitas": 9991,
+   "wikidata": "Q973817",
+   "articulos": {
+    "es": "Atenas_(Costa_Rica)",
+    "en": "Atenas"
+   }
+  },
+  "20502": {
+   "visitas": 683,
+   "wikidata": "Q3808182",
+   "articulos": {
+    "es": "Jesús_de_Atenas",
+    "en": "Jesús_District,_Atenas"
+   }
+  },
+  "20503": {
+   "visitas": 474,
+   "wikidata": "Q3854924",
+   "articulos": {
+    "es": "Mercedes_de_Atenas",
+    "en": "Mercedes_District,_Atenas"
+   }
+  },
+  "20504": {
+   "visitas": 452,
+   "wikidata": "Q3947360",
+   "articulos": {
+    "es": "San_Isidro_de_Atenas",
+    "en": "San_Isidro_District,_Atenas"
+   }
+  },
+  "20505": {
+   "visitas": 580,
+   "wikidata": "Q3686040",
+   "articulos": {
+    "es": "Concepción_de_Atenas",
+    "en": "Concepción_District,_Atenas"
+   }
+  },
+  "20506": {
+   "visitas": 446,
+   "wikidata": "Q3947402",
+   "articulos": {
+    "es": "San_José_de_Atenas",
+    "en": "San_José_District,_Atenas"
+   }
+  },
+  "20507": {
+   "visitas": 833,
+   "wikidata": "Q3949009",
+   "articulos": {
+    "es": "Santa_Eulalia_de_Atenas",
+    "en": "Santa_Eulalia_District,_Atenas"
+   }
+  },
+  "20508": {
+   "visitas": 605,
+   "wikidata": "Q61677913",
+   "articulos": {
+    "es": "Escobal_(Costa_Rica)",
+    "en": "Escobal_District"
+   }
+  },
+  "20601": {
+   "visitas": 2850,
+   "wikidata": "Q1757000",
+   "articulos": {
+    "es": "Naranjo_(Costa_Rica)",
+    "en": "Naranjo_de_Alajuela"
+   }
+  },
+  "20602": {
+   "visitas": 709,
+   "wikidata": "Q3947698",
+   "articulos": {
+    "es": "San_Miguel_de_Naranjo",
+    "en": "San_Miguel_District,_Naranjo"
+   }
+  },
+  "20603": {
+   "visitas": 635,
+   "wikidata": "Q3947404",
+   "articulos": {
+    "es": "San_José_de_Naranjo",
+    "en": "San_José_District,_Naranjo"
+   }
+  },
+  "20604": {
+   "visitas": 509,
+   "wikidata": "Q3678190",
+   "articulos": {
+    "es": "Cirrí_Sur",
+    "en": "Cirrí_Sur"
+   }
+  },
+  "20605": {
+   "visitas": 661,
+   "wikidata": "Q3947378",
+   "articulos": {
+    "es": "San_Jerónimo_de_Naranjo",
+    "en": "San_Jerónimo_District,_Naranjo"
+   }
+  },
+  "20606": {
+   "visitas": 523,
+   "wikidata": "Q3947428",
+   "articulos": {
+    "es": "San_Juan_de_Naranjo",
+    "en": "San_Juan_District,_Naranjo"
+   }
+  },
+  "20607": {
+   "visitas": 718,
+   "wikidata": "Q3941341",
+   "articulos": {
+    "es": "El_Rosario_de_Naranjo",
+    "en": "El_Rosario_District"
+   }
+  },
+  "20608": {
+   "visitas": 649,
+   "wikidata": "Q61677859",
+   "articulos": {
+    "es": "Palmitos_de_Naranjo",
+    "en": "Palmitos_District"
+   }
+  },
+  "20701": {
+   "visitas": 3225,
+   "wikidata": "Q2610139",
+   "articulos": {
+    "es": "Cantón_de_Palmares",
+    "en": "Palmares_(canton)"
+   }
+  },
+  "20702": {
+   "visitas": 692,
+   "wikidata": "Q931674",
+   "articulos": {
+    "es": "Zaragoza_(Costa_Rica)",
+    "en": "Zaragoza_District"
+   }
+  },
+  "20703": {
+   "visitas": 557,
+   "wikidata": "Q3646515",
+   "articulos": {
+    "es": "Buenos_Aires_de_Palmares",
+    "en": "Buenos_Aires_District,_Palmares"
+   }
+  },
+  "20704": {
+   "visitas": 398,
+   "wikidata": "Q3949384",
+   "articulos": {
+    "es": "Santiago_de_Palmares",
+    "en": "Santiago_District,_Palmares"
+   }
+  },
+  "20705": {
+   "visitas": 378,
+   "wikidata": "Q3655173",
+   "articulos": {
+    "es": "Candelaria_de_Palmares",
+    "en": "Candelaria_District"
+   }
+  },
+  "20706": {
+   "visitas": 650,
+   "wikidata": "Q3733257",
+   "articulos": {
+    "es": "Esquipulas_de_Palmares",
+    "en": "Esquipulas_District"
+   }
+  },
+  "20707": {
+   "visitas": 426,
+   "wikidata": "Q3775740",
+   "articulos": {
+    "es": "La_Granja_de_Palmares",
+    "en": "La_Granja_District"
+   }
+  },
+  "20801": {
+   "visitas": 1220,
+   "wikidata": "Q2063040",
+   "articulos": {
+    "es": "San_Pedro_de_Poás",
+    "en": "San_Pedro_de_Poás"
+   }
+  },
+  "20802": {
+   "visitas": 631,
+   "wikidata": "Q3947430",
+   "articulos": {
+    "es": "San_Juan_de_Poás",
+    "en": "San_Juan_District,_Poás"
+   }
+  },
+  "20803": {
+   "visitas": 330,
+   "wikidata": "Q3947872",
+   "articulos": {
+    "es": "San_Rafael_(Poás)",
+    "en": "San_Rafael_District,_Poás"
+   }
+  },
+  "20804": {
+   "visitas": 734,
+   "wikidata": "Q2940270",
+   "articulos": {
+    "es": "Carrillos",
+    "en": "Carrillos"
+   }
+  },
+  "20805": {
+   "visitas": 681,
+   "wikidata": "Q3944202",
+   "articulos": {
+    "es": "Sabana_Redonda",
+    "en": "Sabana_Redonda"
+   }
+  },
+  "20901": {
+   "visitas": 3722,
+   "wikidata": "Q1179301",
+   "articulos": {
+    "es": "Orotina_(Costa_Rica)",
+    "en": "Orotina"
+   }
+  },
+  "20902": {
+   "visitas": 458,
+   "wikidata": "Q3851551",
+   "articulos": {
+    "es": "El_Mastate",
+    "en": "El_Mastate"
+   }
+  },
+  "20903": {
+   "visitas": 460,
+   "wikidata": "Q3782360",
+   "articulos": {
+    "es": "Hacienda_Vieja_de_Orotina",
+    "en": "Hacienda_Vieja"
+   }
+  },
+  "20904": {
+   "visitas": 711,
+   "wikidata": "Q3696384",
+   "articulos": {
+    "es": "Coyolar",
+    "en": "Coyolar"
+   }
+  },
+  "20905": {
+   "visitas": 742,
+   "wikidata": "Q3664181",
+   "articulos": {
+    "es": "La_Ceiba_de_Orotina",
+    "en": "La_Ceiba_District"
+   }
+  },
+  "21001": {
+   "visitas": 8460,
+   "wikidata": "Q787675",
+   "articulos": {
+    "es": "Quesada_(Costa_Rica)",
+    "en": "Quesada,_San_Carlos"
+   }
+  },
+  "21002": {
+   "visitas": 1472,
+   "wikidata": "Q3746694",
+   "articulos": {
+    "es": "Florencia_(San_Carlos)",
+    "en": "Florencia,_San_Carlos"
+   }
+  },
+  "21003": {
+   "visitas": 669,
+   "wikidata": "Q3646510",
+   "articulos": {
+    "es": "Buenavista_(San_Carlos)",
+    "en": "Buenavista,_San_Carlos"
+   }
+  },
+  "21004": {
+   "visitas": 3262,
+   "wikidata": "Q3606910",
+   "articulos": {
+    "es": "Aguas_Zarcas",
+    "en": "Aguas_Zarcas"
+   }
+  },
+  "21005": {
+   "visitas": 1428,
+   "wikidata": "Q4009513",
+   "articulos": {
+    "es": "Venecia_(San_Carlos)",
+    "en": "Venecia,_San_Carlos"
+   }
+  },
+  "21006": {
+   "visitas": 2481,
+   "wikidata": "Q3905819",
+   "articulos": {
+    "es": "Pital_(San_Carlos)",
+    "en": "Pital,_San_Carlos"
+   }
+  },
+  "21007": {
+   "visitas": 16581,
+   "wikidata": "Q3209157",
+   "articulos": {
+    "es": "La_Fortuna_(Costa_Rica)",
+    "en": "La_Fortuna,_San_Carlos"
+   }
+  },
+  "21008": {
+   "visitas": 1800,
+   "wikidata": "Q3991280",
+   "articulos": {
+    "es": "La_Tigra_(San_Carlos)",
+    "en": "La_Tigra,_San_Carlos"
+   }
+  },
+  "21009": {
+   "visitas": 1259,
+   "wikidata": "Q3892775",
+   "articulos": {
+    "es": "La_Palmera_(San_Carlos)",
+    "en": "La_Palmera,_San_Carlos"
+   }
+  },
+  "21010": {
+   "visitas": 948,
+   "wikidata": "Q4009458",
+   "articulos": {
+    "es": "Venado_(San_Carlos)",
+    "en": "Venado,_San_Carlos"
+   }
+  },
+  "21011": {
+   "visitas": 1405,
+   "wikidata": "Q3699797",
+   "articulos": {
+    "es": "Cutris",
+    "en": "Cutris"
+   }
+  },
+  "21012": {
+   "visitas": 1635,
+   "wikidata": "Q3862351",
+   "articulos": {
+    "es": "Monterrey_(San_Carlos)",
+    "en": "Monterrey,_San_Carlos"
+   }
+  },
+  "21013": {
+   "visitas": 1374,
+   "wikidata": "Q3906875",
+   "articulos": {
+    "es": "Pocosol",
+    "en": "Pocosol"
+   }
+  },
+  "21101": {
+   "visitas": 3608,
+   "wikidata": "Q975960",
+   "articulos": {
+    "es": "Zarcero_(Costa_Rica)",
+    "en": "Zarcero"
+   }
+  },
+  "21102": {
+   "visitas": 550,
+   "wikidata": "Q3826119",
+   "articulos": {
+    "es": "Laguna_de_Zarcero",
+    "en": "Laguna_District"
+   }
+  },
+  "21103": {
+   "visitas": 482,
+   "wikidata": "Q3980981",
+   "articulos": {
+    "es": "Tapesco",
+    "en": "Tapesco"
+   }
+  },
+  "21104": {
+   "visitas": 465,
+   "wikidata": "Q3778057",
+   "articulos": {
+    "es": "Guadalupe_de_Zarcero",
+    "en": "Guadalupe_District,_Zarcero"
+   }
+  },
+  "21105": {
+   "visitas": 615,
+   "wikidata": "Q3892797",
+   "articulos": {
+    "es": "Palmira_de_Zarcero",
+    "en": "Palmira_District,_Zarcero"
+   }
+  },
+  "21106": {
+   "visitas": 383,
+   "wikidata": "Q4023836",
+   "articulos": {
+    "es": "Zapote_de_Zarcero",
+    "en": "Zapote_District,_Zarcero"
+   }
+  },
+  "21107": {
+   "visitas": 486,
+   "wikidata": "Q3644841",
+   "articulos": {
+    "es": "Brisas_de_Zarcero",
+    "en": "Brisas"
+   }
+  },
+  "21201": {
+   "visitas": 2522,
+   "wikidata": "Q290882",
+   "articulos": {
+    "es": "Sarchí_Norte",
+    "en": "Sarchí_Norte"
+   }
+  },
+  "21202": {
+   "visitas": 457,
+   "wikidata": "Q3950450",
+   "articulos": {
+    "es": "Sarchí_Sur",
+    "en": "Sarchí_Sur"
+   }
+  },
+  "21203": {
+   "visitas": 1088,
+   "wikidata": "Q3995014",
+   "articulos": {
+    "es": "Toro_Amarillo",
+    "en": "Toro_Amarillo"
+   }
+  },
+  "21205": {
+   "visitas": 435,
+   "wikidata": "Q3940055",
+   "articulos": {
+    "es": "Rodríguez_(Costa_Rica)",
+    "en": "Rodríguez_District"
+   }
+  },
+  "21301": {
+   "visitas": 4774,
+   "wikidata": "Q2223674",
+   "articulos": {
+    "es": "Cantón_de_Upala",
+    "en": "Upala_(canton)"
+   }
+  },
+  "21302": {
+   "visitas": 1051,
+   "wikidata": "Q21993883",
+   "articulos": {
+    "es": "Aguas_Claras_de_Upala",
+    "en": "Aguas_Claras_District"
+   }
+  },
+  "21304": {
+   "visitas": 2578,
+   "wikidata": "Q3639885",
+   "articulos": {
+    "es": "Bijagua",
+    "en": "Bijagua_de_Upala"
+   }
+  },
+  "21305": {
+   "visitas": 521,
+   "wikidata": "Q3705017",
+   "articulos": {
+    "es": "Delicias_de_Upala",
+    "en": "Delicias_District"
+   }
+  },
+  "21306": {
+   "visitas": 791,
+   "wikidata": "Q3714426",
+   "articulos": {
+    "es": "Dos_Ríos_de_Upala",
+    "en": "Dos_Ríos_District"
+   }
+  },
+  "21307": {
+   "visitas": 427,
+   "wikidata": "Q4022846",
+   "articulos": {
+    "es": "Yolillal",
+    "en": "Yolillal"
+   }
+  },
+  "21308": {
+   "visitas": 666,
+   "wikidata": "Q61677760",
+   "articulos": {
+    "es": "Canalete_de_Upala",
+    "en": "Canalete_District"
+   }
+  },
+  "21401": {
+   "visitas": 2705,
+   "wikidata": "Q1189266",
+   "articulos": {
+    "es": "Cantón_de_Los_Chiles",
+    "en": "Los_Chiles_(canton)"
+   }
+  },
+  "21402": {
+   "visitas": 1362,
+   "wikidata": "Q3664048",
+   "articulos": {
+    "es": "Caño_Negro_(distrito)",
+    "en": "Caño_Negro_District"
+   }
+  },
+  "21403": {
+   "visitas": 571,
+   "wikidata": "Q3720846",
+   "articulos": {
+    "es": "El_Amparo_(Costa_Rica)",
+    "en": "El_Amparo_District"
+   }
+  },
+  "21404": {
+   "visitas": 606,
+   "wikidata": "Q3947381",
+   "articulos": {
+    "es": "San_Jorge_de_Los_Chiles",
+    "en": "San_Jorge_District"
+   }
+  },
+  "21501": {
+   "visitas": 1060,
+   "wikidata": "Q920624",
+   "articulos": {
+    "es": "San_Rafael_(Guatuso)",
+    "en": "San_Rafael_de_Guatuso"
+   }
+  },
+  "21503": {
+   "visitas": 377,
+   "wikidata": "Q3695885",
+   "articulos": {
+    "es": "Cote_(cantón_de_Guatuso)",
+    "en": "Cote_District"
+   }
+  },
+  "21504": {
+   "visitas": 815,
+   "wikidata": "Q61677720",
+   "articulos": {
+    "es": "Katira",
+    "en": "Katira"
+   }
+  },
+  "21601": {
+   "visitas": 4171,
+   "wikidata": "Q16627164",
+   "articulos": {
+    "es": "Cantón_de_Río_Cuarto",
+    "en": "Río_Cuarto_(canton)"
+   }
+  },
+  "21602": {
+   "visitas": 1032,
+   "wikidata": "Q96404973",
+   "articulos": {
+    "es": "Santa_Rita_de_Río_Cuarto",
+    "en": "Santa_Rita_District,_Río_Cuarto"
+   }
+  },
+  "21603": {
+   "visitas": 644,
+   "wikidata": "Q96404964",
+   "articulos": {
+    "es": "Santa_Isabel_de_Río_Cuarto",
+    "en": "Santa_Isabel_District,_Río_Cuarto"
+   }
+  },
+  "30101": {
+   "visitas": 2352,
+   "wikidata": "Q3885802",
+   "articulos": {
+    "es": "Oriental_de_Cartago",
+    "en": "Oriental_District"
+   }
+  },
+  "30102": {
+   "visitas": 1867,
+   "wikidata": "Q3880685",
+   "articulos": {
+    "es": "Occidental_de_Cartago",
+    "en": "Occidental_District"
+   }
+  },
+  "30103": {
+   "visitas": 1102,
+   "wikidata": "Q3660278",
+   "articulos": {
+    "es": "Carmen_de_Cartago",
+    "en": "Carmen_District,_Cartago"
+   }
+  },
+  "30104": {
+   "visitas": 2362,
+   "wikidata": "Q3947726",
+   "articulos": {
+    "es": "San_Nicolás_(Cartago)",
+    "en": "San_Nicolás_District,_Cartago"
+   }
+  },
+  "30107": {
+   "visitas": 1714,
+   "wikidata": "Q3694374",
+   "articulos": {
+    "es": "Corralillo_de_Cartago",
+    "en": "Corralillo_District"
+   }
+  },
+  "30108": {
+   "visitas": 1189,
+   "wikidata": "Q3991217",
+   "articulos": {
+    "es": "Tierra_Blanca_(Costa_Rica)",
+    "en": "Tierra_Blanca,_Cartago"
+   }
+  },
+  "30110": {
+   "visitas": 1317,
+   "wikidata": "Q3835729",
+   "articulos": {
+    "es": "Llano_Grande_(Costa_Rica)",
+    "en": "Llano_Grande_District"
+   }
+  },
+  "30111": {
+   "visitas": 868,
+   "wikidata": "Q3927425",
+   "articulos": {
+    "es": "Quebradilla",
+    "en": "Quebradilla"
+   }
+  },
+  "30201": {
+   "visitas": 3728,
+   "wikidata": "Q2618877",
+   "articulos": {
+    "es": "Cantón_de_Paraíso",
+    "en": "Paraíso_(canton)"
+   }
+  },
+  "30202": {
+   "visitas": 618,
+   "wikidata": "Q3949381",
+   "articulos": {
+    "es": "Santiago_de_Paraíso",
+    "en": "Santiago_District,_Paraíso"
+   }
+  },
+  "30203": {
+   "visitas": 2591,
+   "wikidata": "Q1757497",
+   "articulos": {
+    "es": "Orosi",
+    "en": "Orosi,_Cartago"
+   }
+  },
+  "30204": {
+   "visitas": 976,
+   "wikidata": "Q3649374",
+   "articulos": {
+    "es": "Cachí",
+    "en": "Cachí,_Costa_Rica"
+   }
+  },
+  "30205": {
+   "visitas": 1212,
+   "wikidata": "Q5943633",
+   "articulos": {
+    "es": "Llanos_de_Santa_Lucía",
+    "en": "Llanos_de_Santa_Lucía"
+   }
+  },
+  "30206": {
+   "visitas": 1125,
+   "wikidata": "Q110315049",
+   "articulos": {
+    "es": "Birrisito",
+    "en": "Birrisito"
+   }
+  },
+  "30301": {
+   "visitas": 4603,
+   "wikidata": "Q1112873",
+   "articulos": {
+    "es": "Tres_Ríos_(La_Unión)",
+    "en": "Tres_Ríos,_Cartago"
+   }
+  },
+  "30302": {
+   "visitas": 1291,
+   "wikidata": "Q26760326",
+   "articulos": {
+    "es": "San_Diego_(La_Unión)",
+    "en": "San_Diego_District"
+   }
+  },
+  "30303": {
+   "visitas": 1075,
+   "wikidata": "Q3947429",
+   "articulos": {
+    "es": "San_Juan_de_La_Unión_(Costa_Rica)",
+    "en": "San_Juan_District,_La_Unión"
+   }
+  },
+  "30304": {
+   "visitas": 294,
+   "wikidata": "Q3947870",
+   "articulos": {
+    "es": "San_Rafael_(La_Unión)",
+    "en": "San_Rafael_District,_La_Unión"
+   }
+  },
+  "30305": {
+   "visitas": 1377,
+   "wikidata": "Q3686041",
+   "articulos": {
+    "es": "Concepción_de_La_Unión",
+    "en": "Concepción_District,_La_Unión"
+   }
+  },
+  "30306": {
+   "visitas": 830,
+   "wikidata": "Q3716179",
+   "articulos": {
+    "es": "Dulce_Nombre_de_La_Unión",
+    "en": "Dulce_Nombre_District,_La_Unión"
+   }
+  },
+  "30307": {
+   "visitas": 620,
+   "wikidata": "Q3947893",
+   "articulos": {
+    "es": "San_Ramón_de_La_Unión",
+    "en": "San_Ramón_District,_La_Unión"
+   }
+  },
+  "30308": {
+   "visitas": 1248,
+   "wikidata": "Q3943207",
+   "articulos": {
+    "es": "Río_Azul_(Costa_Rica)",
+    "en": "Río_Azul_District"
+   }
+  },
+  "30401": {
+   "visitas": 1557,
+   "wikidata": "Q1579189",
+   "articulos": {
+    "es": "Juan_Viñas_(Costa_Rica)",
+    "en": "Juan_Viñas"
+   }
+  },
+  "30402": {
+   "visitas": 1782,
+   "wikidata": "Q4000174",
+   "articulos": {
+    "es": "Tucurrique",
+    "en": "Tucurrique"
+   }
+  },
+  "30404": {
+   "visitas": 333,
+   "wikidata": "Q111784083",
+   "articulos": {
+    "es": "La_Victoria_(Costa_Rica)"
+   }
+  },
+  "30501": {
+   "visitas": 7648,
+   "wikidata": "Q546876",
+   "articulos": {
+    "es": "Volcán_Turrialba",
+    "en": "Turrialba_Volcano"
+   }
+  },
+  "30502": {
+   "visitas": 1269,
+   "wikidata": "Q3821224",
+   "articulos": {
+    "es": "La_Suiza_de_Turrialba",
+    "en": "La_Suiza_District"
+   }
+  },
+  "30503": {
+   "visitas": 624,
+   "wikidata": "Q3899637",
+   "articulos": {
+    "es": "Peralta_de_Turrialba",
+    "en": "Peralta_District"
+   }
+  },
+  "30504": {
+   "visitas": 923,
+   "wikidata": "Q25406629",
+   "articulos": {
+    "es": "Santa_Cruz_(Turrialba)",
+    "en": "Santa_Cruz_District,_Turrialba"
+   }
+  },
+  "30505": {
+   "visitas": 669,
+   "wikidata": "Q3949259",
+   "articulos": {
+    "es": "Santa_Teresita_(Turrialba)",
+    "en": "Santa_Teresita_District"
+   }
+  },
+  "30506": {
+   "visitas": 676,
+   "wikidata": "Q3898367",
+   "articulos": {
+    "es": "Pavones_de_Turrialba",
+    "en": "Pavones_District"
+   }
+  },
+  "30507": {
+   "visitas": 648,
+   "wikidata": "Q4000276",
+   "articulos": {
+    "es": "Tuis",
+    "en": "Tuis_District"
+   }
+  },
+  "30508": {
+   "visitas": 683,
+   "wikidata": "Q3981679",
+   "articulos": {
+    "es": "Tayutic",
+    "en": "Tayutic"
+   }
+  },
+  "30509": {
+   "visitas": 481,
+   "wikidata": "Q3949238",
+   "articulos": {
+    "es": "Santa_Rosa_de_Turrialba",
+    "en": "Santa_Rosa_District,_Turrialba"
+   }
+  },
+  "30510": {
+   "visitas": 674,
+   "wikidata": "Q3998417",
+   "articulos": {
+    "es": "Tres_Equis_de_Turrialba",
+    "en": "Tres_Equis"
+   }
+  },
+  "30511": {
+   "visitas": 372,
+   "wikidata": "Q61679093",
+   "articulos": {
+    "es": "La_Isabel_de_Turrialba",
+    "en": "La_Isabel"
+   }
+  },
+  "30512": {
+   "visitas": 665,
+   "wikidata": "Q61596486",
+   "articulos": {
+    "es": "Territorio_Indígena_Alto_Chirripó",
+    "en": "Alto_Chirripó"
+   }
+  },
+  "30601": {
+   "visitas": 1388,
+   "wikidata": "Q3358097",
+   "articulos": {
+    "es": "Pacayas",
+    "en": "Pacayas"
+   }
+  },
+  "30602": {
+   "visitas": 1237,
+   "wikidata": "Q3665222",
+   "articulos": {
+    "es": "Cervantes_(Costa_Rica)",
+    "en": "Cervantes_District"
+   }
+  },
+  "30603": {
+   "visitas": 996,
+   "wikidata": "Q3656787",
+   "articulos": {
+    "es": "Capellades_(Costa_Rica)",
+    "en": "Capellades_District"
+   }
+  },
+  "30701": {
+   "visitas": 1616,
+   "wikidata": "Q1579174",
+   "articulos": {
+    "es": "San_Rafael_(Oreamuno)",
+    "en": "San_Rafael_District,_Oreamuno"
+   }
+  },
+  "30702": {
+   "visitas": 1348,
+   "wikidata": "Q3695881",
+   "articulos": {
+    "es": "Cot_(Oreamuno)",
+    "en": "Cot_District"
+   }
+  },
+  "30703": {
+   "visitas": 859,
+   "wikidata": "Q3909576",
+   "articulos": {
+    "es": "Potrero_Cerrado",
+    "en": "Potrero_Cerrado"
+   }
+  },
+  "30704": {
+   "visitas": 637,
+   "wikidata": "Q3677436",
+   "articulos": {
+    "es": "Cipreses_(Costa_Rica)",
+    "en": "Cipreses"
+   }
+  },
+  "30801": {
+   "visitas": 2079,
+   "wikidata": "Q1757718",
+   "articulos": {
+    "es": "El_Tejar_(Costa_Rica)",
+    "en": "El_Tejar_de_El_Guarco"
+   }
+  },
+  "30802": {
+   "visitas": 893,
+   "wikidata": "Q3947362",
+   "articulos": {
+    "es": "San_Isidro_de_El_Guarco",
+    "en": "San_Isidro_District,_El_Guarco"
+   }
+  },
+  "30803": {
+   "visitas": 1008,
+   "wikidata": "Q3992114",
+   "articulos": {
+    "es": "Tobosi",
+    "en": "Tobosi"
+   }
+  },
+  "30804": {
+   "visitas": 576,
+   "wikidata": "Q3897649",
+   "articulos": {
+    "es": "Patio_de_Agua",
+    "en": "Patio_de_Agua"
+   }
+  },
+  "40101": {
+   "visitas": 7276,
+   "wikidata": "Q2610288",
+   "articulos": {
+    "es": "Cantón_de_Heredia",
+    "en": "Heredia_(canton)"
+   }
+  },
+  "40102": {
+   "visitas": 1950,
+   "wikidata": "Q3854927",
+   "articulos": {
+    "es": "Mercedes_de_Heredia",
+    "en": "Mercedes_District,_Heredia"
+   }
+  },
+  "40103": {
+   "visitas": 2486,
+   "wikidata": "Q586184",
+   "articulos": {
+    "es": "San_Francisco_(Heredia)",
+    "en": "San_Francisco_District,_Heredia"
+   }
+  },
+  "40104": {
+   "visitas": 3059,
+   "wikidata": "Q4003082",
+   "articulos": {
+    "es": "Ulloa_de_Heredia",
+    "en": "Ulloa_District"
+   }
+  },
+  "40105": {
+   "visitas": 2052,
+   "wikidata": "Q4008676",
+   "articulos": {
+    "es": "Vara_Blanca",
+    "en": "Varablanca"
+   }
+  },
+  "40201": {
+   "visitas": 4459,
+   "wikidata": "Q2614093",
+   "articulos": {
+    "es": "Cantón_de_Barva",
+    "en": "Barva"
+   }
+  },
+  "40202": {
+   "visitas": 756,
+   "wikidata": "Q3947777",
+   "articulos": {
+    "es": "San_Pedro_de_Barva",
+    "en": "San_Pedro_District,_Barva"
+   }
+  },
+  "40203": {
+   "visitas": 481,
+   "wikidata": "Q3947740",
+   "articulos": {
+    "es": "San_Pablo_de_Barva",
+    "en": "San_Pablo_District,_Barva"
+   }
+  },
+  "40204": {
+   "visitas": 563,
+   "wikidata": "Q3947914",
+   "articulos": {
+    "es": "San_Roque_de_Barva",
+    "en": "San_Roque_District,_Barva"
+   }
+  },
+  "40205": {
+   "visitas": 989,
+   "wikidata": "Q3949071",
+   "articulos": {
+    "es": "Santa_Lucía_de_Barva",
+    "en": "Santa_Lucía_District"
+   }
+  },
+  "40206": {
+   "visitas": 1124,
+   "wikidata": "Q3947422",
+   "articulos": {
+    "es": "San_José_de_la_Montaña_(Costa_Rica)",
+    "en": "San_José_de_la_Montaña_District"
+   }
+  },
+  "40301": {
+   "visitas": 4852,
+   "wikidata": "Q2405941",
+   "articulos": {
+    "es": "Cantón_de_Santo_Domingo_(Costa_Rica)",
+    "en": "Santo_Domingo,_Costa_Rica"
+   }
+  },
+  "40302": {
+   "visitas": 553,
+   "wikidata": "Q3948024",
+   "articulos": {
+    "es": "San_Vicente_de_Santo_Domingo",
+    "en": "San_Vicente_District,_Santo_Domingo"
+   }
+  },
+  "40303": {
+   "visitas": 704,
+   "wikidata": "Q3947700",
+   "articulos": {
+    "es": "San_Miguel_de_Santo_Domingo",
+    "en": "San_Miguel_District,_Santo_Domingo"
+   }
+  },
+  "40304": {
+   "visitas": 664,
+   "wikidata": "Q3894980",
+   "articulos": {
+    "es": "Paracito",
+    "en": "Paracito"
+   }
+  },
+  "40305": {
+   "visitas": 787,
+   "wikidata": "Q3949524",
+   "articulos": {
+    "es": "Santo_Tomás_de_Santo_Domingo",
+    "en": "Santo_Tomás_District,_Santo_Domingo"
+   }
+  },
+  "40306": {
+   "visitas": 491,
+   "wikidata": "Q3949237",
+   "articulos": {
+    "es": "Santa_Rosa_de_Santo_Domingo",
+    "en": "Santa_Rosa_District,_Santo_Domingo"
+   }
+  },
+  "40307": {
+   "visitas": 776,
+   "wikidata": "Q4000592",
+   "articulos": {
+    "es": "Tures",
+    "en": "Tures"
+   }
+  },
+  "40308": {
+   "visitas": 779,
+   "wikidata": "Q3896901",
+   "articulos": {
+    "es": "Pará_(Costa_Rica)",
+    "en": "Pará_District,_Santo_Domingo"
+   }
+  },
+  "40401": {
+   "visitas": 2823,
+   "wikidata": "Q2610157",
+   "articulos": {
+    "es": "Cantón_de_Santa_Bárbara",
+    "en": "Santa_Bárbara_(canton)"
+   }
+  },
+  "40402": {
+   "visitas": 809,
+   "wikidata": "Q3947781",
+   "articulos": {
+    "es": "San_Pedro_de_Santa_Bárbara",
+    "en": "San_Pedro_de_Santa_Bárbara"
+   }
+  },
+  "40403": {
+   "visitas": 787,
+   "wikidata": "Q3947433",
+   "articulos": {
+    "es": "San_Juan_de_Santa_Bárbara",
+    "en": "San_Juan_de_Santa_Bárbara"
+   }
+  },
+  "40404": {
+   "visitas": 681,
+   "wikidata": "Q3808184",
+   "articulos": {
+    "es": "Jesús_de_Santa_Bárbara",
+    "en": "Jesús_de_Santa_Bárbara"
+   }
+  },
+  "40405": {
+   "visitas": 328,
+   "wikidata": "Q3949481",
+   "articulos": {
+    "es": "Santo_Domingo_(Santa_Bárbara)",
+    "en": "Santo_Domingo_District,_Santa_Bárbara"
+   }
+  },
+  "40406": {
+   "visitas": 643,
+   "wikidata": "Q3925895",
+   "articulos": {
+    "es": "Purabá",
+    "en": "Purabá"
+   }
+  },
+  "40501": {
+   "visitas": 808,
+   "wikidata": "Q3947875",
+   "articulos": {
+    "es": "San_Rafael_(Heredia)",
+    "en": "San_Rafael_District,_San_Rafael"
+   }
+  },
+  "40502": {
+   "visitas": 1052,
+   "wikidata": "Q3947398",
+   "articulos": {
+    "es": "San_Josecito_de_San_Rafael",
+    "en": "San_Josecito"
+   }
+  },
+  "40503": {
+   "visitas": 792,
+   "wikidata": "Q3949385",
+   "articulos": {
+    "es": "Santiago_de_San_Rafael",
+    "en": "Santiago_District,_San_Rafael"
+   }
+  },
+  "40504": {
+   "visitas": 1021,
+   "wikidata": "Q3616799",
+   "articulos": {
+    "es": "Ángeles_de_San_Rafael_(Costa_Rica)",
+    "en": "Ángeles_District,_San_Rafael"
+   }
+  },
+  "40505": {
+   "visitas": 548,
+   "wikidata": "Q3686043",
+   "articulos": {
+    "es": "Concepción_de_San_Rafael",
+    "en": "Concepción_District,_San_Rafael"
+   }
+  },
+  "40601": {
+   "visitas": 4030,
+   "wikidata": "Q2610270",
+   "articulos": {
+    "es": "Cantón_de_San_Isidro",
+    "en": "San_Isidro_(canton)"
+   }
+  },
+  "40602": {
+   "visitas": 602,
+   "wikidata": "Q3947405",
+   "articulos": {
+    "es": "San_José_de_San_Isidro",
+    "en": "San_José_District,_San_Isidro"
+   }
+  },
+  "40603": {
+   "visitas": 468,
+   "wikidata": "Q3686042",
+   "articulos": {
+    "es": "Concepción_de_San_Isidro",
+    "en": "Concepción_District,_San_Isidro"
+   }
+  },
+  "40604": {
+   "visitas": 537,
+   "wikidata": "Q3947120",
+   "articulos": {
+    "es": "San_Francisco_de_San_Isidro",
+    "en": "San_Francisco_District,_San_Isidro"
+   }
+  },
+  "40701": {
+   "visitas": 2145,
+   "wikidata": "Q3946712",
+   "articulos": {
+    "es": "San_Antonio_(Belén)",
+    "en": "San_Antonio_District,_Belén"
+   }
+  },
+  "40702": {
+   "visitas": 1308,
+   "wikidata": "Q3937916",
+   "articulos": {
+    "es": "La_Ribera_de_Belén",
+    "en": "La_Ribera_District"
+   }
+  },
+  "40703": {
+   "visitas": 910,
+   "wikidata": "Q3627686",
+   "articulos": {
+    "es": "La_Asunción_(Costa_Rica)",
+    "en": "La_Asunción_District"
+   }
+  },
+  "40801": {
+   "visitas": 4731,
+   "wikidata": "Q3947380",
+   "articulos": {
+    "es": "San_Joaquín_(Flores)",
+    "en": "San_Joaquín_de_Flores"
+   }
+  },
+  "40802": {
+   "visitas": 725,
+   "wikidata": "Q3635164",
+   "articulos": {
+    "es": "Barrantes_de_Flores",
+    "en": "Barrantes_District"
+   }
+  },
+  "40803": {
+   "visitas": 951,
+   "wikidata": "Q3835738",
+   "articulos": {
+    "es": "Llorente_de_Flores",
+    "en": "Llorente_District"
+   }
+  },
+  "40901": {
+   "visitas": 2616,
+   "wikidata": "Q2610299",
+   "articulos": {
+    "es": "Cantón_de_San_Pablo_(Costa_Rica)",
+    "en": "San_Pablo_(canton)"
+   }
+  },
+  "40902": {
+   "visitas": 758,
+   "wikidata": "Q61679436",
+   "articulos": {
+    "es": "Rincón_de_Sabanilla",
+    "en": "Rincón_de_Sabanilla"
+   }
+  },
+  "41001": {
+   "visitas": 5046,
+   "wikidata": "Q2618087",
+   "articulos": {
+    "es": "Puerto_Viejo_(Sarapiquí)",
+    "en": "Puerto_Viejo,_Sarapiquí"
+   }
+  },
+  "41002": {
+   "visitas": 1600,
+   "wikidata": "Q3821320",
+   "articulos": {
+    "es": "La_Virgen_(Sarapiquí)",
+    "en": "La_Virgen"
+   }
+  },
+  "41003": {
+   "visitas": 1667,
+   "wikidata": "Q3786800",
+   "articulos": {
+    "es": "Las_Horquetas",
+    "en": "Las_Horquetas"
+   }
+  },
+  "41004": {
+   "visitas": 708,
+   "wikidata": "Q3835732",
+   "articulos": {
+    "es": "Llanuras_del_Gaspar",
+    "en": "Llanuras_del_Gaspar"
+   }
+  },
+  "41005": {
+   "visitas": 745,
+   "wikidata": "Q3699607",
+   "articulos": {
+    "es": "Cureña_(Sarapiquí)",
+    "en": "Cureña"
+   }
+  },
+  "50101": {
+   "visitas": 42189,
+   "wikidata": "Q1387526",
+   "articulos": {
+    "es": "Liberia_(Costa_Rica)",
+    "en": "Liberia,_Costa_Rica"
+   }
+  },
+  "50102": {
+   "visitas": 1096,
+   "wikidata": "Q3664047",
+   "articulos": {
+    "es": "Cañas_Dulces",
+    "en": "Cañas_Dulces_District"
+   }
+  },
+  "50103": {
+   "visitas": 546,
+   "wikidata": "Q19720687",
+   "articulos": {
+    "es": "Mayorga_(Costa_Rica)",
+    "en": "Mayorga_de_Liberia"
+   }
+  },
+  "50104": {
+   "visitas": 1163,
+   "wikidata": "Q3869794",
+   "articulos": {
+    "es": "Nacascolo_(Costa_Rica)",
+    "en": "Nacascolo"
+   }
+  },
+  "50105": {
+   "visitas": 1128,
+   "wikidata": "Q659833",
+   "articulos": {
+    "es": "Curubandé",
+    "en": "Curubandé_de_Liberia"
+   }
+  },
+  "50201": {
+   "visitas": 13636,
+   "wikidata": "Q2486629",
+   "articulos": {
+    "es": "Nicoya_(Costa_Rica)",
+    "en": "Nicoya"
+   }
+  },
+  "50202": {
+   "visitas": 932,
+   "wikidata": "Q3844873",
+   "articulos": {
+    "es": "Mansión_de_Nicoya",
+    "en": "Mansión"
+   }
+  },
+  "50203": {
+   "visitas": 610,
+   "wikidata": "Q3946720",
+   "articulos": {
+    "es": "San_Antonio_de_Nicoya",
+    "en": "San_Antonio_District,_Nicoya"
+   }
+  },
+  "50204": {
+   "visitas": 765,
+   "wikidata": "Q3927424",
+   "articulos": {
+    "es": "Quebrada_Honda_(Costa_Rica)",
+    "en": "Quebrada_Honda_District"
+   }
+  },
+  "50205": {
+   "visitas": 4869,
+   "wikidata": "Q3438102",
+   "articulos": {
+    "es": "Sámara_(Costa_Rica)",
+    "en": "Sámara"
+   }
+  },
+  "50206": {
+   "visitas": 10225,
+   "wikidata": "Q3374706",
+   "articulos": {
+    "es": "Nosara",
+    "en": "Nosara"
+   }
+  },
+  "50207": {
+   "visitas": 626,
+   "wikidata": "Q61694790",
+   "articulos": {
+    "es": "Belén_de_Nosarita",
+    "en": "Belén_de_Nosarita"
+   }
+  },
+  "50301": {
+   "visitas": 7463,
+   "wikidata": "Q2291051",
+   "articulos": {
+    "es": "Cantón_de_Santa_Cruz_(Costa_Rica)",
+    "en": "Santa_Cruz_(canton),_Costa_Rica"
+   }
+  },
+  "50302": {
+   "visitas": 787,
+   "wikidata": "Q19873703",
+   "articulos": {
+    "es": "Bolsón_(Costa_Rica)",
+    "en": "Bolsón_District"
+   }
+  },
+  "50303": {
+   "visitas": 1864,
+   "wikidata": "Q3598571",
+   "articulos": {
+    "es": "Veintisiete_de_Abril",
+    "en": "Veintisiete_de_Abril_District"
+   }
+  },
+  "50304": {
+   "visitas": 1100,
+   "wikidata": "Q3983103",
+   "articulos": {
+    "es": "Tempate",
+    "en": "Tempate"
+   }
+  },
+  "50305": {
+   "visitas": 1681,
+   "wikidata": "Q3660873",
+   "articulos": {
+    "es": "Cartagena_(Costa_Rica)",
+    "en": "Cartagena_District"
+   }
+  },
+  "50306": {
+   "visitas": 1459,
+   "wikidata": "Q3699018",
+   "articulos": {
+    "es": "Cuajiniquil_de_Santa_Cruz",
+    "en": "Cuajiniquil_District"
+   }
+  },
+  "50307": {
+   "visitas": 631,
+   "wikidata": "Q3709159",
+   "articulos": {
+    "es": "Diriá_(Costa_Rica)",
+    "en": "Diriá,_Costa_Rica"
+   }
+  },
+  "50308": {
+   "visitas": 1760,
+   "wikidata": "Q3649211",
+   "articulos": {
+    "es": "Cabo_Velas",
+    "en": "Cabo_Velas"
+   }
+  },
+  "50309": {
+   "visitas": 36846,
+   "wikidata": "Q2302554",
+   "articulos": {
+    "es": "Tamarindo_(Costa_Rica)",
+    "en": "Tamarindo,_Costa_Rica"
+   }
+  },
+  "50401": {
+   "visitas": 3255,
+   "wikidata": "Q1401294",
+   "articulos": {
+    "es": "Bagaces",
+    "en": "Bagaces"
+   }
+  },
+  "50402": {
+   "visitas": 1392,
+   "wikidata": "Q19720576",
+   "articulos": {
+    "es": "La_Fortuna_de_Bagaces",
+    "en": "La_Fortuna,_Bagaces_Cantón"
+   }
+  },
+  "50403": {
+   "visitas": 925,
+   "wikidata": "Q3860082",
+   "articulos": {
+    "es": "Mogote_(Bagaces)",
+    "en": "Mogote_de_Bagaces"
+   }
+  },
+  "50404": {
+   "visitas": 692,
+   "wikidata": "Q3943214",
+   "articulos": {
+    "es": "Río_Naranjo_de_Bagaces",
+    "en": "Río_Naranjo_District"
+   }
+  },
+  "50501": {
+   "visitas": 2654,
+   "wikidata": "Q615013",
+   "articulos": {
+    "es": "Filadelfia_(Costa_Rica)",
+    "en": "Filadelfia_de_Guanacaste"
+   }
+  },
+  "50502": {
+   "visitas": 782,
+   "wikidata": "Q3892798",
+   "articulos": {
+    "es": "Palmira_de_Carrillo",
+    "en": "Palmira_District,_Carrillo"
+   }
+  },
+  "50503": {
+   "visitas": 2902,
+   "wikidata": "Q3950517",
+   "articulos": {
+    "es": "Sardinal_de_Carrillo",
+    "en": "Sardinal"
+   }
+  },
+  "50504": {
+   "visitas": 1142,
+   "wikidata": "Q3637906",
+   "articulos": {
+    "es": "Belén_de_Carrillo",
+    "en": "Belén_District,_Carrillo"
+   }
+  },
+  "50601": {
+   "visitas": 3301,
+   "wikidata": "Q2225426",
+   "articulos": {
+    "es": "Cantón_de_Cañas",
+    "en": "Cañas_(canton)"
+   }
+  },
+  "50602": {
+   "visitas": 538,
+   "wikidata": "Q3892801",
+   "articulos": {
+    "es": "Palmira_de_Cañas",
+    "en": "Palmira_District,_Cañas"
+   }
+  },
+  "50603": {
+   "visitas": 612,
+   "wikidata": "Q3947696",
+   "articulos": {
+    "es": "San_Miguel_de_Cañas",
+    "en": "San_Miguel_District,_Cañas"
+   }
+  },
+  "50604": {
+   "visitas": 495,
+   "wikidata": "Q3637340",
+   "articulos": {
+    "es": "Bebedero_(Costa_Rica)",
+    "en": "Bebedero_District"
+   }
+  },
+  "50605": {
+   "visitas": 348,
+   "wikidata": "Q3908537",
+   "articulos": {
+    "es": "Porozal",
+    "en": "Porozal"
+   }
+  },
+  "50701": {
+   "visitas": 1752,
+   "wikidata": "Q1578889",
+   "articulos": {
+    "es": "Las_Juntas_(Costa_Rica)",
+    "en": "Las_Juntas_District"
+   }
+  },
+  "50702": {
+   "visitas": 666,
+   "wikidata": "Q3960257",
+   "articulos": {
+    "es": "Sierra_de_Abangares",
+    "en": "Sierra,_Abangares"
+   }
+  },
+  "50703": {
+   "visitas": 454,
+   "wikidata": "Q3947427",
+   "articulos": {
+    "es": "San_Juan_de_Abangares",
+    "en": "San_Juan_District,_Abangares"
+   }
+  },
+  "50704": {
+   "visitas": 1055,
+   "wikidata": "Q3683602",
+   "articulos": {
+    "es": "Colorado_de_Abangares",
+    "en": "Colorado_District"
+   }
+  },
+  "50801": {
+   "visitas": 4661,
+   "wikidata": "Q2517654",
+   "articulos": {
+    "es": "Cantón_de_Tilarán",
+    "en": "Tilarán_(canton)"
+   }
+  },
+  "50802": {
+   "visitas": 707,
+   "wikidata": "Q3927423",
+   "articulos": {
+    "es": "Quebrada_Grande",
+    "en": "Quebrada_Grande_District"
+   }
+  },
+  "50803": {
+   "visitas": 1586,
+   "wikidata": "Q3999667",
+   "articulos": {
+    "es": "Tronadora_(Tilarán)",
+    "en": "Tronadora"
+   }
+  },
+  "50804": {
+   "visitas": 445,
+   "wikidata": "Q3949239",
+   "articulos": {
+    "es": "Santa_Rosa_de_Tilarán",
+    "en": "Santa_Rosa_District,_Tilarán"
+   }
+  },
+  "50805": {
+   "visitas": 484,
+   "wikidata": "Q3841108",
+   "articulos": {
+    "es": "Líbano_de_Tilarán",
+    "en": "Líbano_District"
+   }
+  },
+  "50806": {
+   "visitas": 740,
+   "wikidata": "Q3991218",
+   "articulos": {
+    "es": "Tierras_Morenas",
+    "en": "Tierras_Morenas"
+   }
+  },
+  "50807": {
+   "visitas": 628,
+   "wikidata": "Q3622158",
+   "articulos": {
+    "es": "Arenal_de_Tilarán",
+    "en": "Arenal_District,_Tilarán"
+   }
+  },
+  "50808": {
+   "visitas": 590,
+   "wikidata": "Q98593056",
+   "articulos": {
+    "es": "Cabeceras",
+    "en": "Cabeceras_District,_Tilarán"
+   }
+  },
+  "50901": {
+   "visitas": 671,
+   "wikidata": "Q3660392",
+   "articulos": {
+    "es": "Carmona_(Costa_Rica)",
+    "en": "Carmona_District,_Nandayure"
+   }
+  },
+  "50902": {
+   "visitas": 510,
+   "wikidata": "Q3949231",
+   "articulos": {
+    "es": "Santa_Rita_de_Nandayure",
+    "en": "Santa_Rita_District,_Nandayure"
+   }
+  },
+  "50904": {
+   "visitas": 573,
+   "wikidata": "Q3947742",
+   "articulos": {
+    "es": "San_Pablo_de_Nandayure",
+    "en": "San_Pablo_District,_Nandayure"
+   }
+  },
+  "50906": {
+   "visitas": 915,
+   "wikidata": "Q3637537",
+   "articulos": {
+    "es": "Bejuco_(Costa_Rica)",
+    "en": "Bejuco_District"
+   }
+  },
+  "51001": {
+   "visitas": 2699,
+   "wikidata": "Q2518042",
+   "articulos": {
+    "es": "Cantón_de_La_Cruz",
+    "en": "La_Cruz_(canton)"
+   }
+  },
+  "51003": {
+   "visitas": 655,
+   "wikidata": "Q3758376",
+   "articulos": {
+    "es": "La_Garita_(La_Cruz)",
+    "en": "La_Garita_District"
+   }
+  },
+  "51004": {
+   "visitas": 933,
+   "wikidata": "Q3949002",
+   "articulos": {
+    "es": "Santa_Elena_de_La_Cruz",
+    "en": "Santa_Elena_District,_La_Cruz"
+   }
+  },
+  "51101": {
+   "visitas": 3471,
+   "wikidata": "Q2518200",
+   "articulos": {
+    "es": "Cantón_de_Hojancha",
+    "en": "Hojancha_(canton)"
+   }
+  },
+  "51102": {
+   "visitas": 510,
+   "wikidata": "Q3861912",
+   "articulos": {
+    "es": "Monte_Romo",
+    "en": "Monte_Romo"
+   }
+  },
+  "51103": {
+   "visitas": 2393,
+   "wikidata": "Q664276",
+   "articulos": {
+    "es": "Puerto_Carrillo",
+    "en": "Puerto_Carrillo"
+   }
+  },
+  "51104": {
+   "visitas": 1168,
+   "wikidata": "Q3787363",
+   "articulos": {
+    "es": "Huacas_de_Hojancha",
+    "en": "Huacas_District"
+   }
+  },
+  "51105": {
+   "visitas": 1180,
+   "wikidata": "Q21006708",
+   "articulos": {
+    "es": "Matambú",
+    "en": "Matambú"
+   }
+  },
+  "60101": {
+   "visitas": 30337,
+   "wikidata": "Q30687",
+   "articulos": {
+    "es": "Puntarenas_(ciudad)",
+    "en": "Puntarenas"
+   }
+  },
+  "60102": {
+   "visitas": 670,
+   "wikidata": "Q3905820",
+   "articulos": {
+    "es": "Pitahaya_(Costa_Rica)",
+    "en": "Pitahaya_District"
+   }
+  },
+  "60103": {
+   "visitas": 1648,
+   "wikidata": "Q3675391",
+   "articulos": {
+    "es": "Chomes",
+    "en": "Chomes"
+   }
+  },
+  "60104": {
+   "visitas": 1581,
+   "wikidata": "Q3830731",
+   "articulos": {
+    "es": "Lepanto_(Puntarenas)",
+    "en": "Lepanto_District"
+   }
+  },
+  "60105": {
+   "visitas": 2511,
+   "wikidata": "Q3894943",
+   "articulos": {
+    "es": "Paquera",
+    "en": "Paquera"
+   }
+  },
+  "60106": {
+   "visitas": 1010,
+   "wikidata": "Q3845158",
+   "articulos": {
+    "es": "Manzanillo_de_Puntarenas",
+    "en": "Manzanillo_District"
+   }
+  },
+  "60107": {
+   "visitas": 802,
+   "wikidata": "Q3778030",
+   "articulos": {
+    "es": "Guacimal",
+    "en": "Guacimal"
+   }
+  },
+  "60108": {
+   "visitas": 1818,
+   "wikidata": "Q3635158",
+   "articulos": {
+    "es": "Barranca_de_Puntarenas",
+    "en": "Barranca_District"
+   }
+  },
+  "60110": {
+   "visitas": 77697,
+   "wikidata": "Q215081",
+   "articulos": {
+    "es": "Isla_del_Coco",
+    "en": "Cocos_Island"
+   }
+  },
+  "60111": {
+   "visitas": 4305,
+   "wikidata": "Q3700063",
+   "articulos": {
+    "es": "Cóbano",
+    "en": "Cóbano"
+   }
+  },
+  "60112": {
+   "visitas": 1576,
+   "wikidata": "Q3665705",
+   "articulos": {
+    "es": "Chacarita_(Costa_Rica)",
+    "en": "Chacarita_District"
+   }
+  },
+  "60113": {
+   "visitas": 3876,
+   "wikidata": "Q164096",
+   "articulos": {
+    "es": "Isla_de_Chira",
+    "en": "Chira_Island"
+   }
+  },
+  "60114": {
+   "visitas": 678,
+   "wikidata": "Q3603908",
+   "articulos": {
+    "es": "Acapulco_(Costa_Rica)",
+    "en": "Acapulco_District"
+   }
+  },
+  "60115": {
+   "visitas": 2805,
+   "wikidata": "Q2412778",
+   "articulos": {
+    "es": "El_Roble_de_Puntarenas",
+    "en": "El_Roble_District"
+   }
+  },
+  "60116": {
+   "visitas": 555,
+   "wikidata": "Q61695490",
+   "articulos": {
+    "es": "Arancibia_de_Puntarenas",
+    "en": "Arancibia_District"
+   }
+  },
+  "60201": {
+   "visitas": 1120,
+   "wikidata": "Q5839888",
+   "articulos": {
+    "es": "Espíritu_Santo_(Costa_Rica)",
+    "en": "Espíritu_Santo_District"
+   }
+  },
+  "60202": {
+   "visitas": 425,
+   "wikidata": "Q3947435",
+   "articulos": {
+    "es": "San_Juan_Grande_(Costa_Rica)",
+    "en": "San_Juan_Grande"
+   }
+  },
+  "60203": {
+   "visitas": 542,
+   "wikidata": "Q3841930",
+   "articulos": {
+    "es": "Macacona",
+    "en": "Macacona"
+   }
+  },
+  "60204": {
+   "visitas": 441,
+   "wikidata": "Q3947869",
+   "articulos": {
+    "es": "San_Rafael_(Esparza)",
+    "en": "San_Rafael_District,_Esparza"
+   }
+  },
+  "60205": {
+   "visitas": 443,
+   "wikidata": "Q3947377",
+   "articulos": {
+    "es": "San_Jerónimo_de_Esparza",
+    "en": "San_Jerónimo_District,_Esparza"
+   }
+  },
+  "60206": {
+   "visitas": 5132,
+   "wikidata": "Q1026433",
+   "articulos": {
+    "es": "Puerto_Caldera",
+    "en": "Caldera_Port"
+   }
+  },
+  "60301": {
+   "visitas": 4863,
+   "wikidata": "Q2669006",
+   "articulos": {
+    "es": "Cantón_de_Buenos_Aires",
+    "en": "Buenos_Aires_(canton)"
+   }
+  },
+  "60302": {
+   "visitas": 679,
+   "wikidata": "Q4016096",
+   "articulos": {
+    "es": "Volcán_(distrito_de_Costa_Rica)",
+    "en": "Volcán_District"
+   }
+  },
+  "60303": {
+   "visitas": 1143,
+   "wikidata": "Q3909577",
+   "articulos": {
+    "es": "Potrero_Grande_(Costa_Rica)",
+    "en": "Potrero_Grande_District"
+   }
+  },
+  "60304": {
+   "visitas": 7677,
+   "wikidata": "Q59000417",
+   "articulos": {
+    "es": "Borucas",
+    "en": "Boruca"
+   }
+  },
+  "60305": {
+   "visitas": 437,
+   "wikidata": "Q3904962",
+   "articulos": {
+    "es": "Pilas_(Costa_Rica)",
+    "en": "Pilas_District"
+   }
+  },
+  "60306": {
+   "visitas": 436,
+   "wikidata": "Q3682652",
+   "articulos": {
+    "es": "Colinas_(Costa_Rica)",
+    "en": "Colinas_District"
+   }
+  },
+  "60307": {
+   "visitas": 596,
+   "wikidata": "Q60854053",
+   "articulos": {
+    "es": "Chánguena",
+    "en": "Chánguena"
+   }
+  },
+  "60308": {
+   "visitas": 956,
+   "wikidata": "Q3640156",
+   "articulos": {
+    "es": "Biolley",
+    "en": "Biolley"
+   }
+  },
+  "60309": {
+   "visitas": 529,
+   "wikidata": "Q61695336",
+   "articulos": {
+    "es": "Brunka_(distrito)",
+    "en": "Brunka_District"
+   }
+  },
+  "60310": {
+   "visitas": 665,
+   "wikidata": "Q21006626",
+   "articulos": {
+    "es": "Cabagra",
+    "en": "Cabagra"
+   }
+  },
+  "60401": {
+   "visitas": 2822,
+   "wikidata": "Q3858775",
+   "articulos": {
+    "es": "Miramar_(Costa_Rica)",
+    "en": "Miramar_District"
+   }
+  },
+  "60403": {
+   "visitas": 530,
+   "wikidata": "Q3947366",
+   "articulos": {
+    "es": "San_Isidro_(Montes_de_Oro)",
+    "en": "San_Isidro_District,_Montes_de_Oro"
+   }
+  },
+  "60501": {
+   "visitas": 2350,
+   "wikidata": "Q19385815",
+   "articulos": {
+    "es": "Ciudad_Cortés_(Costa_Rica)",
+    "en": "Puerto_Cortés_District"
+   }
+  },
+  "60502": {
+   "visitas": 1240,
+   "wikidata": "Q3892744",
+   "articulos": {
+    "es": "Palmar_(Costa_Rica)",
+    "en": "Palmar_District"
+   }
+  },
+  "60503": {
+   "visitas": 1688,
+   "wikidata": "Q3960252",
+   "articulos": {
+    "es": "Sierpe_(Costa_Rica)",
+    "en": "Sierpe"
+   }
+  },
+  "60504": {
+   "visitas": 2124,
+   "wikidata": "Q3633006",
+   "articulos": {
+    "es": "Bahía_Ballena_(Osa)",
+    "en": "Bahía_Ballena"
+   }
+  },
+  "60505": {
+   "visitas": 878,
+   "wikidata": "Q3902760",
+   "articulos": {
+    "es": "Piedras_Blancas_(Costa_Rica)",
+    "en": "Piedras_Blancas_District"
+   }
+  },
+  "60506": {
+   "visitas": 7012,
+   "wikidata": "Q4843107",
+   "articulos": {
+    "en": "Bahía_Drake"
+   }
+  },
+  "60601": {
+   "visitas": 11745,
+   "wikidata": "Q2776723",
+   "articulos": {
+    "es": "Quepos",
+    "en": "Quepos"
+   }
+  },
+  "60602": {
+   "visitas": 1097,
+   "wikidata": "Q3951014",
+   "articulos": {
+    "es": "Savegre",
+    "en": "Savegre"
+   }
+  },
+  "60603": {
+   "visitas": 797,
+   "wikidata": "Q3870385",
+   "articulos": {
+    "es": "Naranjito_(Costa_Rica)",
+    "en": "Naranjito_District"
+   }
+  },
+  "60701": {
+   "visitas": 7639,
+   "wikidata": "Q949409",
+   "articulos": {
+    "es": "Golfito",
+    "en": "Golfito"
+   }
+  },
+  "60703": {
+   "visitas": 688,
+   "wikidata": "Q3778460",
+   "articulos": {
+    "es": "Guaycará",
+    "en": "Guaycará"
+   }
+  },
+  "60704": {
+   "visitas": 1978,
+   "wikidata": "Q3898370",
+   "articulos": {
+    "es": "Pavón_(Costa_Rica)",
+    "en": "Pavón,_Costa_Rica"
+   }
+  },
+  "60801": {
+   "visitas": 7708,
+   "wikidata": "Q3948042",
+   "articulos": {
+    "es": "San_Vito_(Coto_Brus)",
+    "en": "San_Vito,_Costa_Rica"
+   }
+  },
+  "60802": {
+   "visitas": 1356,
+   "wikidata": "Q3944196",
+   "articulos": {
+    "es": "Sabalito",
+    "en": "Sabalito"
+   }
+  },
+  "60803": {
+   "visitas": 850,
+   "wikidata": "Q3606903",
+   "articulos": {
+    "es": "Aguabuena",
+    "en": "Aguabuena"
+   }
+  },
+  "60804": {
+   "visitas": 646,
+   "wikidata": "Q3832517",
+   "articulos": {
+    "es": "Limoncito",
+    "en": "Limoncito_District"
+   }
+  },
+  "60805": {
+   "visitas": 707,
+   "wikidata": "Q3905859",
+   "articulos": {
+    "es": "Pittier_(distrito)",
+    "en": "Pittier_District"
+   }
+  },
+  "60806": {
+   "visitas": 639,
+   "wikidata": "Q61695221",
+   "articulos": {
+    "es": "Gutiérrez_Braun",
+    "en": "Gutiérrez_Braun"
+   }
+  },
+  "60901": {
+   "visitas": 3741,
+   "wikidata": "Q2610144",
+   "articulos": {
+    "es": "Cantón_de_Parrita",
+    "en": "Parrita"
+   }
+  },
+  "61001": {
+   "visitas": 871,
+   "wikidata": "Q3694385",
+   "articulos": {
+    "es": "Corredor_(Costa_Rica)",
+    "en": "Corredor_District"
+   }
+  },
+  "61002": {
+   "visitas": 941,
+   "wikidata": "Q3820794",
+   "articulos": {
+    "es": "La_Cuesta_(Costa_Rica)",
+    "en": "La_Cuesta"
+   }
+  },
+  "61003": {
+   "visitas": 786,
+   "wikidata": "Q3655489",
+   "articulos": {
+    "es": "Canoas_(Costa_Rica)",
+    "en": "Canoas_District"
+   }
+  },
+  "61004": {
+   "visitas": 948,
+   "wikidata": "Q3827882",
+   "articulos": {
+    "es": "Laurel_(Costa_Rica)",
+    "en": "Laurel_District"
+   }
+  },
+  "61101": {
+   "visitas": 17760,
+   "wikidata": "Q1463601",
+   "articulos": {
+    "es": "Jacó",
+    "en": "Jacó,_Costa_Rica"
+   }
+  },
+  "61102": {
+   "visitas": 1639,
+   "wikidata": "Q4001273",
+   "articulos": {
+    "es": "Tárcoles_(distrito)",
+    "en": "Tárcoles"
+   }
+  },
+  "61103": {
+   "visitas": 690,
+   "wikidata": "Q112004550",
+   "articulos": {
+    "es": "Lagunillas_(Garabito)"
+   }
+  },
+  "61201": {
+   "visitas": 33352,
+   "wikidata": "Q111444555",
+   "articulos": {
+    "es": "Cantón_de_Monteverde",
+    "en": "Monteverde"
+   }
+  },
+  "61301": {
+   "visitas": 7272,
+   "wikidata": "Q111444516",
+   "articulos": {
+    "es": "Cantón_de_Puerto_Jiménez",
+    "en": "Puerto_Jiménez"
+   }
+  },
+  "70101": {
+   "visitas": 44699,
+   "wikidata": "Q30620",
+   "articulos": {
+    "es": "Limón_(Costa_Rica)",
+    "en": "Limón"
+   }
+  },
+  "70102": {
+   "visitas": 1682,
+   "wikidata": "Q4008201",
+   "articulos": {
+    "es": "Valle_La_Estrella",
+    "en": "Valle_La_Estrella"
+   }
+  },
+  "70103": {
+   "visitas": 715,
+   "wikidata": "Q3943209",
+   "articulos": {
+    "es": "Río_Blanco_(distrito_en_Costa_Rica)",
+    "en": "Río_Blanco,_Costa_Rica"
+   }
+  },
+  "70104": {
+   "visitas": 1008,
+   "wikidata": "Q3851690",
+   "articulos": {
+    "es": "Matama",
+    "en": "Matama"
+   }
+  },
+  "70201": {
+   "visitas": 6767,
+   "wikidata": "Q3780111",
+   "articulos": {
+    "es": "Guápiles",
+    "en": "Guápiles,_Pococí"
+   }
+  },
+  "70202": {
+   "visitas": 963,
+   "wikidata": "Q3808449",
+   "articulos": {
+    "es": "Jiménez_(Pococí)",
+    "en": "Jiménez,_Pococí"
+   }
+  },
+  "70203": {
+   "visitas": 1300,
+   "wikidata": "Q3937205",
+   "articulos": {
+    "es": "La_Rita_(Pococí)",
+    "en": "Rita,_Pococí"
+   }
+  },
+  "70204": {
+   "visitas": 1269,
+   "wikidata": "Q3941982",
+   "articulos": {
+    "es": "Roxana_(Pococí)",
+    "en": "Roxana,_Pococí"
+   }
+  },
+  "70205": {
+   "visitas": 1881,
+   "wikidata": "Q5749199",
+   "articulos": {
+    "es": "Cariari",
+    "en": "Cariari"
+   }
+  },
+  "70206": {
+   "visitas": 943,
+   "wikidata": "Q3683603",
+   "articulos": {
+    "es": "Colorado_(Pococí)",
+    "en": "Colorado,_Pococí"
+   }
+  },
+  "70207": {
+   "visitas": 1243,
+   "wikidata": "Q35877010",
+   "articulos": {
+    "es": "La_Colonia_(Pococí)",
+    "en": "La_Colonia"
+   }
+  },
+  "70301": {
+   "visitas": 5072,
+   "wikidata": "Q930152",
+   "articulos": {
+    "es": "Cantón_de_Siquirres",
+    "en": "Siquirres_(canton)"
+   }
+  },
+  "70302": {
+   "visitas": 687,
+   "wikidata": "Q3888697",
+   "articulos": {
+    "es": "Pacuarito",
+    "en": "Pacuarito"
+   }
+  },
+  "70303": {
+   "visitas": 609,
+   "wikidata": "Q3746760",
+   "articulos": {
+    "es": "Florida_(Costa_Rica)",
+    "en": "Florida_District"
+   }
+  },
+  "70304": {
+   "visitas": 670,
+   "wikidata": "Q3761086",
+   "articulos": {
+    "es": "Germania_(Costa_Rica)",
+    "en": "Germania_District"
+   }
+  },
+  "70305": {
+   "visitas": 607,
+   "wikidata": "Q3649893",
+   "articulos": {
+    "es": "El_Cairo_(Costa_Rica)",
+    "en": "El_Cairo,_Siquirres"
+   }
+  },
+  "70306": {
+   "visitas": 722,
+   "wikidata": "Q3609420",
+   "articulos": {
+    "es": "Alegría_(Costa_Rica)",
+    "en": "Alegría_District"
+   }
+  },
+  "70307": {
+   "visitas": 482,
+   "wikidata": "Q96401670",
+   "articulos": {
+    "es": "Reventazón_(Costa_Rica)",
+    "en": "Reventazón_District"
+   }
+  },
+  "70401": {
+   "visitas": 560,
+   "wikidata": "Q23980804",
+   "articulos": {
+    "es": "Bratsi",
+    "en": "Bratsi"
+   }
+  },
+  "70402": {
+   "visitas": 2757,
+   "wikidata": "Q1759580",
+   "articulos": {
+    "es": "Sixaola_(Costa_Rica)",
+    "en": "Sixaola"
+   }
+  },
+  "70403": {
+   "visitas": 4900,
+   "wikidata": "Q1025795",
+   "articulos": {
+    "es": "Cahuita",
+    "en": "Cahuita"
+   }
+  },
+  "70404": {
+   "visitas": 927,
+   "wikidata": "Q24022182",
+   "articulos": {
+    "es": "Telire_(Talamanca)",
+    "en": "Telire_District"
+   }
+  },
+  "70501": {
+   "visitas": 2895,
+   "wikidata": "Q2669000",
+   "articulos": {
+    "es": "Cantón_de_Matina",
+    "en": "Matina_(canton)"
+   }
+  },
+  "70502": {
+   "visitas": 1750,
+   "wikidata": "Q3636898",
+   "articulos": {
+    "es": "Batán_(Costa_Rica)",
+    "en": "Batán,_Costa_Rica"
+   }
+  },
+  "70503": {
+   "visitas": 720,
+   "wikidata": "Q3660694",
+   "articulos": {
+    "es": "Carrandi_(Costa_Rica)",
+    "en": "Carrandí_District"
+   }
+  },
+  "70601": {
+   "visitas": 3241,
+   "wikidata": "Q609975",
+   "articulos": {
+    "es": "Cantón_de_Guácimo",
+    "en": "Guácimo_(canton)"
+   }
+  },
+  "70602": {
+   "visitas": 291,
+   "wikidata": "Q3854928",
+   "articulos": {
+    "es": "Mercedes_(Guácimo)",
+    "en": "Mercedes_District,_Guácimo"
+   }
+  },
+  "70603": {
+   "visitas": 921,
+   "wikidata": "Q3906874",
+   "articulos": {
+    "es": "Pocora",
+    "en": "Pocora"
+   }
+  },
+  "70604": {
+   "visitas": 1180,
+   "wikidata": "Q3943213",
+   "articulos": {
+    "es": "Río_Jiménez_(Costa_Rica)",
+    "en": "Río_Jiménez_District"
+   }
+  },
+  "70605": {
+   "visitas": 441,
+   "wikidata": "Q3715614",
+   "articulos": {
+    "es": "Duacarí",
+    "en": "Duacarí"
+   }
+  }
+ }
+}

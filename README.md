@@ -38,6 +38,7 @@ Tratá los códigos como texto, no como números, para no perder ceros.
 | `/distritos.json` | Los 494 distritos con todos sus campos |
 | `/distritos/{codigoPostal}.json` | Un distrito por su código postal (`10305`) |
 | `/pueblos.json` | 6 891 pueblos y playas oficiales (Tamarindo, Santa Teresa…) con su distrito y código postal |
+| `/populares.json` | Los 200 pueblos, playas y distritos más visitados en Wikipedia, de mayor a menor |
 | `/distritos.geojson` | Contorno simplificado de los 494 distritos (GeoJSON), para dibujar mapas |
 | `/gam.json` | Códigos postales dentro y fuera de la GAM, con la definición y el criterio |
 | `/todo.json` | Árbol completo provincias → cantones → distritos |
@@ -106,12 +107,15 @@ Muchos nombres se repiten (hay 54 San Rafael): identificá un lugar por `nombre`
 
 Para buscar por nombre, descargá `/distritos.json` una vez (unos 50 KB comprimido) y filtrá en el cliente.
 
+Cada distrito y cada pueblo o playa trae `popularidad`, de 0 a 100: qué tan visitado es su artículo de Wikipedia (español e inglés, últimos 12 meses), en escala logarítmica. Sirve para ordenar resultados: entre los 7 «Santa Teresa», la playa de Cóbano sale primero. 0 quiere decir que el lugar no tiene artículo, no que no exista.
+
 ## Fuentes
 
 - **Provincias, cantones, distritos y códigos:** [DTA 2026](https://www.snitcr.go.cr/biblioteca_DTA_menu), Instituto Geográfico Nacional (IGN), Registro Nacional. Las correcciones a la tabla del IGN están documentadas en [`data/correcciones.json`](data/correcciones.json).
 - **Contornos, centro y vecinos:** límites distritales 1:5 000 del IGN (`IGN_5_CO:limitedistrital_5k`). `vecinos` son los distritos que comparten al menos 20 m de límite; `centro` es un punto dentro del distrito. Se regeneran con `scripts/generar_geo.py`.
 - **GAM:** Plan GAM 2013-2030 (Decreto Ejecutivo 38334, MIVAH), cruzado con los límites distritales del IGN. Criterio y fuentes en [`data/gam.json`](data/gam.json).
 - **Pueblos y playas:** localidades de referencia del INEC (Marco Geoestadístico Nacional) y accidentes costeros del IGN (playas). Cada punto se cruza con los polígonos distritales oficiales del IGN (DTA 2026) para obtener su distrito: el código no se copia de la fuente. Fuentes, método y advertencias en [`data/pueblos.json`](data/pueblos.json); se regenera con `scripts/generar_pueblos.py`.
+- **Popularidad:** visitas de personas (sin bots) al artículo de Wikipedia de cada lugar en español e inglés, sumadas en los últimos 12 meses completos, según la [API de páginas vistas de Wikimedia](https://wikimedia.org/api/rest_v1/#/Pageviews%20data). El artículo se identifica en Wikidata: mismo nombre y a 6 km o menos del pueblo o playa, o dentro del polígono oficial del distrito. Período y método en [`data/popularidad.json`](data/popularidad.json); se regenera con `scripts/generar_popularidad.py --descargar`.
 
 ## Versiones
 
@@ -131,4 +135,4 @@ Código bajo licencia [MIT](LICENSE). Los datos provienen de instituciones públ
 
 ## English
 
-Free JSON API with every Costa Rica province, canton and district and its official 5-digit postal code (IGN DTA 2026), plus whether it lies inside the Greater Metropolitan Area (GAM). No API key, open CORS. Base URL `https://api.postalcr.dev`; docs at [postalcr.dev/en/api](https://postalcr.dev/en/api/). Field names are in Spanish (`codigo_postal`, `nombre`, `canton`, `provincia`). Place names are kept exactly as the IGN publishes them.
+Free JSON API with every Costa Rica province, canton and district and its official 5-digit postal code (IGN DTA 2026), plus whether it lies inside the Greater Metropolitan Area (GAM). No API key, open CORS. Base URL `https://api.postalcr.dev`; docs at [postalcr.dev/en/api](https://postalcr.dev/en/api/). Field names are in Spanish (`codigo_postal`, `nombre`, `canton`, `provincia`). Place names are kept exactly as the IGN publishes them. Each district and place has `popularidad` (0–100, from Wikipedia pageviews in Spanish and English over the last 12 months, log scale) to rank search results; `/populares.json` lists the 200 most visited.

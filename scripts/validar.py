@@ -69,6 +69,19 @@ if pueblos:
     revisar(len(claves) == len(set(claves)), 'hay pueblos repetidos (mismo nombre, distrito y tipo)')
 
 recursos = generar_api.construir()
+
+# 3b. Popularidad: índice 0-100 en cada lugar y distrito; populares.json ordenado y sin repetir artículos
+for x in [*recursos['pueblos.json'], *recursos['distritos.json']]:
+    revisar(isinstance(x.get('popularidad'), int) and 0 <= x['popularidad'] <= 100, f"popularidad inválida en {x['nombre']}")
+pop = generar_api.leer('popularidad.json')
+if pop:
+    claves_pueblos = {f"{pu['nombre']}|{pu['distrito']}|{pu['tipo']}" for pu in pueblos['pueblos']}
+    revisar(set(pop['lugares']) <= claves_pueblos, f"data/popularidad.json nombra lugares que no existen: {sorted(set(pop['lugares']) - claves_pueblos)[:5]}")
+    revisar(set(pop['distritos']) <= set(codigos), 'data/popularidad.json nombra distritos que no existen')
+populares = recursos['populares.json']['lugares']
+visitas = [x['visitas_wikipedia'] for x in populares]
+revisar(visitas == sorted(visitas, reverse=True), '/populares.json no está ordenado de mayor a menor')
+revisar(len({x['wikipedia'] for x in populares}) == len(populares), '/populares.json repite un artículo')
 paginas = [pu['url'] for pu in recursos['pueblos.json'] if '/lugares/' in pu['url']]
 revisar(len(paginas) == len(set(paginas)), 'hay lugares con la misma URL')
 

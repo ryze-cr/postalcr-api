@@ -7,6 +7,7 @@ Solo usa la biblioteca estándar. Borra y vuelve a crear todo lo que genera (las
 openapi.json y llms.txt); no toca _headers, _redirects ni robots.txt, que se editan a mano.
 """
 import json
+import math
 import re
 import shutil
 import unicodedata
@@ -17,13 +18,13 @@ PUBLIC = RAIZ / 'public'
 
 # Versión de la API (semver): mayor = cambios que rompen integraciones, menor = rutas o campos
 # nuevos, parche = correcciones de datos. Se publica en /meta.json, /openapi.json y en cada release.
-VERSION = '2.0.0'
+VERSION = '2.1.0'
 API = 'https://api.postalcr.dev'
 SITIO = 'https://postalcr.dev'
 REPO = 'https://github.com/ryze-cr/postalcr-api'
 
 GENERADOS = ['provincias.json', 'provincias', 'cantones.json', 'cantones', 'distritos.json', 'distritos',
-             'pueblos.json', 'distritos.geojson', 'gam.json', 'todo.json', 'meta.json', 'openapi.json', 'llms.txt', '_redirects']
+             'pueblos.json', 'populares.json', 'distritos.geojson', 'gam.json', 'todo.json', 'meta.json', 'openapi.json', 'llms.txt', '_redirects']
 
 
 def slug(texto):
@@ -45,9 +46,25 @@ def escribir(ruta, datos):
         destino.write_text(json.dumps(datos, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
 
 
+def escala_popularidad(pop):
+    """Visitas de 12 meses -> índice 0-100 en escala logarítmica (100 = el lugar más visitado).
+    Sin artículo en Wikipedia = 0. Devuelve dos funciones: para un lugar y para un distrito."""
+    lugares, distritos = pop.get('lugares', {}), pop.get('distritos', {})
+    tope = max([v['visitas'] for v in [*lugares.values(), *distritos.values()]] or [0])
+
+    def indice(ficha):
+        if not ficha or not tope:
+            return 0
+        return max(1, round(100 * math.log10(1 + ficha['visitas']) / math.log10(1 + tope)))
+    return (lambda pu: indice(lugares.get(f"{pu['nombre']}|{pu['distrito']}|{pu['tipo']}")),
+            lambda codigo: indice(distritos.get(codigo)))
+
+
 def construir():
     """Arma todos los recursos de la API en memoria. validar.py usa esta misma función."""
     dta = leer('dta.json')
+    pop = leer('popularidad.json') or {}
+    pop_lugar, pop_distrito = escala_popularidad(pop)
     clasificacion = leer('gam.json')
     datos_pueblos = leer('pueblos.json') or {'fuente': [], 'pueblos': []}
     geo = leer('geo.json')
@@ -75,6 +92,7 @@ def construir():
                     'etiqueta': f"{d['nombre']}, {c['nombre']}, {p['nombre']}",
                     'area_km2': d['area_km2'],
                     'gam': d['codigo'] in en_gam,
+                    'popularidad': pop_distrito(d['codigo']),
                     'centro': geo['distritos'][d['codigo']]['centro'],
                     'vecinos': geo['distritos'][d['codigo']]['vecinos'],
                     'pueblos': sorted({pu['nombre'] for pu in por_distrito.get(d['codigo'], [])}),
@@ -109,14 +127,44 @@ def construir():
             'canton': d['canton']['nombre'],
             'provincia': d['provincia']['nombre'],
             'coordenadas': pu.get('coordenadas'),
+            'popularidad': pop_lugar(pu),
             # Los caseríos no tienen página propia: su enlace es la página del distrito.
             'url': f"{SITIO}/lugares/{slugs[clave]}/" if clave in slugs else d['url'],
         })
 
+    # Los lugares más visitados: un artículo de Wikipedia = una entrada (Tamarindo distrito,
+    # cabecera y poblado comparten artículo: queda la playa o el pueblo antes que el distrito).
+    populares, vistos = [], set()
+    ficha_lugar = {f"{pu['nombre']}|{pu['codigo_postal']}|{pu['tipo']}": pu for pu in pueblos}
+    candidatos = []
+    for clave, f in pop.get('lugares', {}).items():
+        pu = ficha_lugar.get(clave)
+        if pu and pu['categoria'] != 'Caserío':
+            orden = 0 if pu['tipo'] == 'playa' else 1 if pu['categoria'] == 'Poblado' else 2
+            candidatos.append((f, orden, {'nombre': pu['nombre'], 'tipo': pu['tipo'], 'categoria': pu['categoria'],
+                                          'codigo_postal': pu['codigo_postal'],
+                                          'etiqueta': f"{pu['nombre']}, {pu['distrito']}, {pu['canton']}, {pu['provincia']}",
+                                          'popularidad': pu['popularidad'], 'url': pu['url']}))
+    for codigo, f in pop.get('distritos', {}).items():
+        d = indice[codigo]
+        candidatos.append((f, 3, {'nombre': d['nombre'], 'tipo': 'distrito', 'categoria': 'Distrito',
+                                  'codigo_postal': codigo, 'etiqueta': d['etiqueta'],
+                                  'popularidad': d['popularidad'], 'url': d['url']}))
+    for f, _, entrada in sorted(candidatos, key=lambda x: (-x[0]['visitas'], x[1], x[2]['nombre'], x[2]['codigo_postal'])):
+        if f['wikidata'] in vistos:
+            continue
+        vistos.add(f['wikidata'])
+        art = f['articulos']
+        populares.append({**entrada, 'visitas_wikipedia': f['visitas'],
+                          'wikipedia': f"https://{'es' if 'es' in art else 'en'}.wikipedia.org/wiki/{art.get('es') or art['en']}".replace(' ', '_')})
+        if len(populares) == 200:
+            break
+
     totales = {'provincias': len(provincias), 'cantones': len(cantones), 'distritos': len(distritos),
                'distritos_gam': len(en_gam), 'pueblos': len(pueblos)}
     fuentes = [dta['fuente'], {'nombre': 'Plan GAM 2013-2030', **clasificacion['fuente']}, geo['fuente'],
-               *[f for f in datos_pueblos['fuente'] if f.get('capa') not in (geo['fuente']['capa'], 'tabla provincia-cantón-distrito (data/dta.json)')]]
+               *[f for f in datos_pueblos['fuente'] if f.get('capa') not in (geo['fuente']['capa'], 'tabla provincia-cantón-distrito (data/dta.json)')],
+               *([pop['fuente']] if pop else [])]
     contornos = {'type': 'FeatureCollection', 'fuente': geo['fuente'], 'nota': geo['metodo'], 'features': [{
         'type': 'Feature',
         'properties': {k: d[k] for k in ('codigo_postal', 'nombre', 'etiqueta', 'gam', 'url')},
@@ -127,6 +175,9 @@ def construir():
         'cantones.json': cantones,
         'distritos.json': distritos,
         'pueblos.json': pueblos,
+        'populares.json': {'fuente': pop.get('fuente'), 'metodo': pop.get('metodo'),
+                           'escala': 'popularidad: 0 a 100 en escala logarítmica; 100 es el lugar con más visitas, 0 es sin artículo en Wikipedia.',
+                           'lugares': populares},
         'distritos.geojson': contornos,
         'gam.json': {'definicion': clasificacion['definicion'], 'criterio': clasificacion['criterio'],
                      'fuente': clasificacion['fuente'], 'gam': clasificacion['gam'], 'no_gam': clasificacion['no_gam']},
@@ -202,6 +253,7 @@ RUTAS = [
     ('/distritos.json', 'Distritos', 'Los 494 distritos, cada uno con la misma forma que /distritos/{codigoPostal}.json.', 'distritos.json', None),
     ('/distritos/{codigoPostal}.json', 'Un distrito por su código postal', 'Código postal de 5 dígitos (PCCDD): provincia, cantón y distrito.', 'distritos/10305.json', ('codigoPostal', '10305')),
     ('/pueblos.json', 'Pueblos y playas', '6 891 lugares oficiales que no son distritos (pueblos, caseríos, cabeceras, territorios indígenas y playas; fuentes INEC e IGN), con el distrito y el código postal al que pertenecen.', 'pueblos.json', None),
+    ('/populares.json', 'Lugares más buscados', 'Los 200 pueblos, playas y distritos más visitados en Wikipedia (español e inglés, últimos 12 meses), de mayor a menor, con su código postal. Sirve para ordenar resultados de búsqueda: Tamarindo antes que un caserío con el mismo nombre.', 'populares.json', None),
     ('/distritos.geojson', 'Contornos de los distritos', 'GeoJSON con el contorno simplificado (120 m) de los 494 distritos, para dibujar mapas. Fuente: límites distritales del IGN (DTA 2026).', 'distritos.geojson', None),
     ('/gam.json', 'Gran Área Metropolitana', 'Códigos postales dentro (gam) y fuera (no_gam) de la GAM, con la definición y el criterio.', 'gam.json', None),
     ('/todo.json', 'Árbol completo', 'Provincias → cantones → distritos en un solo archivo.', 'todo.json', None),
@@ -216,7 +268,7 @@ def recortar(ejemplo):
     if isinstance(ejemplo, list):
         return ejemplo[:2]
     if isinstance(ejemplo, dict):
-        return {k: (v[:2] if isinstance(v, list) and k not in ('pueblos',) else v) for k, v in ejemplo.items()}
+        return {k: (v[:2] if isinstance(v, list) and k not in ('pueblos', 'fuente') else v) for k, v in ejemplo.items()}
     return ejemplo
 
 
@@ -274,6 +326,7 @@ def llms(edicion, totales):
         '- Para buscar un distrito por nombre, descargá /distritos.json una vez y filtrá en el cliente (pesa menos de 200 KB).',
         '- Cada distrito trae `url`: la página de ese código postal en postalcr.dev.',
         '- Un pueblo o playa (por ejemplo Tamarindo o Santa Teresa) no es un distrito: /pueblos.json dice a qué distrito y código postal pertenece. Muchos nombres se repiten (hay 54 San Rafael y 7 Santa Teresa): si hay varios, preguntá el cantón o la provincia antes de responder.',
+        '- Cada distrito y cada pueblo o playa trae `popularidad` (0 a 100): qué tan visitado es su artículo de Wikipedia en español e inglés en los últimos 12 meses, en escala logarítmica. Usalo para ordenar resultados: entre homónimos, el más popular suele ser el que la persona busca. 0 significa que no tiene artículo, no que no exista. /populares.json trae los 200 más visitados.',
         '',
         '## Más',
         '',
